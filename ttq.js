@@ -1773,7 +1773,7 @@ const quizData = [
       "Lớp ứng dụng, lớp điều khiển mạng",
       "Cả 3 đáp án trên"
     ],
-    answer: "Lớp liên kết dữ liệu, lớp điều khiển mạng"
+    answer: "Lớp vật lý, lớp điều khiển mạng"
   },
   {
     question: "Cho mạng quang có 6 nút (A, B, C, D, E và F) với 8 liên kết. Giả sử các yêu cầu kết nối tuyến quang là: {A-B-C}, {A-B-C-E}, {F-E-C}, {B-C-D}, {B-F-E}. Kết quả gán bước sóng nào sau đây là đúng khi các bước sóng được gán theo giải thuật tô màu đồ thị ở lần tô thứ 3:",
