@@ -2539,6 +2539,316 @@ const quizData = [
     ],
     answer: "2,667Mbps."
   },
+  {
+    question: "Những chức năng của điều khiển mạng quang bao gồm:",
+    options: [
+      "Quản lý hiệu năng, quản lý lỗi, quản lý cấu hình",
+      "Quản lý bảo mật và quản lý cước",
+      "Chỉ bao gồm quản lý định tuyến và bước sóng",
+      "Cả 2 ý trên đều đúng (Bao gồm hiệu năng, lỗi, cấu hình, bảo mật, cước)"
+    ],
+    answer: "Cả 2 ý trên đều đúng (Bao gồm hiệu năng, lỗi, cấu hình, bảo mật, cước)"
+  },
+  {
+    question: "Chức năng quản lý hiệu năng trong mạng quang liên quan đến việc gì?",
+    options: [
+      "Giám sát và quản lý tham số để đo hiệu năng mạng",
+      "Tính toán chi phí lắp đặt thiết bị",
+      "Cấp quyền truy cập cho người dùng mới",
+      "Sửa chữa vật lý các mối hàn cáp quang"
+    ],
+    answer: "Giám sát và quản lý tham số để đo hiệu năng mạng"
+  },
+  {
+    question: "Chức năng quản lý lỗi trong mạng quang có nhiệm vụ gì?",
+    options: [
+      "Phát hiện các lỗi xảy ra và cô lập thành phần bị lỗi",
+      "Tự động nâng cấp băng thông khi nghẽn mạng",
+      "Mã hóa dữ liệu người dùng để tránh lỗi bit",
+      "Lập hóa đơn thanh toán cước phí hàng tháng"
+    ],
+    answer: "Phát hiện các lỗi xảy ra và cô lập thành phần bị lỗi"
+  },
+  {
+    question: "Chức năng quản lý cấu hình trong mạng quang liên quan đến gì?",
+    options: [
+      "Quản lý các thay đổi có trật tự trong mạng (thiết bị, kết nối)",
+      "Giám sát nhiệt độ phòng máy chủ",
+      "Quản lý nhân sự vận hành mạng",
+      "Kiểm tra chất lượng tín hiệu quang theo thời gian thực"
+    ],
+    answer: "Quản lý các thay đổi có trật tự trong mạng (thiết bị, kết nối)"
+  },
+  {
+    question: "Chức năng quản lý bảo mật trong mạng quang có mục đích gì?",
+    options: [
+      "Xác thực người dùng và thiết lập quyền cho mỗi người dùng",
+      "Bảo vệ thiết bị khỏi bụi bẩn và độ ẩm",
+      "Định tuyến lại gói tin khi đứt cáp",
+      "Tăng tốc độ truyền dẫn dữ liệu"
+    ],
+    answer: "Xác thực người dùng và thiết lập quyền cho mỗi người dùng"
+  },
+  {
+    question: "Chức năng quản lý cước trong mạng quang có nhiệm vụ gì?",
+    options: [
+      "Lập hóa đơn và theo dõi lịch sử lâu dài của các thành phần mạng",
+      "Thanh toán tiền điện cho trạm phát sóng",
+      "Quản lý ngân sách đầu tư thiết bị mới",
+      "Tính toán suy hao quang trên đường truyền"
+    ],
+    answer: "Lập hóa đơn và theo dõi lịch sử lâu dài của các thành phần mạng"
+  },
+  {
+    question: "Quản lý bảo mật trong mạng quang giúp gì cho hệ thống?",
+    options: [
+      "Đảm bảo an toàn dữ liệu và xác thực người dùng",
+      "Tăng cường độ lợi của bộ khuếch đại quang",
+      "Giảm thiểu độ trễ truyền dẫn",
+      "Tự động sao lưu dữ liệu cấu hình"
+    ],
+    answer: "Đảm bảo an toàn dữ liệu và xác thực người dùng"
+  },
+  {
+    question: "Có các mô hình điều khiển nào trong mạng quang?",
+    options: [
+      "Xếp chồng (Overlay)",
+      "Tăng cường (Augmented)",
+      "Ngang hàng (Peer-to-Peer)",
+      "Cả 3 đáp án trên"
+    ],
+    answer: "Cả 3 đáp án trên"
+  },
+  {
+    question: "Trong mạng quang có những công nghệ điều khiển nào?",
+    options: [
+      "ASON, GMPLS",
+      "TCP/IP, UDP",
+      "OSPF, BGP",
+      "Ethernet, Wi-Fi"
+    ],
+    answer: "ASON, GMPLS"
+  },
+  {
+    question: "Thuật ngữ 'duy trì mạng quang' (Network Survivability) là gì?",
+    options: [
+      "Khả năng bảo đảm an toàn của một mạng với một mức độ truy cập dịch vụ cho phép khi mạng bị sự cố",
+      "Khả năng mạng hoạt động mãi mãi không bao giờ hỏng",
+      "Khả năng tự động thay thế thiết bị phần cứng khi cũ",
+      "Khả năng duy trì tốc độ mạng ổn định khi không có người dùng"
+    ],
+    answer: "Khả năng bảo đảm an toàn của một mạng với một mức độ truy cập dịch vụ cho phép khi mạng bị sự cố"
+  },
+  {
+    question: "Để việc duy trì mạng quang đạt hiệu quả tốt nhất, giai đoạn nào cần được quan tâm nhất?",
+    options: [
+      "Giai đoạn thiết kế và phát triển mạng quang",
+      "Giai đoạn thi công lắp đặt",
+      "Giai đoạn vận hành khai thác",
+      "Giai đoạn thanh lý thiết bị"
+    ],
+    answer: "Giai đoạn thiết kế và phát triển mạng quang"
+  },
+  {
+    question: "Các cơ chế duy trì mạng quang có thể bao gồm?",
+    options: [
+      "Duy trì Đầu cuối - Đầu cuối",
+      "Duy trì tại Cascade",
+      "Xếp chồng các khả năng tồn tại",
+      "Tất cả các cơ chế trên"
+    ],
+    answer: "Tất cả các cơ chế trên"
+  },
+  {
+    question: "Trong cơ chế bảo vệ mạng quang, cơ chế bảo vệ nào yêu cầu 50% dung lượng mạng được lưu trữ cho bảo vệ?",
+    options: [
+      "Bảo vệ dành riêng (Dedicated Protection)",
+      "Bảo vệ chia sẻ (Shared Protection)",
+      "Bảo vệ mạng lưới (Mesh Restoration)",
+      "Bảo vệ đường dẫn (Path Protection)"
+    ],
+    answer: "Bảo vệ dành riêng (Dedicated Protection)"
+  },
+  {
+    question: "Cơ chế bảo vệ nào trong mạng quang có một phần dung lượng cho việc bảo vệ (thay vì toàn bộ)?",
+    options: [
+      "Bảo vệ chia sẻ",
+      "Bảo vệ dành riêng",
+      "Bảo vệ 1+1",
+      "Không có cơ chế nào"
+    ],
+    answer: "Bảo vệ chia sẻ"
+  },
+  {
+    question: "Giao thức APS được kích hoạt khi nào?",
+    options: [
+      "Khi có sự cố mạng, phản ứng với các cảnh báo như LOS, LOF, LOP",
+      "Khi mạng hoạt động bình thường để kiểm tra định kỳ",
+      "Khi thêm một thuê bao mới vào mạng",
+      "Khi khởi động lại thiết bị OLT"
+    ],
+    answer: "Khi có sự cố mạng, phản ứng với các cảnh báo như LOS, LOF, LOP"
+  },
+  {
+    question: "Cơ chế bảo vệ 1+1 trong liên kết điểm-điểm có đặc điểm gì?",
+    options: [
+      "Không yêu cầu giao thức báo hiệu giữa hai đầu",
+      "Yêu cầu giao thức APS phức tạp",
+      "Chỉ sử dụng được khi có 3 sợi quang trở lên",
+      "Có thời gian chuyển mạch lâu hơn 1 phút"
+    ],
+    answer: "Không yêu cầu giao thức báo hiệu giữa hai đầu"
+  },
+  {
+    question: "Giải pháp bảo vệ trong lớp liên kết IP sử dụng giao thức nào khi có sự cố?",
+    options: [
+      "Giao thức OSPF hoặc IS-IS cập nhật các bảng định tuyến",
+      "Giao thức ARP để tìm địa chỉ MAC",
+      "Giao thức DHCP để cấp lại IP",
+      "Giao thức ICMP để báo lỗi"
+    ],
+    answer: "Giao thức OSPF hoặc IS-IS cập nhật các bảng định tuyến"
+  },
+  {
+    question: "Trong mạng Ethernet, giải pháp bảo vệ nào được sử dụng để bảo vệ liên kết?",
+    options: [
+      "Giao thức STP và Ethernet Ring Protection (ERP)",
+      "Giao thức CSMA/CD",
+      "Giao thức Token Ring",
+      "Giao thức Frame Relay"
+    ],
+    answer: "Giao thức STP và Ethernet Ring Protection (ERP)"
+  },
+  {
+    question: "Giải pháp bảo vệ trong MPLS đảm bảo thời gian bảo vệ là bao lâu?",
+    options: [
+      "60ms",
+      "100ms",
+      "1s",
+      "5ms"
+    ],
+    answer: "60ms"
+  },
+  {
+    question: "Khi có sự cố đứt cáp giữa hai nút trong mạng vòng RING, hoạt động bảo vệ xảy ra như thế nào?",
+    options: [
+      "Giao thức APS sẽ kích hoạt để chuyển lưu lượng từ sợi làm việc sang dự phòng",
+      "Toàn bộ mạng sẽ ngừng hoạt động chờ sửa chữa",
+      "Dữ liệu sẽ được chuyển sang mạng không dây 4G",
+      "Người quản trị phải chuyển mạch thủ công tại trạm"
+    ],
+    answer: "Giao thức APS sẽ kích hoạt để chuyển lưu lượng từ sợi làm việc sang dự phòng"
+  },
+  {
+    question: "FTTx là gì?",
+    options: [
+      "Là một hình thức truy nhập trong mạng sợi quang, để đưa dịch vụ tới khách hàng",
+      "Là công nghệ truyền hình vệ tinh",
+      "Là chuẩn kết nối mạng LAN không dây",
+      "Là thiết bị đo kiểm cáp quang"
+    ],
+    answer: "Là một hình thức truy nhập trong mạng sợi quang, để đưa dịch vụ tới khách hàng"
+  },
+  {
+    question: "FTTx bao gồm những hệ thống truy nhập nào?",
+    options: [
+      "FTTC, FTTB, FTTH, FTTO",
+      "LAN, MAN, WAN, PAN",
+      "GSM, 3G, 4G, 5G",
+      "ADSL, VDSL, Dial-up"
+    ],
+    answer: "FTTC, FTTB, FTTH, FTTO"
+  },
+  {
+    question: "Ưu điểm của FTTx là gì?",
+    options: [
+      "Dung lượng lớn, Độ tin cậy cao và dễ bảo dưỡng",
+      "Cự ly đoạn lặp dài, Tính cách điện tốt",
+      "Tính bảo mật cao, tính linh hoạt lớn, tính mở rộng cao",
+      "Cả 3 đáp án trên đều đúng"
+    ],
+    answer: "Cả 3 đáp án trên đều đúng"
+  },
+  {
+    question: "Nhược điểm của FTTx là gì?",
+    options: [
+      "Chi phí lắp đặt, bảo dưỡng, thiết bị đầu cuối lớn",
+      "Thiết bị đầu cuối còn đắt nên không phải lúc nào cũng phù hợp",
+      "Tốc độ truyền dẫn thấp hơn cáp đồng",
+      "Cả 2 ý đầu tiên đều đúng"
+    ],
+    answer: "Cả 2 ý đầu tiên đều đúng"
+  },
+  {
+    question: "Các ứng dụng của FTTx là gì?",
+    options: [
+      "Home Run, AON, PON",
+      "Mesh Wi-Fi, Hotspot",
+      "Point-to-Point Wireless",
+      "Satellite Link"
+    ],
+    answer: "Home Run, AON, PON"
+  },
+  {
+    question: "Cấu hình tham chiếu của mạng truy nhập quang FTTx là gì?",
+    options: [
+      "Mạng quang từ OLT đến ONU hoặc ONT",
+      "Kết nối từ Router đến Switch",
+      "Kết nối từ trạm BTS đến điện thoại di động",
+      "Mạng nội bộ giữa các máy tính trong văn phòng"
+    ],
+    answer: "Mạng quang từ OLT đến ONU hoặc ONT"
+  },
+  {
+    question: "Đặc điểm của khối chức năng OLT trong mạng FTTx là gì?",
+    options: [
+      "Quản lý báo hiệu và thông tin giám sát từ ONU, cung cấp chức năng bảo dưỡng",
+      "Cung cấp giao diện quang phía mạng với ODN và giao diện phía mạng dịch vụ",
+      "Chỉ có chức năng cấp nguồn cho hệ thống",
+      "Cả 2 ý đầu tiên đều đúng"
+    ],
+    answer: "Cả 2 ý đầu tiên đều đúng"
+  },
+  {
+    question: "Cấu trúc của khối chức năng OLT trong mạng FTTx gồm:",
+    options: [
+      "Khối thích ứng dịch vụ",
+      "Khối kết nối chéo, MAC và Lớp PMD",
+      "Chỉ bao gồm khối nguồn và vỏ máy",
+      "Cả 2 ý đầu tiên đều đúng"
+    ],
+    answer: "Cả 2 ý đầu tiên đều đúng"
+  },
+  {
+    question: "Đặc điểm của khối chức năng ONU trong mạng FTTx là gì?",
+    options: [
+      "Có giao diện quang phía mạng và giao diện điện phía thuê bao",
+      "Biến đổi quang/điện, xử lý và quản lý bảo dưỡng tín hiệu điện",
+      "Có thể đặt ở phía khách hàng (FTTH/B) hoặc ngoài trời (FTTC)",
+      "Tất cả các ý trên đều đúng"
+    ],
+    answer: "Tất cả các ý trên đều đúng"
+  },
+  {
+    question: "Cấu trúc của khối chức năng ONU trong mạng FTTx bao gồm:",
+    options: [
+      "Khối thích ứng dịch vụ (Service adaptation)",
+      "Khối MUX/DEMUX (Ghép kênh)",
+      "Lớp MAC, lớp PMD, UNI",
+      "Cả 3 đáp án trên đều đúng"
+    ],
+    answer: "Cả 3 đáp án trên đều đúng"
+  },
+  {
+    question: "Đặc điểm của phương thức FTTC (Fiber To The Curb) là gì:",
+    options: [
+      "Phương thức FTTC được khuyến nghị sử dụng cho các vùng dân cư có mật độ dân tương đối cao.",
+      "Là một phương thức truy nhập phù hợp cho các khách hàng có nhu cầu đối với các dịch vụ VolP, truy nhập internet tốc độ cao",
+      "Với phương thức FTTC, sợi được kéo tới ONU đặt ở via hè",
+      "Tất cả các đáp án trên"
+    ],
+    answer: "Tất cả các đáp án trên"
+  }
 
 ];
 
