@@ -1460,14 +1460,14 @@ const quizData = [
     answer: "Lớp IP"
   },
   {
-    question: "Các phần tử cơ bản liên kết mạng Quang là",
+    question: "Các phần tử cơ bản cho liên kết mạng quang là:",
     options: [
-      "Bộ ghép kênh xen rẽ Quang",
-      "Bộ kết nối chéo Quang",
-      "Bộ kết nối cuối đường quang",
-      "Cả 3"
+      "Bộ ghép kênh xen rẽ quang (OADM)",
+      "Bộ kết nối chéo quang (OXC)",
+      "Bộ kết nối cuối đường quang (OLT)",
+      "Cả 3 đáp án trên"
     ],
-    answer: "Cả 3"
+    answer: "Cả 3 đáp án trên"
   },
   {
     question: "Giải pháp bảo vệ chủ yếu trong lớp Ethernet là",
@@ -1717,7 +1717,487 @@ const quizData = [
       "Chỉ bao gồm vùng tải trọng"
     ],
     answer: "VC-4 và con trỏ AU-4"
-  }
+  },
+  {
+    question: "Báo hiệu trong mạng quang được thực hiện tại các lớp:",
+    options: [
+      "Lớp vật lý, lớp điều khiển mạng",
+      "Lớp liên kết dữ liệu, lớp điều khiển mạng",
+      "Lớp ứng dụng, lớp điều khiển mạng",
+      "Cả 3 đáp án trên"
+    ],
+    answer: "Lớp liên kết dữ liệu, lớp điều khiển mạng"
+  },
+  {
+    question: "Cho mạng quang có 6 nút (A, B, C, D, E và F) với 8 liên kết. Giả sử các yêu cầu kết nối tuyến quang là: {A-B-C}, {A-B-C-E}, {F-E-C}, {B-C-D}, {B-F-E}. Kết quả gán bước sóng nào sau đây là đúng khi các bước sóng được gán theo giải thuật tô màu đồ thị ở lần tô thứ 3:",
+    options: [
+      "Đỉnh 1: bước sóng 1, Đỉnh 2: bước sóng 2, Đỉnh 5: bước sóng 2",
+      "Đỉnh 2: bước sóng 1, Đỉnh 1: bước sóng 2, Đỉnh 5: bước sóng 1",
+      "Đỉnh 2: bước sóng 1, Đỉnh 1: bước sóng 2, Đỉnh 3: bước sóng 2",
+      "Đỉnh 1: bước sóng 1, Đỉnh 2: bước sóng 2, Đỉnh 3: bước sóng 1"
+    ],
+    answer: "Đỉnh 1: bước sóng 1, Đỉnh 2: bước sóng 2, Đỉnh 3: bước sóng 1"
+  },
+  {
+    question: "Hoạt động báo hiệu trong mạng GMPLS IP/WDM dựa trên các giao thức:",
+    options: [
+      "BGP, OBGP",
+      "OSPF, IS-IS",
+      "LMP",
+      "RSVP, RSVP mở rộng, LDP"
+    ],
+    answer: "RSVP, RSVP mở rộng, LDP"
+  },
+  {
+    question: "Định cỡ mạng quang gồm có mấy mô hình chính:",
+    options: [
+      "3",
+      "2",
+      "4",
+      "1"
+    ],
+    answer: "2"
+  },
+  {
+    question: "Trong quản lý mạng quang, quản lý lỗi được hiểu là:",
+    options: [
+      "Giám sát và quản lý các tham số hiệu năng mạng",
+      "Quản lý thiết bị, kết nối, thích ứng ảnh hưởng đến sự thay đổi mạng",
+      "Điều khiển truy nhập tới các NE, bảo vệ dữ liệu người dùng, xác thực người dùng",
+      "Phát hiện sự cố và cô lập thành phần lỗi"
+    ],
+    answer: "Phát hiện sự cố và cô lập thành phần lỗi"
+  },
+  {
+    question: "Cho mạng quang có 6 nút (A, B, C, D, E và F) với 8 liên kết. Giả sử các yêu cầu kết nối tuyến quang là: {A-B-C}, {A-B-C-E}, {F-E-C}, {B-C-D}, {B-F-E}. Kết quả gán bước sóng nào sau đây là đúng khi các bước sóng được gán theo giải thuật tô màu đồ thị ở lần tô thứ 4:",
+    options: [
+      "Đỉnh 2: bước sóng 1, Đỉnh 1: bước sóng 2, Đỉnh 5: bước sóng 2, Đỉnh 3: bước sóng 2",
+      "Đỉnh 2: bước sóng 1, Đỉnh 1: bước sóng 2, Đỉnh 3: bước sóng 2, Đỉnh 5: bước sóng 1",
+      "Đỉnh 1: bước sóng 1, Đỉnh 2: bước sóng 2, Đỉnh 5: bước sóng 2, Đỉnh 3: bước sóng 1",
+      "Đỉnh 1: bước sóng 1, Đỉnh 2: bước sóng 2, Đỉnh 3: bước sóng 1, Đỉnh 5: bước sóng 2"
+    ],
+    answer: "Đỉnh 1: bước sóng 1, Đỉnh 2: bước sóng 2, Đỉnh 3: bước sóng 1, Đỉnh 5: bước sóng 2"
+  },
+  {
+    question: "Bài toán LTD là:",
+    options: [
+      "Bài toán thiết kế kiến trúc tuyến quang (Lightpath)",
+      "Bài toán gán bước sóng",
+      "Bài toán định tuyến bước sóng",
+      "Cả 3 đáp án trên"
+    ],
+    answer: "Bài toán thiết kế kiến trúc tuyến quang (Lightpath)"
+  },
+  {
+    question: "Mô hình kết nối mạng IP/WDM bao gồm mấy loại chính:",
+    options: [
+      "2",
+      "1",
+      "3",
+      "4"
+    ],
+    answer: "2"
+  },
+  {
+    question: "Trong các cấu trúc OADM dưới đây, cấu trúc nào luôn làm tăng suy hao khi xen/rẽ thêm bước sóng:",
+    options: [
+      "Song song theo băng",
+      "Song song",
+      "Nối tiếp",
+      "Cả 3 đáp án trên"
+    ],
+    answer: "Nối tiếp"
+  },
+  {
+    question: "Trong các cấu hình OXC sau, cấu hình nào không cho phép thực hiện chuyển đổi bước sóng:",
+    options: [
+      "Lõi chuyển mạch quang nối trực tiếp đến các bộ ghép/tách kênh bên trong OLT",
+      "Lõi chuyển mạch quang nối trực tiếp đến các bộ chuyển đổi tín hiệu trong thiết bị WDM",
+      "Lõi chuyển mạch điện",
+      "Cả 3 đáp án trên"
+    ],
+    answer: "Lõi chuyển mạch quang nối trực tiếp đến các bộ ghép/tách kênh bên trong OLT"
+  },
+  {
+    question: "Bài toán RWA là:",
+    options: [
+      "Bài toán định tuyến và gán bước sóng",
+      "Bài toán tối thiểu hóa số kết nối có thể thiết lập",
+      "Bài toán thiết kế kiến trúc tuyến quang (Lightpath)",
+      "Cả 3 đáp án trên"
+    ],
+    answer: "Bài toán định tuyến và gán bước sóng"
+  },
+  {
+    question: "Xét một đường gồm 6 nút được đánh số từ 1 đến 6 liên tiếp. Có một số bước sóng đã được gán như sau: w1: (1,3); (5,6); w2: (3,4); w3: (2,3). Giả sử cần cấp phát bước sóng cho yêu cầu kết nối (4,5), kết quả nào sau đây là đúng khi gán theo giải thuật Most-Used (MU):",
+    options: [
+      "Bước sóng thứ ba (w3)",
+      "Bước sóng thứ hai (w2)",
+      "Bước sóng thứ nhất (w1)",
+      "Cả 3 đáp án trên"
+    ],
+    answer: "Bước sóng thứ nhất (w1)"
+  },
+  {
+    question: "Trong quản lý mạng quang, quản lý hiệu năng được hiểu là:",
+    options: [
+      "Điều khiển truy nhập tới các NE, bảo vệ dữ liệu người dùng, xác thực người dùng",
+      "Phát hiện sự cố và cô lập thành phần lỗi",
+      "Quản lý thiết bị, kết nối, thích ứng ảnh hưởng đến sự thay đổi mạng",
+      "Giám sát và quản lý các tham số hiệu năng mạng"
+    ],
+    answer: "Giám sát và quản lý các tham số hiệu năng mạng"
+  },
+  {
+    question: "Kiến trúc mạng quang WDM gồm có mấy loại chính:",
+    options: [
+      "3",
+      "4",
+      "2",
+      "5"
+    ],
+    answer: "3" // Thường bao gồm: Điểm-Điểm (Point-to-Point), Ring, Mesh.
+  },
+  {
+    question: "Các giao diện mạng quang chủ yếu là:",
+    options: [
+      "Giao diện người dùng với mạng (UNI)",
+      "Giao diện nút với nút (NNI)",
+      "Giao diện liên mạng (INI)",
+      "Cả 3 đáp án trên"
+    ],
+    answer: "Cả 3 đáp án trên"
+  },
+  {
+    question: "Chức năng chính của mặt phẳng dữ liệu là:",
+    options: [
+      "Chịu trách nhiệm về truyền tải dữ liệu qua mạng",
+      "Chịu trách nhiệm quản lý kết nối, giám sát hiệu năng và tăng cường khả năng sống sót của mạng",
+      "Chịu trách nhiệm quản lý kết nối, giám sát hiệu năng",
+      "Chịu trách nhiệm truyền tải dữ liệu qua mạng và tăng cường khả năng sống sót của mạng"
+    ],
+    answer: "Chịu trách nhiệm về truyền tải dữ liệu qua mạng"
+  },
+  {
+    question: "Trong kiến trúc truyền tải IP/WDM bao gồm mấy lớp:",
+    options: [
+      "1",
+      "3",
+      "2",
+      "4"
+    ],
+    answer: "2" // Lớp IP và Lớp Quang (Optical Layer).
+  },
+  {
+    question: "Xét về mặt chức năng, một mạng có thể được xem như bao gồm mặt phẳng nào:",
+    options: [
+      "Mặt phẳng dữ liệu, mặt phẳng điều khiển, mặt phẳng giám sát",
+      "Mặt phẳng dữ liệu, mặt phẳng điều khiển, mặt phẳng quản lý",
+      "Mặt phẳng dữ liệu, mặt phẳng quản lý, mặt phẳng giám sát",
+      "Mặt phẳng điều khiển, mặt phẳng quản lý, mặt phẳng giám sát"
+    ],
+    answer: "Mặt phẳng dữ liệu, mặt phẳng điều khiển, mặt phẳng quản lý" // Data, Control, Management Planes.
+  },
+  {
+    question: "Mô hình điều khiển nào được sử dụng trong ASON:",
+    options: [
+      "Mô hình điều khiển ngang hàng (Peer)",
+      "Mô hình điều khiển tăng cường (Augmented)",
+      "Mô hình điều khiển xếp chồng (Overlay)",
+      "Tất cả mô hình trên"
+    ],
+    answer: "Tất cả mô hình trên"
+  },
+  {
+    question: "Một mạng IP/WDM có thể hỗ trợ mấy mô hình dịch vụ chính:",
+    options: [
+      "3",
+      "2",
+      "4",
+      "1"
+    ],
+    answer: "3" // Thường là: Permanent (Tĩnh), Soft-Permanent (Bán tĩnh), Switched (Chuyển mạch).
+  },
+  {
+    question: "Mô hình định cỡ thống kê gồm có mấy mô hình chính:",
+    options: [
+      "2",
+      "1",
+      "4",
+      "3"
+    ],
+    answer: "2"
+  },
+  {
+    question: "Hoạt động định tuyến trong mạng GMPLS IP/WDM dựa trên các giao thức:",
+    options: [
+      "ASON, GMPLS",
+      "OSPF-TE, IS-IS-TE",
+      "IPSEC",
+      "RSVP, RSVP mở rộng"
+    ],
+    answer: "OSPF-TE, IS-IS-TE" // RSVP-TE là giao thức Báo hiệu (Signaling), còn OSPF-TE/IS-IS-TE là Định tuyến (Routing).
+  },
+  {
+    question: "Công nghệ mạng WDM bao gồm mấy loại chính:",
+    options: [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    answer: "2" // CWDM (Thưa) và DWDM (Dày).
+  },
+  {
+    question: "Có bao nhiêu cấu hình chính được triển khai trong mạng AON:",
+    options: [
+      "5",
+      "2",
+      "3",
+      "4"
+    ],
+    answer: "2" // Thường là cấu hình Điểm - Điểm (P2P) và cấu hình Sao chủ động (Active Star).
+  },
+  {
+    question: "Bảo vệ tại lớp mạng trong mạng quang được thực hiện tại:",
+    options: [
+      "Lớp kênh quang",
+      "Lớp NG-SDH, OTN và các lớp quang",
+      "Lớp IP",
+      "Lớp MPLS, Ethernet"
+    ],
+    answer: "Lớp NG-SDH, OTN và các lớp quang"
+  },
+  {
+    question: "Giải pháp chủ yếu bảo vệ trong lớp IP là:",
+    options: [
+      "Khi mạng gặp sự cố, tất cả các bộ định tuyến có trên mạng được dừng hoạt động để thực hiện cập nhật bảng định tuyến",
+      "Khi mạng gặp sự cố, các gói tạm dừng truyền đi cho đến khi định tuyến mới được thực hiện",
+      "Sử dụng định tuyến động, từng chặng. Khi mạng gặp sự cố, giao thức định tuyến hoạt động và cập nhật các bảng định tuyến tại mỗi bộ định tuyến",
+      "Sử dụng định tuyến tĩnh, thiết lập sẵn tuyến bảo vệ cho tuyến hoạt động"
+    ],
+    answer: "Sử dụng định tuyến động, từng chặng. Khi mạng gặp sự cố, giao thức định tuyến hoạt động và cập nhật các bảng định tuyến tại mỗi bộ định tuyến"
+  },
+  {
+    question: "Có các cơ chế duy trì mạng nào:",
+    options: [
+      "Tổ hợp (xếp chồng duy trì kết nối và duy trì cascade)",
+      "Duy trì cascade (nối tầng giữa các tầng/ đoạn/ khu vực)",
+      "Duy trì kết nối đầu cuối - đầu cuối",
+      "Cả 3 đáp án trên"
+    ],
+    answer: "Cả 3 đáp án trên"
+  },
+  {
+    question: "Hiện tại, mức dự phòng quỹ suy hao khi thiết kế tuyến FTTx không lớn hơn:",
+    options: [
+      "4 dBm",
+      "2 dBm",
+      "1 dBm",
+      "3 dBm"
+    ],
+    answer: "3 dBm" // Thường chọn System Margin khoảng 3dB.
+  },
+  {
+    question: "Bộ splitter 1:64 sử dụng cho mạng truy nhập quang thụ động PON có suy hao vượt là 1.5 dB. Tính suy hao xen splitter 1:64 này:",
+    options: [
+      "19,56 dB",
+      "19,06 dB",
+      "12,86 dB",
+      "12,56 dB"
+    ],
+    answer: "19,56 dB" // Loss = 10*log(64) + 1.5 = 18.06 + 1.5 = 19.56 dB.
+  },
+  {
+    question: "Giải pháp bảo vệ chủ yếu trong lớp liên kết Ethernet là:",
+    options: [
+      "Giao thức cây mở rộng (STP), giao thức cây mở rộng nhanh (RSTP) hoặc giao thức APS cho chuyển mạch bảo vệ và chuyển mạch bảo vệ cho mạng vòng",
+      "Sử dụng giao thức định tuyến nội miền (OSPF hoặc IS - IS) để tìm đường mới và cập nhật bản định tuyến",
+      "Giao thức chuyển mạch bảo vệ định tuyến nhanh để tạo đường hầm dự phòng",
+      "Sử dụng định tuyến động, từng chặng"
+    ],
+    answer: "Giao thức cây mở rộng (STP), giao thức cây mở rộng nhanh (RSTP) hoặc giao thức APS cho chuyển mạch bảo vệ và chuyển mạch bảo vệ cho mạng vòng"
+  },
+  {
+    question: "Tiêu chí nào là quan trọng nhất để đánh giá khả năng bảo vệ và phục hồi mạng quang:",
+    options: [
+      "Tổn thất lợi nhuận nhỏ nhất",
+      "Thời gian phục hồi mạng nhanh nhất",
+      "Lưu lượng truyền tải bị mất là nhỏ nhất",
+      "Hậu quả pháp lý ít nhất"
+    ],
+    answer: "Thời gian phục hồi mạng nhanh nhất" // Thời gian phục hồi (ví dụ < 50ms) là tham số kỹ thuật quan trọng nhất.
+  },
+  {
+    question: "Thời gian phục hồi mạng được tính là:",
+    options: [
+      "Là khoảng thời gian từ khi mạng phát hiện lỗi đến khi tìm ra vị trí lỗi",
+      "Là khoảng thời gian từ khi mạng phát hiện lỗi đến khi hoàn tất hoạt động khôi phục cuối",
+      "Là khoảng thời gian từ khi mạng phát hiện lỗi đến khi khôi phục hoàn toàn truyền dẫn",
+      "Là khoảng thời gian từ khi mạng phát hiện lỗi đến khi bắt đầu thủ thục phục hồi"
+    ],
+    answer: "Là khoảng thời gian từ khi mạng phát hiện lỗi đến khi khôi phục hoàn toàn truyền dẫn"
+  },
+  {
+    question: "Kí hiệu nào cho biết mạng hoạt động ở chế độ bảo vệ chia sẻ:",
+    options: [
+      "1+N",
+      "N+N",
+      "1:N",
+      "1+1"
+    ],
+    answer: "1:N" // 1+1 là bảo vệ 1-1 (Dedicated), 1:N là bảo vệ chia sẻ (Shared).
+  },
+  {
+    question: "NG - PON1 có tốc độ hướng lên là:",
+    options: [
+      "2,5 Gbit/s",
+      "2 Gbit/s",
+      "5 Gbit/s",
+      "1,25 Gbit/s"
+    ],
+    answer: "2,5 Gbit/s" // XG-PON (NG-PON1): Down 10G / Up 2.5G.
+  },
+  {
+    question: "Nhận định nào sau đây về phương thức FTTC là đúng:",
+    options: [
+      "Sợi quang được kéo tới cơ quan hoặc hộ gia đình",
+      "Sợi được kéo tới một ONU đặt trong tòa nhà",
+      "ONT được đặt tại thuê bao",
+      "Sợi được kéo tới ONU đặt ở vỉa hè"
+    ],
+    answer: "Sợi được kéo tới ONU đặt ở vỉa hè"
+  },
+  {
+    question: "Trong mạng PON các thành phần tích cực là:",
+    options: [
+      "OLT",
+      "ONU",
+      "Coupler",
+      "Cả 2 đáp án A, B (OLT và ONU)"
+    ],
+    answer: "Cả 2 đáp án A, B (OLT và ONU)"
+  },
+  {
+    question: "Mạng quang thụ động có cấu hình cơ bản sau:",
+    options: [
+      "Cấu hình Ring",
+      "Cấu hình Tree",
+      "Cấu hình bus",
+      "Cả 3 đáp án trên"
+    ],
+    answer: "Cả 3 đáp án trên"
+  },
+  {
+    question: "Cơ chế bảo vệ nào yêu cầu phải sử dụng giao thức APS (chuyển mạch bảo vệ tự động) để thực thi:",
+    options: [
+      "Cơ chế bảo vệ chia sẻ",
+      "Cả cơ chế bảo vệ chia sẻ và cơ chế bảo vệ dành riêng",
+      "Chỉ trong cơ chế bảo vệ chia sẻ 1:N",
+      "Cơ chế bảo vệ dành riêng"
+    ],
+    answer: "Cơ chế bảo vệ chia sẻ"
+  },
+  {
+    question: "Mô hình tham chiếu mạng truy nhập quang có bao nhiêu điểm tham chiếu:",
+    options: [
+      "2",
+      "5",
+      "4",
+      "3"
+    ],
+    answer: "4"
+  },
+  {
+    question: "Bảo vệ tại lớp liên kết trong mạng quang được thực hiện tại:",
+    options: [
+      "Lớp MPLS, Ethernet",
+      "Lớp kênh quang",
+      "Lớp IP",
+      "Lớp NG-SDH, OTN và các lớp quang"
+    ],
+    answer: "Lớp MPLS, Ethernet"
+  },
+  {
+    question: "Bảo vệ tại lớp vật lý trong mạng quang được thực hiện tại:",
+    options: [
+      "Lớp MPLS, Ethernet",
+      "Lớp liên kết dữ liệu",
+      "Lớp NG-SDH, OTN và các lớp quang",
+      "Lớp IP"
+    ],
+    answer: "Lớp NG-SDH, OTN và các lớp quang"
+  },
+  {
+    question: "Cơ chế bảo vệ nào yêu cầu phải sử dụng giao thức APS (chuyển mạch bảo vệ tự động) để thực thi:",
+    options: [
+      "Cả cơ chế bảo vệ chia sẻ và cơ chế bảo vệ dành riêng",
+      "Cơ chế bảo vệ dành riêng",
+      "Chỉ trong cơ chế bảo vệ chia sẻ 1:N",
+      "Cơ chế bảo vệ chia sẻ"
+    ],
+    answer: "Cơ chế bảo vệ chia sẻ"
+  },
+  {
+    question: "Trong PON, các thiết bị quang thụ động nằm ở đâu:",
+    options: [
+      "Trong ONU",
+      "Trong OLT",
+      "Nằm giữa OLT và ONU",
+      "Trong AON"
+    ],
+    answer: "Nằm giữa OLT và ONU"
+  },
+  {
+    question: "Giải pháp bảo vệ chủ yếu trong lớp liên kết MPLS là:",
+    options: [
+      "Sử dụng giao thức định tuyến nội miền (OSPF hoặc IS-IS) để tìm đường mới và cập nhật bản định tuyến",
+      "Giao thức chuyển mạch bảo vệ định tuyến nhanh để tạo đường hầm dự phòng",
+      "Giao thức cây mở rộng (STP), giao thức cây mở rộng nhanh (RSTP) hoặc giao thức APS",
+      "Sử dụng định tuyến động, từng chặng"
+    ],
+    answer: "Giao thức chuyển mạch bảo vệ định tuyến nhanh để tạo đường hầm dự phòng"
+  },
+  {
+    question: "Cho một mạng truy nhập quang thụ động PON sử dụng bộ splitter có suy hao xen là 16,25dB. Trên mạng phân phối quang kết nối từ OLT đến ONU sử dụng 4 kết nối connector, suy hao mỗi connector sử dụng kết nối là 0,5 dB, sợi truyền dẫn có hệ số suy hao trung bình 0,4 dB/km tại 1310 nm, suy hao mỗi bộ ghép WDM là 1,5 dB. Biết mức phát tại ONU là 2 dBm, độ nhạy thu tại OLT là -30 dBm với mức bù công suất bộ thu yêu cầu cỡ 2 dB. Tính khoảng cách truyền dẫn tối đa của hệ thống khi yêu cầu đảm bảo mức dự phòng hệ thống là 3 dB.",
+    options: [
+      "14,375km",
+      "15,565km",
+      "15,375km",
+      "16,565km"
+    ],
+    answer: "14,375km"
+  },
+  {
+    question: "Mạng thụ động PON bao gồm bao nhiêu thành phần chính:",
+    options: [
+      "3",
+      "4",
+      "5",
+      "2"
+    ],
+    answer: "3"
+  },
+  {
+    question: "Cho một mạng truy nhập quang thụ động PON sử dụng bộ splitter có suy hao xen là 13,04dB. Trên mạng phân phối quang kết nối từ OLT đến ONU sử dụng 4 kết nối connector, suy hao mỗi connector sử dụng kết nối là 0,5 dB, sợi truyền dẫn... Biết mức phát tại ONU là 2 dBm, độ nhạy thu tại OLT là -30 dBm, khoảng cách 20km. Tính dự phòng hệ thống khi yêu cầu mức bù công suất cho bộ thu tại OLT là 3 dB.",
+    options: [
+      "2,96 dB",
+      "1,96 dB",
+      "1,86 dB",
+      "1,83 dB"
+    ],
+    answer: "2,96 dB"
+  },
+  {
+    question: "Kí hiệu nào cho biết mạng hoạt động ở cơ chế bảo vệ dành riêng:",
+    options: [
+      "1:N",
+      "1:1",
+      "N:N",
+      "1+1"
+    ],
+    answer: "1+1"
+  },
 ];
 
 // DOM Elements
