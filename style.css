@@ -191,3 +191,20 @@ h1 {
   background-color: #1e7e34;
   transform: translateY(0);
 }
+/* Style cho ảnh trong câu hỏi */
+.question-image {
+    display: block;          /* Để căn giữa được bằng margin */
+    max-width: 100%;         /* Đảm bảo ảnh không to quá chiều ngang màn hình */
+    max-height: 300px;       /* Giới hạn chiều cao để không chiếm hết màn hình */
+    margin: 10px auto 15px;  /* Căn giữa ảnh, cách trên 10px, cách dưới 15px */
+    border-radius: 8px;      /* Bo tròn góc ảnh cho đẹp */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Đổ bóng nhẹ */
+    object-fit: contain;     /* Giữ đúng tỷ lệ ảnh */
+}
+
+/* Responsive cho mobile */
+@media (max-width: 600px) {
+    .question-image {
+        max-height: 200px; /* Thu nhỏ chiều cao trên điện thoại */
+    }
+}

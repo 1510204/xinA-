@@ -807,7 +807,7 @@ const quizData = [
       "4",
       "5"
     ],
-    answer: "3"
+    answer: "5"
   },
   {
     question: "Cấu trúc WDM điểm-điểm có tên gọi khác là?",
@@ -1311,6 +1311,7 @@ const quizData = [
   },
   {
     question: "Trong mạng quang kiến trúc vòng sử dụng cơ chế bảo vệ chia sẻ đoạn ghép/ 2 sợi (MS-SPRing/2) đang hoạt động như hình vẽ dưới đây. Hãy cho biết hoạt động bảo vệ xảy ra tại nút nào khi có sự cố đứt cáp giữa 2 nút 5 và 6",
+    image: "./image/cau125.png",
     options: [
       "Tại nút 1 và nút 4 thực hiện chuyển mạch bảo vệ để chuyển lưu lượng hoạt động tại sợi W1 sang phần dung lượng dự phòng tại sợi W2",
       "Tại nút 5 và nút 6 thực hiện chuyển mạch bảo vệ để chuyển lưu lượng hoạt động tại sợi W1 sang phần dung lượng dự phòng tại sợi W2",
@@ -2805,9 +2806,9 @@ const quizData = [
       "Quản lý báo hiệu và thông tin giám sát từ ONU, cung cấp chức năng bảo dưỡng",
       "Cung cấp giao diện quang phía mạng với ODN và giao diện phía mạng dịch vụ",
       "Chỉ có chức năng cấp nguồn cho hệ thống",
-      "Cả 2 ý đầu tiên đều đúng"
+      "Cả A và B đều đúng"
     ],
-    answer: "Cả 2 ý đầu tiên đều đúng"
+    answer: "Cả A và B đều đúng"
   },
   {
     question: "Cấu trúc của khối chức năng OLT trong mạng FTTx gồm:",
@@ -2815,9 +2816,9 @@ const quizData = [
       "Khối thích ứng dịch vụ",
       "Khối kết nối chéo, MAC và Lớp PMD",
       "Chỉ bao gồm khối nguồn và vỏ máy",
-      "Cả 2 ý đầu tiên đều đúng"
+      "Cả A và B đều đúng"
     ],
-    answer: "Cả 2 ý đầu tiên đều đúng"
+    answer: "Cả A và B đều đúng"
   },
   {
     question: "Đặc điểm của khối chức năng ONU trong mạng FTTx là gì?",
@@ -2827,7 +2828,7 @@ const quizData = [
       "Có thể đặt ở phía khách hàng (FTTH/B) hoặc ngoài trời (FTTC)",
       "Tất cả các ý trên đều đúng"
     ],
-    answer: "Tất cả các ý trên đều đúng"
+    answer: "Tất cả các đáp án trên"
   },
   {
     question: "Cấu trúc của khối chức năng ONU trong mạng FTTx bao gồm:",
@@ -2835,9 +2836,9 @@ const quizData = [
       "Khối thích ứng dịch vụ (Service adaptation)",
       "Khối MUX/DEMUX (Ghép kênh)",
       "Lớp MAC, lớp PMD, UNI",
-      "Cả 3 đáp án trên đều đúng"
+      "Tất cả các đáp án trên"
     ],
-    answer: "Cả 3 đáp án trên đều đúng"
+    answer: "Tất cả các đáp án trên"
   },
   {
     question: "Đặc điểm của phương thức FTTC (Fiber To The Curb) là gì:",
@@ -2852,7 +2853,7 @@ const quizData = [
 
 ];
 
-// DOM Elements
+/// DOM Elements
 const quizContainer = document.getElementById('quiz-container');
 const submitBtn = document.getElementById('submit-btn');
 const resultDiv = document.getElementById('result');
@@ -2876,8 +2877,8 @@ function shuffleArray(array) {
 function initQuiz() {
     // Xáo trộn các câu hỏi
     const shuffledQuizData = shuffleArray(quizData);
-  // Gán chỉ số hiển thị theo thứ tự đã xáo
-  shuffledQuizData.forEach((q, i) => q.originalIndex = i);
+    // Gán chỉ số hiển thị theo thứ tự đã xáo
+    shuffledQuizData.forEach((q, i) => q.originalIndex = i);
     renderQuiz(shuffledQuizData);
 }
 
@@ -2894,11 +2895,36 @@ function renderQuiz(questions) {
         const questionBlock = document.createElement('div');
         questionBlock.className = 'question-block';
 
+        // 1. Hiển thị nội dung câu hỏi
         const questionText = document.createElement('div');
         questionText.className = 'question';
         questionText.innerText = `${item.originalIndex + 1}. ${item.question}`;
         questionBlock.appendChild(questionText);
 
+        // --- BẮT ĐẦU PHẦN XỬ LÝ ẢNH (MỚI THÊM) ---
+        // Kiểm tra xem câu hỏi có thuộc tính image không
+        if (item.image) {
+            const imgElement = document.createElement('img');
+            imgElement.src = item.image;
+            imgElement.className = 'question-image'; // Class để bạn style thêm trong CSS nếu muốn
+            
+            // Style cơ bản để ảnh hiển thị gọn gàng
+            imgElement.style.maxWidth = '100%';
+            imgElement.style.display = 'block';
+            imgElement.style.marginTop = '10px';
+            imgElement.style.marginBottom = '10px';
+            imgElement.style.borderRadius = '5px';
+
+            // Xử lý lỗi: Nếu đường dẫn ảnh sai, ẩn ảnh đi để không hiện icon lỗi
+            imgElement.onerror = function() {
+                this.style.display = 'none';
+            };
+
+            questionBlock.appendChild(imgElement);
+        }
+        // --- KẾT THÚC PHẦN XỬ LÝ ẢNH ---
+
+        // 2. Hiển thị các lựa chọn
         const optionsDiv = document.createElement('div');
         optionsDiv.className = 'options';
         optionsDiv.dataset.questionIndex = index;
