@@ -120,16 +120,6 @@ const quizData = [
     answer: "2,667 Mbps"
   },
   {
-    question: "Bài toán RWA là",
-    options: [
-      "Bài toán thiết kế kiến trúc tuyến quang",
-      "Bài toán định tuyến và gán bước sóng",
-      "Bài toán tối thiểu hóa số kết nối có thể thiết lập",
-      "Cả 3 đáp án trên"
-    ],
-    answer: "Bài toán định tuyến và gán bước sóng"
-  },
-  {
     question: "Khi xảy ra chèn dương, các bit I, D trong con trỏ AU-4 PTR sẽ thay đổi:",
     options: [
       "5 bit I đảo dấu",
@@ -300,7 +290,7 @@ const quizData = [
     answer: "Cả 3 đáp án trên"
   },
   {
-    question: "Trong những câu dưới đây, câu nào đúng cho kiến trúc mạng quang WDM hình sao",
+    question: "Trong những câu dưới đây, câu nào đúng cho kiến trúc mạng quang WDM hình sao?",
     options: [
       "Các điểm truyền thông được đấu nối tiếp nhau thành một vòng tròn",
       "Các điểm truyền thông được đấu nối với nhau thông qua một coupler sao",
@@ -368,6 +358,16 @@ const quizData = [
       "0001101101"
     ],
     answer: "0100110111"
+  },
+  {
+    question: "Phạm vi chỉ thị của AU-4 PtR trong khung AUG là bao nhiêu?",
+    options: [
+      "1 : 782",
+      "0 : 782",
+      "0 : 783",
+      "1 : 783"
+    ],
+    answer: "0 : 782"
   },
   {
     question: "Quá trình phát triển mạng ghép theo bước sóng (WDM) có mấy thế hệ?",
@@ -1012,16 +1012,6 @@ const quizData = [
       "Gồm C-4 và mào đầu đoạn"
     ],
     answer: "Gồm VC-4 và giá trị con trỏ chỉ vị trí của nó"
-  },
-  {
-    question: "Bài toán RWA là",
-    options: [
-      "Bài toán thiết kế kiến trúc tuyến quang",
-      "Bài toán định tuyến và gán bước sóng",
-      "Bài toán tối thiểu hóa số kết nối có thể thiết lập",
-      "Cả 3 đáp án trên"
-    ],
-    answer: "Bài toán định tuyến và gán bước sóng"
   },
   {
     question: "Bài toán LTD là",
@@ -1836,16 +1826,6 @@ const quizData = [
     answer: "Đỉnh 1: bước sóng 1, Đỉnh 2: bước sóng 2, Đỉnh 3: bước sóng 1, Đỉnh 5: bước sóng 2"
   },
   {
-    question: "Bài toán LTD là:",
-    options: [
-      "Bài toán thiết kế kiến trúc tuyến quang (Lightpath)",
-      "Bài toán gán bước sóng",
-      "Bài toán định tuyến bước sóng",
-      "Cả 3 đáp án trên"
-    ],
-    answer: "Bài toán thiết kế kiến trúc tuyến quang (Lightpath)"
-  },
-  {
     question: "Mô hình kết nối mạng IP/WDM bao gồm mấy loại chính:",
     options: [
       "2",
@@ -2004,16 +1984,6 @@ const quizData = [
       "4"
     ],
     answer: "2" // Thường là cấu hình Điểm - Điểm (P2P) và cấu hình Sao chủ động (Active Star).
-  },
-  {
-    question: "Bảo vệ tại lớp mạng trong mạng quang được thực hiện tại:",
-    options: [
-      "Lớp kênh quang",
-      "Lớp NG-SDH, OTN và các lớp quang",
-      "Lớp IP",
-      "Lớp MPLS, Ethernet"
-    ],
-    answer: "Lớp NG-SDH, OTN và các lớp quang"
   },
   {
     question: "Giải pháp chủ yếu bảo vệ trong lớp IP là:",
@@ -2494,16 +2464,6 @@ const quizData = [
       "9 dòng x 261 cột"
     ],
     answer: "4 dòng x 3824 cột"
-  },
-  {
-    question: "Nhận định nào sau đây là đúng về cấu trúc khung OTU-k:",
-    options: [
-      "4 dòng x 4080 cột",
-      "4 dòng x 3810 cột",
-      "4 dòng x 3824 cột",
-      "270 dòng x 9 cột"
-    ],
-    answer: "4 dòng x 4080 cột"
   },
   {
     question: "Giá trị k trong cấu trúc khung OPU-k, ODU-k, OTU-k là:",
@@ -3017,6 +2977,27 @@ const quizData = [
     ],
     answer: "1 : 1"
   },
+    {
+    question: "Trong TDM-PON, đặc tính hoạt động của bộ thu quang OLT kiểu burst có bao nhiêu mức mẫu tín hiệu?",
+    options: [
+      "3",
+      "1",
+      "2",
+      "4"
+    ],
+    answer: "3"
+  },
+  {
+    question: "Chuyển mạch nhãn đa giao thức tổng quát (GMPLS) được hiểu là:",
+    options: [
+      "Là sự mở rộng chức năng điều khiển MPLS cho mạng quang, kế thừa hoàn toàn các giao thức quản lý và điều khiển từ mạng IP mà không cần bất kì sự thay đổi nào.",
+      "Là sự mở rộng chức năng điều khiển của mạng MPLS cho mạng quang, cho phép tạo mặt phẳng điều khiển, quản lý thống nhất không chỉ ở lớp mạng mà còn ở lớp ứng dụng, lớp truyền dẫn và lớp vật lý.",
+      "Là sự mở rộng chức năng điều khiển MPLS cho mạng quang, sử dụng tiêu đề (header) của các gói IP làm nhãn chuyển mạch quang, tạo ra liên kết từ đầu cuối đến đầu cuối.",
+      "Là sự mở rộng chức năng điều khiển của mạng MPLS cho mạng quang, cho phép tạo mặt phẳng điều khiển, quản lý trên lớp IP, tách biệt khỏi lớp WDM, tối ưu cho chuyển mạch kênh quang."
+    ],
+    answer: "Là sự mở rộng chức năng điều khiển của mạng MPLS cho mạng quang, cho phép tạo mặt phẳng điều khiển, quản lý thống nhất không chỉ ở lớp mạng mà còn ở lớp ứng dụng, lớp truyền dẫn và lớp vật lý."
+  }
+
 
 ];
 
