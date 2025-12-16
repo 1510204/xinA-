@@ -1091,6 +1091,7 @@ const quizData = [
   },
   {
     question: "Hình vẽ dưới đây biểu diễn cho cơ chế bảo vệ nào",
+    image: "./image/cau102.png",
     options: [
       "1:N",
       "1:1",
