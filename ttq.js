@@ -1165,20 +1165,10 @@ const quizData = [
     answer: "Kênh giám sát OSC"
   },
   {
-    question: "Nhận định nào sau đây là đúng về chức năng của lớp OTS",
-    options: [
-      "Quản lý các phần đoạn liên kết sợi quang giữa các phần tử quang như giữa bộ khuếch đại quang, hoặc các bộ khuếch đại quang và các bộ ghép WDM",
-      "Không đáp án nào đúng",
-      "Quản lý các kết nối quang giữa các bộ lặp 3R",
-      "Quản lý các liên kết sợi quang giữa các bộ ghép kênh và bộ chuyển mạch quang"
-    ],
-    answer: "Quản lý các phần đoạn liên kết sợi quang giữa các phần tử quang như giữa bộ khuếch đại quang, hoặc các bộ khuếch đại quang và các bộ ghép WDM"
-  },
-  {
     question: "Trong bài toán RWA của mạng OCS, điều kiện những kết nối chia sẻ chung một sợi quang phải sử dụng những bước sóng khác nhau gọi là",
     options: [
       "Ràng buộc giới hạn số bước sóng trong mạng quang",
-      "Ràng buộc về tính liệu tục bước sóng",
+      "Ràng buộc về tính liên tục bước sóng",
       "Ràng buộc về gán kênh riêng biệt",
       "Ràng buộc về tối ưu hóa việc sử dụng tài nguyên mạng"
     ],
@@ -1983,7 +1973,7 @@ const quizData = [
       "4",
       "1"
     ],
-    answer: "3" // Thường là: Permanent (Tĩnh), Soft-Permanent (Bán tĩnh), Switched (Chuyển mạch).
+    answer: "2"// Thường là: Permanent (Tĩnh), Soft-Permanent (Bán tĩnh), Switched (Chuyển mạch).
   },
   {
     question: "Mô hình định cỡ thống kê gồm có mấy mô hình chính:",
@@ -1993,17 +1983,7 @@ const quizData = [
       "4",
       "3"
     ],
-    answer: "2"
-  },
-  {
-    question: "Hoạt động định tuyến trong mạng GMPLS IP/WDM dựa trên các giao thức:",
-    options: [
-      "ASON, GMPLS",
-      "OSPF-TE, IS-IS-TE",
-      "IPSEC",
-      "RSVP, RSVP mở rộng"
-    ],
-    answer: "OSPF-TE, IS-IS-TE" // RSVP-TE là giao thức Báo hiệu (Signaling), còn OSPF-TE/IS-IS-TE là Định tuyến (Routing).
+    answer: "3"
   },
   {
     question: "Công nghệ mạng WDM bao gồm mấy loại chính:",
@@ -2383,7 +2363,7 @@ const quizData = [
       "Quản lý việc định tuyến bước sóng trong toàn mạng",
       "Giám sát lỗi bit của tín hiệu điện trước khi chuyển đổi quang"
     ],
-    answer: "Quản lý các phân đoạn liên kết sợi quang giữa các phần tử quang như giữa các bộ khuếch đại quang, hoặc các bộ khuếch đại quang và các bộ ghép kênh WDM."
+    answer: "Quản lý các phân đoạn liên kết sợi quang giữa các phần tử quang như giữa các bộ khuếch đại quang, hoặc các bộ khuếch đại quang và các bộ ghép kênh WDM"
   },
   {
     question: "Nhận định nào sau đây là đúng về chức năng của lớp OMS?",
@@ -3017,7 +2997,7 @@ const quizData = [
   },
    {
     question: "Đây là cơ chế bảo vệ nào:",
-    image: "./image/cau22.png",
+    image: "./image/cau22.jpg",
     options: [
       "1 + 1",
       "1 : 1",
@@ -3028,7 +3008,7 @@ const quizData = [
   },
    {
     question: "Đây là cơ chế bảo vệ nào:",
-    image: "./image/cau23.png",
+    image: "./image/cau23.jpg",
     options: [
       "1 + 1",
       "1 : 1",
@@ -3036,17 +3016,6 @@ const quizData = [
       "1 : 2"
     ],
     answer: "1 : 1"
-  },
-    {
-    question: "Đây là cơ chế bảo vệ nào:",
-    image: "./image/cau24.png",
-    options: [
-      "1 + 1",
-      "1 : 1",
-      "1 : N",
-      "1 : 2"
-    ],
-    answer: "1 : N"
   },
 
 ];
