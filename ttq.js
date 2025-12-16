@@ -50,16 +50,6 @@ const quizData = [
     answer: "9x270 byte truyền ở tốc độ 155,52 Mb/s"
   },
   {
-    question: "Kí hiệu nào cho biết mạng hoạt động ở cơ chế bảo vệ dành riêng:",
-    options: [
-      "1 : 1",
-      "1 + 1",
-      "1 : N",
-      "N : N"
-    ],
-    answer: "1 + 1"
-  },
-  {
     question: "Mạng truyền thông quang có thể được chia thành:",
     options: [
       "Mạng đô thị và cự li dài",
@@ -920,16 +910,6 @@ const quizData = [
     answer: "HTAW"
   },
   {
-    question: "Kí hiệu nào cho biết mạng hoạt động ở cơ chế bảo vệ dành riêng:",
-    options: [
-      "1 : 1",
-      "1 + 1",
-      "1 : N",
-      "N : N"
-    ],
-    answer: "1 + 1"
-  },
-  {
     question: "Kí hiệu nào cho biết mạng hoạt động ở cơ chế chia sẻ:",
     options: [
       "N + N",
@@ -940,14 +920,94 @@ const quizData = [
     answer: "1 : N"
   },
   {
-    question: "Kí hiệu nào cho biết mạng hoạt động ở cơ chế chia sẻ:",
+    question: "Lớp SDH bao gồm những lớp con nào?",
     options: [
-      "1 : 1",
-      "1 + 1",
-      "N + N",
-      "N : N"
+      "Lớp tuyến (Path), lớp đoạn ghép (MS), lớp đoạn lặp (RS), lớp vật lý",
+      "Lớp ứng dụng, lớp trình diễn, lớp phiên, lớp giao vận",
+      "Lớp mạng, lớp liên kết dữ liệu, lớp vật lý, lớp truy nhập",
+      "Lớp kênh quang, lớp đoạn quang, lớp khuếch đại quang"
     ],
-    answer: "1 : 1"
+    answer: "Lớp tuyến (Path), lớp đoạn ghép (MS), lớp đoạn lặp (RS), lớp vật lý"
+  },
+  {
+    question: "Lớp SONET bao gồm những lớp con nào?",
+    options: [
+      "Lớp tuyến (Path), lớp đường (Line), lớp đoạn (Section) và lớp vật lý",
+      "Lớp kênh, lớp đoạn ghép, lớp đoạn lặp và lớp vật lý",
+      "Lớp IP, lớp MPLS, lớp Ethernet và lớp vật lý",
+      "Lớp AAL, lớp ATM, lớp vật lý và lớp quang"
+    ],
+    answer: "Lớp tuyến (Path), lớp đường (Line), lớp đoạn (Section) và lớp vật lý"
+  },
+  {
+    question: "Dựa trên khoảng cách mục tiêu, lớp vật lý SDH có thể phân loại thành các ứng dụng khác nhau nào?",
+    options: [
+      "Kết nối nội bộ (Intrafacility)",
+      "Kết nối cự li ngắn, kết nối cự li dài, rất dài và cực dài",
+      "Cả hai phương án trên đều đúng",
+      "Chỉ bao gồm kết nối vệ tinh và vi ba"
+    ],
+    answer: "Cả hai phương án trên đều đúng"
+  },
+  {
+    question: "Khung GFP (Generic Framing Procedure) có cấu trúc như thế nào?",
+    options: [
+      "Gồm mào đầu chính (Core Header) và phần tải trọng (Payload)",
+      "Gồm mào đầu đoạn (SOH) và mào đầu đường (POH)",
+      "Gồm nhãn MPLS và phần dữ liệu người dùng",
+      "Gồm phần mở đầu (Preamble) và phần kiểm tra lỗi (FCS)"
+    ],
+    answer: "Gồm mào đầu chính (Core Header) và phần tải trọng (Payload)"
+  },
+  {
+    question: "Có bao nhiêu phương pháp kết chuỗi trong NG-SDH?",
+    options: [
+      "2 phương pháp (Kết chuỗi liền kề và Kết chuỗi ảo)",
+      "3 phương pháp",
+      "4 phương pháp",
+      "5 phương pháp"
+    ],
+    answer: "2 phương pháp (Kết chuỗi liền kề và Kết chuỗi ảo)"
+  },
+  {
+    question: "LCAS là gì?",
+    options: [
+      "Giao thức điều chỉnh linh hoạt băng thông",
+      "Giao thức định tuyến gói tin trong mạng quang",
+      "Giao thức đóng gói dữ liệu đa năng",
+      "Giao thức phát hiện và sửa lỗi gói tin"
+    ],
+    answer: "Giao thức điều chỉnh linh hoạt băng thông"
+  },
+  {
+    question: "Để thực hiện kết chuỗi ảo (VCAT), chức năng kết chuỗi chỉ cần thực hiện ở thiết bị nào của tuyến?",
+    options: [
+      "Thiết bị đầu cuối (Path Termination)",
+      "Thiết bị trung gian (Intermediate nodes)",
+      "Thiết bị lặp (Regenerator)",
+      "Tất cả các thiết bị trên tuyến"
+    ],
+    answer: "Thiết bị đầu cuối (Path Termination)"
+  },
+  {
+    question: "Các chức năng chính của LCAS là gì?",
+    options: [
+      "Để quản lý phân bổ băng thông của tuyến VCAT (tăng/giảm dung lượng không gây lỗi)",
+      "Để đóng gói các khung Ethernet vào khung SDH",
+      "Để định tuyến các luồng dữ liệu quang qua các nút mạng",
+      "Để giám sát lỗi bit (BER) trên đường truyền vật lý"
+    ],
+    answer: "Để quản lý phân bổ băng thông của tuyến VCAT (tăng/giảm dung lượng không gây lỗi)"
+  },
+  {
+    question: "Con trỏ AU-4 có cấu tạo như thế nào?",
+    options: [
+      "Gồm VC-4 và giá trị con trỏ chỉ vị trí của nó",
+      "Gồm VC-3 và byte nhồi",
+      "Gồm VC-12 và mào đầu đường",
+      "Gồm C-4 và mào đầu đoạn"
+    ],
+    answer: "Gồm VC-4 và giá trị con trỏ chỉ vị trí của nó"
   },
   {
     question: "Bài toán RWA là",
@@ -1646,7 +1706,8 @@ const quizData = [
       "Mã hóa, nén dữ liệu, truyền tải và giải mã",
       "Định tuyến, chuyển mạch, phân phối và kiểm soát lỗi",
       "Lấy mẫu, lượng tử hóa, mã hóa và điều chế"
-    ]
+    ],
+    answer: "Sắp xếp, chèn, ghép kênh, bổ sung mào đầu và đồng chỉnh"
   },
   {
     question: "Lớp SDH bao gồm những lớp con nào?",
@@ -2198,6 +2259,287 @@ const quizData = [
     ],
     answer: "1+1"
   },
+  {
+    question: "Khung STM-1 có cấu trúc như thế nào?",
+    options: [
+      "270 byte x 9 hàng",
+      "261 byte x 9 hàng",
+      "9 byte x 270 hàng",
+      "270 byte x 1 hàng"
+    ],
+    answer: "270 byte x 9 hàng"
+  },
+{
+    question: "Khi xảy ra chèn dương, các bit I, D con trỏ AU-4 PtR sẽ thay đổi như thế nào?",
+    options: [
+      "5 bit I đảo dấu",
+      "5 bit D đảo dấu",
+      "Toàn bộ 10 bit I và D đảo dấu",
+      "Các bit I giữ nguyên, chỉ bit D đảo dấu"
+    ],
+    answer: "5 bit I đảo dấu"
+  },
+  {
+    question: "Cách đánh số địa chỉ các nhóm byte của AUG trong hệ thống SDH được thực hiện như thể nào?",
+    options: [
+      "Các byte trong AUG được đánh số từ AUG-1 đến AUG-N và được đánh dấu theo thứ tự",
+      "Đánh số ngẫu nhiên tùy thuộc vào nhà sản xuất thiết bị",
+      "Đánh số theo thứ tự ngược từ N về 1",
+      "Chỉ đánh số các byte chẵn, bỏ qua các byte lẻ"
+    ],
+    answer: "Các byte trong AUG được đánh số từ AUG-1 đến AUG-N và được đánh dấu theo thứ tự"
+  },
+  {
+    question: "Trong mạng NG-SDH sử dụng các thiết bị mới nào?",
+    options: [
+      "MSPP, MSTP và MSSP",
+      "OLT, ONU và Splitter",
+      "Router, Switch và Hub",
+      "EDFA, ROADM và OXC"
+    ],
+    answer: "MSPP, MSTP và MSSP"
+  },
+  {
+    question: "MSPP là gì?",
+    options: [
+      "Nền tảng cung cấp đa dịch vụ (Multi-Service Provisioning Platform)",
+      "Nền tảng chuyển mạch gói đa dịch vụ",
+      "Nền tảng bảo vệ mạng quang tự động",
+      "Nền tảng quản lý phần tử mạng tập trung"
+    ],
+    answer: "Nền tảng cung cấp đa dịch vụ"
+  },
+  {
+    question: "MSTP là gì?",
+    options: [
+      "Nền tảng truyền tải đa dịch vụ (Multi-Service Transport Platform)",
+      "Nền tảng kiểm tra giám sát dịch vụ",
+      "Giao thức cây bao trùm (Spanning Tree Protocol)",
+      "Nền tảng chuyển mạch nhãn đa giao thức"
+    ],
+    answer: "Nền tảng truyền tải đa dịch vụ"
+  },
+  {
+    question: "MSSP là gì?",
+    options: [
+      "Nền tảng chuyển mạch đa dịch vụ (Multi-Service Switching Platform)",
+      "Nền tảng lưu trữ dữ liệu tập trung",
+      "Hệ thống bảo mật đa lớp",
+      "Giao thức đồng bộ hóa mạng quang"
+    ],
+    answer: "Nền tảng chuyển mạch đa dịch vụ"
+  },
+  {
+    question: "OTN là gì?",
+    options: [
+      "Là mạng hướng kết nối gồm một tập mạng quang được kết nối bởi liên kết sợi quang",
+      "Là mạng chuyển mạch gói dựa trên giao thức IP",
+      "Là mạng truy nhập không dây băng rộng",
+      "Là mạng cục bộ sử dụng cáp đồng trục"
+    ],
+    answer: "Là mạng hướng kết nối gồm một tập mạng quang được kết nối bởi liên kết sợi quang"
+  },
+  {
+    question: "Ưu điểm của OTN so với công nghệ NG-SDH hiện tại là gì?",
+    options: [
+      "Khả năng phát hiện và sửa lỗi hiệu quả, nhiều mức giám sát kết nối Tandem",
+      "Chi phí triển khai thấp hơn và không cần thiết bị quang",
+      "Tốc độ truyền dẫn thấp hơn nhưng ổn định hơn",
+      "Chỉ hỗ trợ duy nhất giao thức Ethernet"
+    ],
+    answer: "Khả năng phát hiện và sửa lỗi hiệu quả, nhiều mức giám sát kết nối Tandem"
+  },
+  {
+    question: "Phân cấp OTN theo miền điện bao gồm những lớp nào?",
+    options: [
+      "Lớp OPU, lớp ODU, lớp OTU",
+      "Lớp OTS, lớp OMS, lớp OCh",
+      "Lớp VC-12, lớp VC-3, lớp VC-4",
+      "Lớp MPLS, lớp IP, lớp Ethernet"
+    ],
+    answer: "Lớp OPU, lớp ODU, lớp OTU"
+  },
+  {
+    question: "Phân cấp OTN theo miền quang bao gồm những lớp nào?",
+    options: [
+      "Lớp OTS, lớp OMS, lớp OCh",
+      "Lớp OPU, lớp ODU, lớp OTU",
+      "Lớp Physical, lớp Data Link, lớp Network",
+      "Lớp Regenerator, lớp Multiplexer, lớp Path"
+    ],
+    answer: "Lớp OTS, lớp OMS, lớp OCh"
+  },
+  {
+    question: "Nhận định nào sau đây là đúng về chức năng của lớp OTS?",
+    options: [
+      "Quản lý các phân đoạn liên kết sợi quang giữa các phần tử quang như giữa các bộ khuếch đại quang, hoặc các bộ khuếch đại quang và các bộ ghép kênh WDM",
+      "Quản lý luồng dữ liệu khách hàng và đóng gói vào khung",
+      "Quản lý việc định tuyến bước sóng trong toàn mạng",
+      "Giám sát lỗi bit của tín hiệu điện trước khi chuyển đổi quang"
+    ],
+    answer: "Quản lý các phân đoạn liên kết sợi quang giữa các phần tử quang như giữa các bộ khuếch đại quang, hoặc các bộ khuếch đại quang và các bộ ghép kênh WDM."
+  },
+  {
+    question: "Nhận định nào sau đây là đúng về chức năng của lớp OMS?",
+    options: [
+      "Quản lý các liên kết sợi quang giữa các bộ ghép kênh và bộ chuyển mạch quang",
+      "Quản lý kết nối vật lý của từng sợi quang đơn lẻ",
+      "Điều khiển việc sửa lỗi hướng thuận (FEC)",
+      "Thực hiện chức năng chuyển mạch gói tin IP"
+    ],
+    answer: "Quản lý các liên kết sợi quang giữa các bộ ghép kênh và bộ chuyển mạch quang."
+  },
+  {
+    question: "Nhận định nào sau đây là đúng về chức năng của lớp OCh?",
+    options: [
+      "Quản lý các kết nối giữa các bộ lặp 3R (ví dụ: các tuyến quang)",
+      "Quản lý phần mào đầu của khung Ethernet",
+      "Giám sát nhiệt độ của sợi cáp quang",
+      "Quản lý việc cấp phát địa chỉ IP cho thiết bị"
+    ],
+    answer: "Quản lý các kết nối giữa các bộ lặp 3R (ví dụ: các tuyến quang)"
+  },
+  {
+    question: "Chức năng của lớp OTU là gì?",
+    options: [
+      "Cung cấp các kết nối quang giữa các bộ lặp 3R, cung cấp nhận dạng kết nối quang, giám sát hiệu năng BER",
+      "Đóng gói dữ liệu người dùng vào các container ảo",
+      "Định tuyến các gói tin dựa trên địa chỉ MAC",
+      "Thực hiện khuếch đại tín hiệu quang quang học"
+    ],
+    answer: "Cung cấp các kết nối quang giữa các bộ lặp 3R, cung cấp nhận dạng kết nối quang, giám sát hiệu năng BER."
+  },
+  {
+    question: "Chức năng của lớp ODU là gì?",
+    options: [
+      "Hỗ trợ giám sát kết nối cung cấp nhận dạng, giám sát hiệu năng BER, truyền các chỉ thị báo cảnh và cung cấp các kênh truyền thông đến các điểm kết cuối",
+      "Chuyển đổi tín hiệu quang sang tín hiệu điện",
+      "Thiết lập các đường hầm VPN trên mạng",
+      "Quản lý công suất phát của laser"
+    ],
+    answer: "Hỗ trợ giám sát kết nối cung cấp nhận dạng, giám sát hiệu năng BER, truyền các chỉ thị báo cảnh và cung cấp các kênh truyền thông đến các điểm kết cuối."
+  },
+  {
+    question: "Chức năng của lớp OPU là gì?",
+    options: [
+      "Điều chỉnh các tín hiệu khách hàng với các khung OTN (là lớp con của ODU)",
+      "Thực hiện sửa lỗi hướng thuận FEC cho toàn bộ khung",
+      "Quản lý việc ghép bước sóng WDM",
+      "Giám sát lỗi đường truyền vật lý"
+    ],
+    answer: "điều chỉnh các tín hiệu khách hàng với các khung OTN (là lớp con của ODU)"
+  },
+  {
+    question: "Cấu trúc khung kênh quang OTN bao gồm những phần chính nào?",
+    options: [
+      "Mào đầu kênh quang (OCh OH), Tải trọng khách hàng (Client) và Sửa lỗi hướng thuận FEC",
+      "Chỉ bao gồm phần tải trọng dữ liệu (Payload)",
+      "Mào đầu IP, dữ liệu TCP và phần kiểm tra lỗi CRC",
+      "Preamble, địa chỉ MAC nguồn/đích và dữ liệu"
+    ],
+    answer: "Mào đầu kênh quang (OCh OH), Tải trọng khách hàng (Client) và Sửa lỗi hướng thuận FEC."
+  },
+  {
+    question: "Khung OPU-k có cấu trúc như thế nào?",
+    options: [
+      "Bao gồm các phần: Tiêu đề OPU-k , tải tin người dùng",
+      "Bao gồm: FAS, MFAS và FEC",
+      "Bao gồm: Tiêu đề ODU, Tiêu đề OTU và Payload",
+      "Chỉ bao gồm phần sửa lỗi FEC"
+    ],
+    answer: "Bao gồm các phần: Tiêu đề OPU-k , tải tin người dùng."
+  },
+  {
+    question: "Khung OTU-k có cấu trúc như thế nào?",
+    options: [
+      "Bao gồm các phần: FAS/MFAS, Tiêu đề OTU-k, Tiêu đề ODU-k, tiêu đề OPU-k, tải tin người dùng, FEC",
+      "Chỉ bao gồm tải tin người dùng và FEC",
+      "Bao gồm tiêu đề OPU-k và tải tin người dùng",
+      "Bao gồm mào đầu đoạn và mào đầu đường"
+    ],
+    answer: "Bao gồm các phần: FAS/MFAS, Tiêu đề OTU-k, Tiêu đề ODU-k, tiêu đề OPU-k, tải tin người dùng, FEC."
+  },
+  {
+    question: "Có bao nhiêu cách để tăng dung lượng truyền dẫn trên 1 sợi quang?",
+    options: [
+      "2",
+      "5",
+      "10",
+      "1"
+    ],
+    answer: "2"
+  },
+  {
+    question: "10 bit giá trị con trỏ AU-4 khi không chèn là 0100111000. Tìm cấu trúc 10 bit giá trị con trỏ trong khung liền sau khi chèn dương:",
+    options: [
+      "1110010010",
+      "0000000000",
+      "1111111111",
+      "0100111001"
+    ],
+    answer: "1110010010"
+  },
+  {
+    question: "10 bit giá trị con trỏ AU-4 khi không chèn là 0100111000. Tìm cấu trúc 10 bít giá trị con trỏ trong khung liền sau khi chèn âm:",
+    options: [
+      "0100110111",
+      "1110011111",
+      "1010101010",
+      "0011001100"
+    ],
+    answer: "0100110111"
+  },
+  {
+    question: "Nhận định nào sau đây là đúng về cấu trúc khung OPU-k:",
+    options: [
+      "4 dòng x 3810 cột",
+      "4 dòng x 4080 cột",
+      "4 dòng x 3824 cột",
+      "9 dòng x 270 cột"
+    ],
+    answer: "4 dòng x 3810 cột"
+  },
+  {
+    question: "Nhận định nào sau đây là đúng về cấu trúc khung ODU-k:",
+    options: [
+      "4 dòng x 3824 cột",
+      "4 dòng x 3810 cột",
+      "4 dòng x 4080 cột",
+      "9 dòng x 261 cột"
+    ],
+    answer: "4 dòng x 3824 cột"
+  },
+  {
+    question: "Nhận định nào sau đây là đúng về cấu trúc khung OTU-k:",
+    options: [
+      "4 dòng x 4080 cột",
+      "4 dòng x 3810 cột",
+      "4 dòng x 3824 cột",
+      "270 dòng x 9 cột"
+    ],
+    answer: "4 dòng x 4080 cột"
+  },
+  {
+    question: "Giá trị k trong cấu trúc khung OPU-k, ODU-k, OTU-k là:",
+    options: [
+      "Cả 1, 2, 3",
+      "Chỉ 1",
+      "Chỉ 1 và 2",
+      "1, 2, 3 và 4"
+    ],
+    answer: "Cả 1,2,3."
+  },
+  {
+    question: "Hãy xác định tốc độ truyền của tín hiệu OTU-1 khi biết chu kỳ khung là 48,971 us:",
+    options: [
+      "2,667Mbps",
+      "155 Mbps",
+      "10 Gbps",
+      "40 Gbps"
+    ],
+    answer: "2,667Mbps."
+  },
+
 ];
 
 // DOM Elements
@@ -2224,13 +2566,8 @@ function shuffleArray(array) {
 function initQuiz() {
     // Xáo trộn các câu hỏi
     const shuffledQuizData = shuffleArray(quizData);
-    
-    // Xáo trộn các đáp án trong mỗi câu
-    shuffledQuizData.forEach(q => {
-        q.options = shuffleArray(q.options);
-    });
-    
-    shuffledQuizData.forEach((q, i) => q.originalIndex = i);
+  // Gán chỉ số hiển thị theo thứ tự đã xáo
+  shuffledQuizData.forEach((q, i) => q.originalIndex = i);
     renderQuiz(shuffledQuizData);
 }
 
