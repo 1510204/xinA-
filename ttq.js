@@ -2848,13 +2848,206 @@ const quizData = [
   {
     question: "Đặc điểm của phương thức FTTC (Fiber To The Curb) là gì:",
     options: [
-      "Phương thức FTTC được khuyến nghị sử dụng cho các vùng dân cư có mật độ dân tương đối cao.",
+      "Phương thức FTTC được khuyến nghị sử dụng cho các vùng dân cư có mật độ dân tương đối cao",
       "Là một phương thức truy nhập phù hợp cho các khách hàng có nhu cầu đối với các dịch vụ VolP, truy nhập internet tốc độ cao",
       "Với phương thức FTTC, sợi được kéo tới ONU đặt ở via hè",
       "Tất cả các đáp án trên"
     ],
     answer: "Tất cả các đáp án trên"
-  }
+  },
+  {
+    question: "Đặc điểm phương thức FTTB là gì?",
+    options: [
+      "Sợi được kéo tới một ONU đặt trong tòa nhà (< 20km).",
+      "Sử dụng cáp đồng từ tòa nhà đến từng hộ (thường < 10m).",
+      "Khách hàng truy nhập Internet kết nối đến ONU thông qua mạng LAN.",
+      "Cả A và B"
+    ],
+    answer: "Cả A và B"
+  },
+  {
+    question: "Đặc điểm phương thức FTTH/FTTO là gì?",
+    options: [
+      "Sợi quang được kéo tới cơ quan hoặc hộ gia đình, trong đó một ONT được đặt tại thuê bao",
+      "Sợi quang chỉ kéo đến tủ cáp ngoài đường, sau đó dùng cáp đồng.",
+      "Sử dụng hoàn toàn cáp đồng từ tổng đài đến thuê bao.",
+      "Sử dụng sóng vô tuyến để kết nối."
+    ],
+    answer: "Sợi quang được kéo tới cơ quan hoặc hộ gia đình, trong đó một ONT được đặt tại thuê bao"
+  },
+  {
+    question: "Công nghệ truy nhập quang tích cực AON là gì?",
+    options: [
+      "Mạng sử dụng các bộ chia quang thụ động không cần nguồn điện.",
+      "Mạng truy nhập quang để phân phối tín hiệu sử dụng các thiết bị cần nguồn cung cấp",
+      "Mạng chỉ sử dụng kết nối vô tuyến.",
+      "Mạng sử dụng cáp đồng trục."
+    ],
+    answer: "Mạng truy nhập quang để phân phối tín hiệu sử dụng các thiết bị cần nguồn cung cấp"
+  },
+  {
+    question: "Các cấu hình triển khai AON là gì?",
+    options: [
+      "Các cấu hình kết nối điểm - điểm gồm 2 cấu hình chính là kiến trúc Home Run và Active Star Ethernet",
+      "Cấu hình Ring và Bus sử dụng Splitter.",
+      "Cấu hình điểm - đa điểm sử dụng bộ chia quang.",
+      "Cấu hình Mesh lưới."
+    ],
+    answer: "Các cấu hình kết nối điểm - điểm gồm 2 cấu hình chính là kiến trúc Home Run và Active Star Ethernet"
+  },
+  {
+    question: "Công nghệ truy nhập quang thụ động PON là gì?",
+    options: [
+      "Là một kiến trúc mạng điểm-đa điểm, sử dụng các bộ chia quang thụ động (không có nguồn cung cấp)",
+      "Là kiến trúc mạng điểm-điểm sử dụng Switch điện.",
+      "Là mạng sử dụng các thiết bị khuếch đại quang cần nguồn điện.",
+      "Là công nghệ sử dụng sóng Viba."
+    ],
+    answer: "Là một kiến trúc mạng điểm-đa điểm, sử dụng các bộ chia quang thụ động (không có nguồn cung cấp)"
+  },
+  {
+    question: "Các cấu hình triển khai PON là gì?",
+    options: [
+      "Chỉ có cấu hình Star (Hình sao).",
+      "Cấu hình Mesh và Fully Connected.",
+      "Cấu hình Ring, cấu hình Tree, cấu hình Bus",
+      "Cấu hình Home Run."
+    ],
+    answer: "Cấu hình Ring, cấu hình Tree, cấu hình Bus"
+  },
+  {
+    question: "Các chuẩn về PON là gì?",
+    options: [
+      "Ethernet, Token Ring và FDDI.",
+      "Các chuẩn GPON, EPON, BPON và WDM PON",
+      "WiFi 6, 4G LTE và 5G.",
+      "SONET/SDH và ATM."
+    ],
+    answer: "Các chuẩn GPON, EPON, BPON và WDM PON"
+  },
+  {
+    question: "Yêu cầu quan trọng cần thiết cho việc phân tích tuyến FTTx là gì?",
+    options: [
+      "Khoảng cách truyền dẫn và tốc độ dữ liệu.",
+      "Số lượng bộ chia quang và số lượng kênh bước sóng.",
+      "Tỉ lệ lỗi bit (BER) và quỹ suy hao quang.",
+      "Tất cả các yếu tố trên"
+    ],
+    answer: "Tất cả các yếu tố trên"
+  },
+  {
+    question: "Yêu cầu về 'Khoảng cách truyền dẫn' trong phân tích tuyến FTTx liên quan đến yếu tố nào?",
+    options: [
+      "Số lượng thuê bao tối đa của hệ thống.",
+      "Sự suy giảm tín hiệu khi truyền qua quang.",
+      "Độ bảo mật của dữ liệu đường truyền.",
+      "Loại mã hóa tín hiệu được sử dụng."
+    ],
+    answer: "Sự suy giảm tín hiệu khi truyền qua quang."
+  },
+  {
+    question: "Tốc độ dữ liệu hoặc băng thông kênh truyền trong phân tích tuyến FTTx có vai trò gì?",
+    options: [
+      "Xác định dung lượng của tuyến truyền tải",
+      "Xác định độ bền vật lý của cáp quang.",
+      "Quyết định vị trí đặt OLT.",
+      "Tính toán chi phí lắp đặt."
+    ],
+    answer: "Xác định dung lượng của tuyến truyền tải"
+  },
+  {
+    question: "Tỉ lệ lỗi bit (BER) trong phân tích tuyến FTTx ảnh hưởng như thế nào đến mạng?",
+    options: [
+      "Ảnh hưởng đến tốc độ thi công mạng.",
+      "Ảnh hưởng đến sự chính xác của dữ liệu truyền qua mạng",
+      "Quyết định số lượng Splitter cần dùng.",
+      "Không ảnh hưởng gì đến chất lượng dịch vụ."
+    ],
+    answer: "Ảnh hưởng đến sự chính xác của dữ liệu truyền qua mạng"
+  },
+  {
+    question: "Quỹ suy hao quang trong phân tích tuyến FTTx liên quan đến yếu tố nào?",
+    options: [
+      "Sự suy giảm tín hiệu quang trong quá trình truyền tải",
+      "Sự gia tăng công suất do bộ khuếch đại.",
+      "Tốc độ xử lý của chip tại ONU.",
+      "Giao thức đóng gói dữ liệu."
+    ],
+    answer: "Sự suy giảm tín hiệu quang trong quá trình truyền tải"
+  },
+  {
+    question: "Mức độ dự phòng công suất quang mong muốn trong phân tích tuyến FTTx có tác dụng gì?",
+    options: [
+      "Đảm bảo công suất truyền tải khi có sự cố",
+      "Tăng băng thông cho người dùng VIP.",
+      "Giảm tiêu thụ điện năng của thiết bị.",
+      "Tự động ngắt kết nối khi không sử dụng."
+    ],
+    answer: "Đảm bảo công suất truyền tải khi có sự cố"
+  },
+  {
+    question: "Các mức bù công suất do các yếu tố suy giảm hệ thống khác nhau có vai trò gì trong phân tích tuyến FTTx?",
+    options: [
+      "Bù đắp sự suy giảm tín hiệu để đảm bảo chất lượng tín hiệu",
+      "Giảm bớt chi phí mua thiết bị đầu cuối.",
+      "Tăng cường khả năng bảo mật thông tin.",
+      "Thay thế hoàn toàn cho dự trữ hệ thống."
+    ],
+    answer: "Bù đắp sự suy giảm tín hiệu để đảm bảo chất lượng tín hiệu"
+  },
+  {
+    question: "Trong thiết kế tuyến FTTx, dự trữ hệ thống là gì?",
+    options: [
+      "Là kho thiết bị thay thế khi hỏng hóc.",
+      "Dự trữ hệ là một yếu tố an toàn mức công suất quang trong thiết kế tuyến.",
+      "Là lượng cáp quang dự phòng để trong kho.",
+      "Là nguồn điện dự phòng (UPS) cho OLT."
+    ],
+    answer: "Dự trữ hệ là một yếu tố an toàn mức công suất quang trong thiết kế tuyến."
+  },
+  {
+    question: "Cách tính quỹ công suất tuyến FTTx (Suy hao cho phép) là:",
+    options: [
+      "Pt = Ps + Pr",
+      "Pt = Ps / Pr",
+      "Pt = Ps - Pr",
+      "Pt = Ps * Pr"
+    ],
+    answer: "Pt = Ps - Pr"
+  },
+   {
+    question: "Đây là cơ chế bảo vệ nào:",
+    image: "./image/cau22.png",
+    options: [
+      "1 + 1",
+      "1 : 1",
+      "1 : N",
+      "1 : 2"
+    ],
+    answer: "1 + 1"
+  },
+   {
+    question: "Đây là cơ chế bảo vệ nào:",
+    image: "./image/cau23.png",
+    options: [
+      "1 + 1",
+      "1 : 1",
+      "1 : N",
+      "1 : 2"
+    ],
+    answer: "1 : 1"
+  },
+    {
+    question: "Đây là cơ chế bảo vệ nào:",
+    image: "./image/cau24.png",
+    options: [
+      "1 + 1",
+      "1 : 1",
+      "1 : N",
+      "1 : 2"
+    ],
+    answer: "1 : N"
+  },
 
 ];
 
