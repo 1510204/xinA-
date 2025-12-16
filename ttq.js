@@ -601,6 +601,7 @@ const quizData = [
   },
   {
     question: "Hình ảnh sau là kiểu cấu trúc OADM nào?",
+    image: "./image/cau62.png",
     options: [
       "Nối tiếp, đơn kênh",
       "Song song, đơn kênh",
@@ -611,6 +612,7 @@ const quizData = [
   },
   {
     question: "Hình ảnh sau là kiểu cấu trúc OADM nào?",
+    image: "./image/cau63.png",
     options: [
       "Nối tiếp, đơn kênh",
       "Song song, đơn kênh",
@@ -621,6 +623,7 @@ const quizData = [
   },
   {
     question: "Hình ảnh sau là kiểu cấu trúc OADM nào?",
+    image: "./image/cau64.png",
     options: [
       "Nối tiếp, đơn kênh",
       "Song song, đơn kênh",
@@ -631,6 +634,7 @@ const quizData = [
   },
   {
     question: "Hình ảnh sau là kiểu cấu trúc OADM nào?",
+    image: "./image/cau65.png",
     options: [
       "Nối tiếp, đơn kênh",
       "Song song, đơn kênh",
