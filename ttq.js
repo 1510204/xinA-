@@ -1963,7 +1963,7 @@ const quizData = [
       "4",
       "3"
     ],
-    answer: "3"
+    answer: "2"
   },
   {
     question: "Công nghệ mạng WDM bao gồm mấy loại chính:",
