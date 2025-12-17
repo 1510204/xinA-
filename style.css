@@ -227,3 +227,12 @@ h1 {
     from { opacity: 0; transform: translateY(-10px); }
     to { opacity: 1; transform: translateY(0); }
 }
+/* Style cho ảnh nằm TRONG khung giải thích */
+.explanation img {
+    display: block;          /* Xuống dòng */
+    max-width: 100%;         /* Không tràn ra ngoài khung */
+    height: auto;            /* Giữ đúng tỷ lệ ảnh */
+    margin-top: 10px;        /* Cách dòng chữ bên trên */
+    border-radius: 4px;      /* Bo góc nhẹ */
+    border: 1px solid #ddd;  /* Viền mỏng cho ảnh (tùy chọn) */
+}

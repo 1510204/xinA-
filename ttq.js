@@ -108,7 +108,8 @@ const quizData = [
       "2,467 Mbps",
       "2,488 Mbps"
     ],
-    answer: "2,667 Mbps"
+    answer: "2,667 Mbps",
+    explanation: "<br><img src='./image/caubt2.png'>"
   },
   {
     question: "Khi xảy ra chèn dương, các bit I, D trong con trỏ AU-4 PTR sẽ thay đổi:",
@@ -118,7 +119,8 @@ const quizData = [
       "5 bit I không thay đổi",
       "5 bit D không thay đổi"
     ],
-    answer: "5 bit I đảo dấu"
+    answer: "5 bit I đảo dấu",
+    explanation: "Chèn dương là đảo I, giữ nguyên D, I là bit 0, D là bit 1"
   },
   {
     question: "Tuyến NG-SDH hoạt động với tốc độ truyền dẫn 10 Gb/s. Biết khung GFP có trường tải trọng 2000 byte liên tục và bỏ qua trường mào đầu tải trọng mở rộng. Hãy xác định chu kỳ truyền khung (độ dài khung) GFP:",
@@ -161,7 +163,7 @@ const quizData = [
     answer: "2"
   },
   {
-    question: "Xét về mặt chức năng, một mạng có thể được xem như bao gồm mặt phẳng nào",
+    question: "Xét về mặt chức năng, một mạng có thể được xem như bao gồm mặt phẳng nào?",
     options: [
       "Mặt phẳng dữ liệu, mặt phẳng điều khiển, mặt phẳng quản lý",
       "Mặt phẳng điều khiển, mặt phẳng quản lý, mặt phẳng giám sát",
@@ -358,7 +360,9 @@ const quizData = [
       "0 : 783",
       "1 : 783"
     ],
-    answer: "0 : 782"
+    answer: "0 : 782",
+    explanation:"Tổng số nhóm byte trong khung AUG cần đánh địa chỉ là: N(BC) = 261 (byte) x 9 : 3 = 783 nhóm. Đánh số từ 0 đến 782."
+
   },
   {
     question: "Quá trình phát triển mạng ghép theo bước sóng (WDM) có mấy thế hệ?",
@@ -520,7 +524,8 @@ const quizData = [
       "90 - 150 km",
       "80 - 120 km"
     ],
-    answer: "80 - 120 km"
+    answer: "80 - 120 km",
+    explanation: "Slide Chương 3 - Trang 22"
   },
   {
     question: "Phát biểu nào sau đây là sai với 3R?",
@@ -530,7 +535,8 @@ const quizData = [
       "Các bộ chuyển phát khác nhau cần cho các tốc độ bit và các giao thức khác nhau",
       "Các bộ chuyển phát 3R đơn giản có thể hoạt động cho nhiều tốc độ bit và giao thức khách hàng cụ thể"
     ],
-    answer: "Các bộ chuyển phát 3R đơn giản có thể hoạt động cho nhiều tốc độ bit và giao thức khách hàng cụ thể"
+    answer: "Các bộ chuyển phát 3R đơn giản có thể hoạt động cho nhiều tốc độ bit và giao thức khách hàng cụ thể",
+    explanation: "Slide Chương 3 - Trang 24"
   },
   {
     question: "Phát biểu nào sau đây là sai với 1R?",
@@ -540,7 +546,8 @@ const quizData = [
       "Tại mỗi node chỉ có thể có một tầng khuyếch đại EDFA",
       "Cấu hình tương tự theo hướng ngược lại"
     ],
-    answer: "Tại mỗi node chỉ có thể có một tầng khuyếch đại EDFA"
+    answer: "Tại mỗi node chỉ có thể có một tầng khuyếch đại EDFA",
+    explanation: "Slide Chương 3 - Trang 22 <br> Tại mỗi node có thể có nhiều tầng khuyếch đại EDFA"
   },
   {
     question: "Thiết bị xen rẽ quang được viết tắt là ?",
@@ -777,16 +784,6 @@ const quizData = [
     answer: "Sắp xếp dữ liệu tốc độ thấp, các kênh TDM vào các khung đồng bộ để truyền tải qua mạng truyền tải tốc độ cao"
   },
   {
-    question: "Chọn phát biểu sai khi nói về Tầng IP?",
-    options: [
-      "Cung cấp dịch vụ cho các tầng dưới",
-      "Giao thức sử dụng là IP: thực hiện đóng gói dữ liệu, thoại và video thành các IP datagram, sau đó định hướng truyền qua mạng.",
-      "Cung cấp các liên kết phi kết nối và có khả năng tự sửa lỗi",
-      "Cung cấp tất cả các chức năng OAM&P để thiết lập và quản lý các kết nối qua mạng."
-    ],
-    answer: "Cung cấp tất cả các chức năng OAM&P để thiết lập và quản lý các kết nối qua mạng."
-  },
-  {
     question: "Chọn phát biểu sai về tầng SDH?",
     options: [
       "Sắp xếp dữ liệu tốc độ thấp, các kênh TDM vào các khung đồng bộ để truyền tải qua mạng truyền tải tốc độ cao",
@@ -816,7 +813,7 @@ const quizData = [
       "Cấu hình chuyển mạch gói"
     ],
     answer: "Cấu hình cố định",
-    explanation: "<br> WDM điểm-điểm - Cấu hình cố định <br> WDM tái cấu hình - Cấu hình chuyển mạch kênh <br> WDM chuyển mạch - Cấu hình chuyển mạch gói.",
+    explanation: "<br> WDM Điểm-điểm - Cấu hình cố định <br> WDM Tái cấu hình - Cấu hình chuyển mạch kênh <br> WDM Chuyển mạch - Cấu hình chuyển mạch gói.",
   },
   {
     question: "Cấu trúc WDM tái cấu hình có tên gọi khác là?",
@@ -827,7 +824,7 @@ const quizData = [
       "Cấu hình chuyển mạch gói"
     ],
     answer: "Cấu hình chuyển mạch kênh",
-    explanation: "<br> WDM điểm-điểm - Cấu hình cố định <br> WDM tái cấu hình - Cấu hình chuyển mạch kênh <br> WDM chuyển mạch - Cấu hình chuyển mạch gói.",
+    explanation: "<br> WDM Điểm-điểm - Cấu hình cố định <br> WDM Tái cấu hình - Cấu hình chuyển mạch kênh <br> WDM Chuyển mạch - Cấu hình chuyển mạch gói.",
   },
   {
     question: "Cấu trúc WDM chuyển mạch có tên gọi khác là?",
@@ -838,7 +835,7 @@ const quizData = [
       "Cấu hình chuyển mạch gói"
     ],
     answer: "Cấu hình chuyển mạch gói",
-    explanation: "<br> WDM điểm-điểm - Cấu hình cố định <br> WDM tái cấu hình - Cấu hình chuyển mạch kênh <br> WDM chuyển mạch - Cấu hình chuyển mạch gói.",
+    explanation: "<br> WDM Điểm-điểm - Cấu hình cố định <br> WDM Tái cấu hình - Cấu hình chuyển mạch kênh <br> WDM Chuyển mạch - Cấu hình chuyển mạch gói.",
   },
   {
     question: "Hàm trọng số dựa trên số chặng viết tắt là ?",
@@ -961,12 +958,12 @@ const quizData = [
   {
     question: "Có bao nhiêu phương pháp kết chuỗi trong NG-SDH?",
     options: [
-      "2 phương pháp",
-      "3 phương pháp",
-      "4 phương pháp",
-      "5 phương pháp"
+      "2",
+      "3",
+      "4",
+      "5"
     ],
-    answer: "2 phương pháp",
+    answer: "2",
     explanation:"Kết chuỗi liền kề và Kết chuỗi ảo"
   },
   {
@@ -987,7 +984,8 @@ const quizData = [
       "Thiết bị lặp (Regenerator)",
       "Tất cả các thiết bị trên tuyến"
     ],
-    answer: "Thiết bị đầu cuối (Path Termination)"
+    answer: "Thiết bị đầu cuối (Path Termination)",
+    explanation: "Slide chương 2 - Trang 28"
   },
   {
     question: "Các chức năng chính của LCAS là gì?",
@@ -1038,16 +1036,6 @@ const quizData = [
       "Mạng cây"
     ],
     answer: "Mạng lưới"
-  },
-  {
-    question: "Cho kiến trúc topo mạng quang có 8 nút (A, B, C, D, E, F, G và H)... Khi xác định đường đi từ nút A đến D, kết quả nào sau đây là sai khi được tính bởi hàm trọng số dựa trên tổng số bước song và số bước song sẵn có (TAW):",
-    options: [
-      "0,181 cho ABCD",
-      "0,458 cho AFD",
-      "0,196 cho AGHD",
-      "0,25 cho AED"
-    ],
-    answer: "0,181 cho ABCD"
   },
   {
     question: "Trong những câu dưới đây, câu nào đúng cho dịch vụ hướng kết nối",
@@ -1151,14 +1139,15 @@ const quizData = [
     answer: "Kênh giám sát OSC"
   },
   {
-    question: "Trong bài toán RWA của mạng OCS, điều kiện những kết nối chia sẻ chung một sợi quang phải sử dụng những bước sóng khác nhau gọi là",
+    question: "Trong bài toán RWA của mạng OCS, điều kiện những kết nối chia sẻ chung một sợi quang phải sử dụng những bước sóng khác nhau gọi là:",
     options: [
       "Ràng buộc giới hạn số bước sóng trong mạng quang",
       "Ràng buộc về tính liên tục bước sóng",
       "Ràng buộc về gán kênh riêng biệt",
       "Ràng buộc về tối ưu hóa việc sử dụng tài nguyên mạng"
     ],
-    answer: "Ràng buộc về gán kênh riêng biệt"
+    answer: "Ràng buộc về gán kênh riêng biệt",
+    explanation: "Ràng buộc về gán kênh riêng biệt (Distinct Wavelength Constraint): Hai kết nối ánh sáng (lightpath) khác nhau nếu đi qua cùng một sợi quang vật lý thì bắt buộc phải được gán các bước sóng khác nhau"
   },
   {
     question: "Khái niệm tuyến quang (lightpath) trong chuyển mạch kênh quang OCS là",
@@ -1258,7 +1247,8 @@ const quizData = [
       "Hàng 2 – 4, cột 1 – 14",
       "Hàng 1 – 4, cột 15, 16"
     ],
-    answer: "Hàng 1, cột 1 – 7"
+    answer: "Hàng 1, cột 1 – 7",
+    explanation: "Slide Chương 2"
   },
   {
     question: "Mào đầu đồng bộ khung OPU OH nằm ở đầu trong mào đầu kênh quang (Och OH):",
@@ -1403,7 +1393,7 @@ const quizData = [
     explanation: "<br> - Lớp kênh quang (OCh) <br> - Lớp đoạn ghép kênh quang (OMS) <br> - Lớp đoạn truyền dẫn quang (OTS)"
   },
   {
-    question: "Giao thức của mặt phẳng dữ liệu là",
+    question: "Giao thức của mặt phẳng dữ liệu là:",
     options: [
       "Quản lý kết nối giám sát hiệu năng và tăng Cường thời gian sống sót của mạng",
       "Truyền tải dữ liệu qua mạng và tăng cường thời gian sống sót của mạng",
@@ -1420,7 +1410,8 @@ const quizData = [
       "2",
       "4"
     ],
-    answer: "2"
+    answer: "2",
+    explanation: "<br> - Dịch vụ kết nối (Connection-oriented service) <br> - Dịch vụ không kết nối (Connectionless service)"
   },
   {
     question: "Xét về mặt chức năng mỗi mạng có thể được xem bao gồm những mặt phẳng nào?",
@@ -1433,7 +1424,7 @@ const quizData = [
     answer: "Mặt phẳng dữ liệu mặt phẳng điều khiển mặt phẳng quản lý"
   },
   {
-    question: "Trong quản lý mạng quang quản lý lỗi được hiểu là",
+    question: "Trong quản lý mạng quang quản lý lỗi được hiểu là:",
     options: [
       "Giám sát và quản lý các tham số hiệu năng",
       "Phát hiện sự cố và cô lập thành phần lỗi",
@@ -1443,7 +1434,7 @@ const quizData = [
     answer: "Phát hiện sự cố và cô lập thành phần lỗi"
   },
   {
-    question: "Tiêu chí nào là quan trọng nhất để đánh giá khả năng Bảo vệ và phục hồi của mạng Quang",
+    question: "Tiêu chí nào là quan trọng nhất để đánh giá khả năng bảo vệ và phục hồi của mạng quang",
     options: [
       "Thời gian phục hồi mạng nhanh nhất",
       "Lưu lượng chuyển tài bị mất là nhỏ nhất",
@@ -1453,7 +1444,7 @@ const quizData = [
     answer: "Thời gian phục hồi mạng nhanh nhất"
   },
   {
-    question: "Kiến trúc mạng quang WDM gồm mấy thành phần chính",
+    question: "Kiến trúc mạng quang WDM gồm mấy thành phần chính?",
     options: [
       "2",
       "5",
@@ -1509,7 +1500,7 @@ const quizData = [
       "Sử dụng định tuyến động từng chặng",
       "sử dụng giao thức định tuyến nội miền (OSPF hoặc IS - IS) để tìm đường mới và cáp nhật bản định tuyến",
       "Sử dụng giao thức cây mở rộng giao thức cây mở rộng nhanh hoặc giao thức APS cho chuyển mạch bảo vệ tuyến liền mạch bảo vệ cho mạng vòng",
-      "Sử dụng giao thức bảo vệ chuyển mạch định tuyến nhanh Để tạo đường hầm dự phòng"
+      "Sử dụng giao thức bảo vệ chuyển mạch định tuyến nhanh để tạo đường hầm dự phòng"
     ],
     answer: "Sử dụng giao thức cây mở rộng giao thức cây mở rộng nhanh hoặc giao thức APS cho chuyển mạch bảo vệ tuyến liền mạch bảo vệ cho mạng vòng"
   },
@@ -1567,8 +1558,8 @@ const quizData = [
     question: "Có những giải pháp nào để tăng dung lượng truyền dẫn trên một sợi quang?",
     options: [
       "Tăng tốc độ bit (TDM) và Ghép kênh theo bước sóng (WDM)",
-      "Chỉ tăng tốc độ bit bằng phương pháp ghép kênh phân chia thời gian (TDM)",
-      "Chỉ sử dụng phương pháp ghép kênh theo bước sóng quang (WDM)",
+      "Chỉ tăng tốc độ bit bằng phương pháp Ghép kênh phân chia thời gian (TDM)",
+      "Chỉ sử dụng phương pháp Ghép kênh theo bước sóng quang (WDM)",
       "Sử dụng nhiều sợi quang song song (SDM) thay vì ghép kênh"
     ],
     answer: "Tăng tốc độ bit (TDM) và Ghép kênh theo bước sóng (WDM)"
@@ -1621,17 +1612,18 @@ const quizData = [
       "Quay lại sử dụng công nghệ DSL trên cáp đồng",
       "Chỉ sử dụng kết nối điểm - điểm (P2P)"
     ],
-    answer: "Sử dụng mạng quang thụ động (PON)"
+    answer: "Sử dụng mạng quang thụ động (PON)",
+    explanation: "Slide Chương 6"
   },
   {
     question: "Hiệu năng mạng truyền thông quang bao gồm những loại hiệu năng nào?",
     options: [
-      "Hiệu năng lưu lượng, hiệu năng dịch vụ và hiệu năng liên kết",
-      "Hiệu năng phần cứng, hiệu năng phần mềm và hiệu năng người dùng",
-      "Hiệu năng quang, hiệu năng điện và hiệu năng cơ khí",
-      "Hiệu năng phát, hiệu năng thu và hiệu năng trung gian"
+      "Hiệu năng lưu lượng, Hiệu năng dịch vụ và Hiệu năng liên kết",
+      "Hiệu năng phần cứng, Hiệu năng phần mềm và Hiệu năng người dùng",
+      "Hiệu năng quang, Hiệu năng điện và Hiệu năng cơ khí",
+      "Hiệu năng phát, Hiệu năng thu và Hiệu năng trung gian"
     ],
-    answer: "Hiệu năng lưu lượng, hiệu năng dịch vụ và hiệu năng liên kết"
+    answer: "Hiệu năng lưu lượng, Hiệu năng dịch vụ và Hiệu năng liên kết"
   },
   {
     question: "Hiệu năng mạng truyền thông quang được đánh giá qua những thông số đo hiệu năng nào?",
@@ -1741,7 +1733,8 @@ const quizData = [
       "Để chuyển đổi tín hiệu từ quang sang điện",
       "Để giám sát lỗi bit trên đường truyền vật lý"
     ],
-    answer: "Để quản lý phân bổ băng thông của tuyến VCAT"
+    answer: "Để quản lý phân bổ băng thông của tuyến VCAT",
+    explanation: "Slide Chương 2"
   },
   {
     question: "Cấu tạo của khối AU-4 bao gồm?",
@@ -1751,7 +1744,8 @@ const quizData = [
       "Container C-4 và mào đầu đoạn",
       "Chỉ bao gồm vùng tải trọng"
     ],
-    answer: "VC-4 và con trỏ AU-4"
+    answer: "VC-4 và con trỏ AU-4",
+    explanation: " Trong Chương 1 và 2 <br> - VC-4 (Virtual Container 4) bao gồm Container C-4 và mào đầu đường (POH) <br> - AU-4 (Administrative Unit 4) là đơn vị quản trị được tạo thành bởi VC-4 cộng với con trỏ AU-4 (AU-4 Pointer). Con trỏ này dùng để chỉ vị trí bắt đầu của VC-4 trong khung STM-1."
   },
   {
     question: "Báo hiệu trong mạng quang được thực hiện tại các lớp:",
@@ -1934,7 +1928,8 @@ const quizData = [
       "Mô hình điều khiển xếp chồng (Overlay)",
       "Tất cả mô hình trên"
     ],
-    answer: "Mô hình điều khiển xếp chồng (Overlay)"
+    answer: "Mô hình điều khiển xếp chồng (Overlay)",
+    explanation: "Slide Chương 4 - Trang 17 <br> bonus Giao diện ASON: Giao diện Người sử dụng-Mạng (UNI)"
   },
   {
     question: "Một mạng IP/WDM có thể hỗ trợ mấy mô hình dịch vụ chính:",
@@ -1985,7 +1980,8 @@ const quizData = [
       "Sử dụng định tuyến động, từng chặng. Khi mạng gặp sự cố, giao thức định tuyến hoạt động và cập nhật các bảng định tuyến tại mỗi bộ định tuyến",
       "Sử dụng định tuyến tĩnh, thiết lập sẵn tuyến bảo vệ cho tuyến hoạt động"
     ],
-    answer: "Sử dụng định tuyến động, từng chặng. Khi mạng gặp sự cố, giao thức định tuyến hoạt động và cập nhật các bảng định tuyến tại mỗi bộ định tuyến"
+    answer: "Sử dụng định tuyến động, từng chặng. Khi mạng gặp sự cố, giao thức định tuyến hoạt động và cập nhật các bảng định tuyến tại mỗi bộ định tuyến",
+    explanation:"Slide Chương 5 - Trang 15"
   },
   {
     question: "Có các cơ chế duy trì mạng nào:",
@@ -2015,7 +2011,8 @@ const quizData = [
       "12,86 dB",
       "12,56 dB"
     ],
-    answer: "19,56 dB" // Loss = 10*log(64) + 1.5 = 18.06 + 1.5 = 19.56 dB.
+    answer: "19,56 dB", // Loss = 10*log(64) + 1.5 = 18.06 + 1.5 = 19.56 dB.
+    explanation: "Suy hao lý thuyết của splitter 1:64 là 10*log(64) = 18.06 dB. Cộng thêm suy hao vượt 1.5 dB, tổng suy hao là 19.56 dB."
   },
   {
     question: "Giải pháp bảo vệ chủ yếu trong lớp liên kết Ethernet là:",
@@ -2267,7 +2264,8 @@ const quizData = [
       "Là mạng truy nhập không dây băng rộng",
       "Là mạng cục bộ sử dụng cáp đồng trục"
     ],
-    answer: "Là mạng hướng kết nối gồm một tập mạng quang được kết nối bởi liên kết sợi quang"
+    answer: "Là mạng hướng kết nối gồm một tập mạng quang được kết nối bởi liên kết sợi quang",
+    explanation: "OTN (Optical Transport Network) là mạng hướng kết nối gồm một tập các phần tử mạng quang được kết nối bởi các liên kết sợi quang, cung cấp khả năng truyền tải, ghép kênh quang, định tuyến, quản lý, giám sát hiệu năng và khôi phục lỗi của các kênh quang mang dữ liệu người dùng."
   },
   {
     question: "Ưu điểm của OTN so với công nghệ NG-SDH hiện tại là gì?",
@@ -2302,12 +2300,12 @@ const quizData = [
   {
     question: "Nhận định nào sau đây là đúng về chức năng của lớp OTS?",
     options: [
-      "Quản lý các phân đoạn liên kết sợi quang giữa các phần tử quang như giữa các bộ khuếch đại quang, hoặc các bộ khuếch đại quang và các bộ ghép kênh WDM",
+      "Quản lý các phân đoạn liên kết sợi quang giữa các phần tử quang như giữa các bộ khuếch đại quang hoặc các bộ khuếch đại quang và các bộ ghép kênh WDM",
       "Quản lý luồng dữ liệu khách hàng và đóng gói vào khung",
       "Quản lý việc định tuyến bước sóng trong toàn mạng",
       "Giám sát lỗi bit của tín hiệu điện trước khi chuyển đổi quang"
     ],
-    answer: "Quản lý các phân đoạn liên kết sợi quang giữa các phần tử quang như giữa các bộ khuếch đại quang, hoặc các bộ khuếch đại quang và các bộ ghép kênh WDM"
+    answer: "Quản lý các phân đoạn liên kết sợi quang giữa các phần tử quang như giữa các bộ khuếch đại quang hoặc các bộ khuếch đại quang và các bộ ghép kênh WDM"
   },
   {
     question: "Nhận định nào sau đây là đúng về chức năng của lớp OMS?",
@@ -2693,12 +2691,13 @@ const quizData = [
   {
     question: "Nhược điểm của FTTx là gì?",
     options: [
-      "Chi phí lắp đặt, bảo dưỡng, thiết bị đầu cuối lớn",
-      "Thiết bị đầu cuối còn đắt nên không phải lúc nào cũng phù hợp",
-      "Tốc độ truyền dẫn thấp hơn cáp đồng",
-      "Cả 2 ý đầu tiên đều đúng"
+      "Chi phí lắp đặt, bảo dưỡng, thiết bị đầu cuối lớn (1)",
+      "Thiết bị đầu cuối còn đắt nên không phải lúc nào cũng phù hợp (2)",
+      "Tốc độ truyền dẫn thấp hơn cáp đồng (3)",
+      " (1), (2) đều đúng"
     ],
-    answer: "Cả 2 ý đầu tiên đều đúng"
+    answer: " (1), (2) đều đúng",
+    explanation: "Slide Chương 6 - Trang 6, 12"
   },
   {
     question: "Các ứng dụng của FTTx là gì?",
@@ -2838,7 +2837,8 @@ const quizData = [
       "WiFi 6, 4G LTE và 5G.",
       "SONET/SDH và ATM."
     ],
-    answer: "Các chuẩn GPON, EPON, BPON và WDM PON"
+    answer: "Các chuẩn GPON, EPON, BPON và WDM PON",
+    explanation: "Slide Chương 6 - Trang 24, 25"
   },
   {
     question: "Yêu cầu quan trọng cần thiết cho việc phân tích tuyến FTTx là gì?",
