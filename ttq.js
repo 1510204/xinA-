@@ -961,12 +961,13 @@ const quizData = [
   {
     question: "Có bao nhiêu phương pháp kết chuỗi trong NG-SDH?",
     options: [
-      "2 phương pháp (Kết chuỗi liền kề và Kết chuỗi ảo)",
+      "2 phương pháp",
       "3 phương pháp",
       "4 phương pháp",
       "5 phương pháp"
     ],
-    answer: "2 phương pháp (Kết chuỗi liền kề và Kết chuỗi ảo)"
+    answer: "2 phương pháp",
+    explanation:"Kết chuỗi liền kề và Kết chuỗi ảo"
   },
   {
     question: "LCAS là gì?",
@@ -2336,7 +2337,7 @@ const quizData = [
       "Định tuyến các gói tin dựa trên địa chỉ MAC",
       "Thực hiện khuếch đại tín hiệu quang quang học"
     ],
-    answer: "Cung cấp các kết nối quang giữa các bộ lặp 3R, cung cấp nhận dạng kết nối quang, giám sát hiệu năng BER."
+    answer: "Cung cấp các kết nối quang giữa các bộ lặp 3R, cung cấp nhận dạng kết nối quang, giám sát hiệu năng BER"
   },
   {
     question: "Chức năng của lớp ODU là gì?",
@@ -2346,7 +2347,7 @@ const quizData = [
       "Thiết lập các đường hầm VPN trên mạng",
       "Quản lý công suất phát của laser"
     ],
-    answer: "Hỗ trợ giám sát kết nối cung cấp nhận dạng, giám sát hiệu năng BER, truyền các chỉ thị báo cảnh và cung cấp các kênh truyền thông đến các điểm kết cuối."
+    answer: "Hỗ trợ giám sát kết nối cung cấp nhận dạng, giám sát hiệu năng BER, truyền các chỉ thị báo cảnh và cung cấp các kênh truyền thông đến các điểm kết cuối"
   },
   {
     question: "Chức năng của lớp OPU là gì?",
@@ -2356,7 +2357,7 @@ const quizData = [
       "Quản lý việc ghép bước sóng WDM",
       "Giám sát lỗi đường truyền vật lý"
     ],
-    answer: "điều chỉnh các tín hiệu khách hàng với các khung OTN (là lớp con của ODU)"
+    answer: "Điều chỉnh các tín hiệu khách hàng với các khung OTN (là lớp con của ODU)"
   },
   {
     question: "Cấu trúc khung kênh quang OTN bao gồm những phần chính nào?",
@@ -2442,12 +2443,12 @@ const quizData = [
   {
     question: "Giá trị k trong cấu trúc khung OPU-k, ODU-k, OTU-k là:",
     options: [
-      "Cả 1, 2, 3",
+      "1, 2, 3",
       "Chỉ 1",
       "Chỉ 1 và 2",
       "1, 2, 3 và 4"
     ],
-    answer: "Cả 1,2,3."
+    answer: "1, 2, 3"
   },
   {
     question: "Hãy xác định tốc độ truyền của tín hiệu OTU-1 khi biết chu kỳ khung là 48,971 us:",
@@ -2457,7 +2458,7 @@ const quizData = [
       "10 Gbps",
       "40 Gbps"
     ],
-    answer: "2,667Mbps."
+    answer: "2,667Mbps"
   },
   {
     question: "Những chức năng của điều khiển mạng quang bao gồm:",
@@ -2747,7 +2748,7 @@ const quizData = [
       "Có thể đặt ở phía khách hàng (FTTH/B) hoặc ngoài trời (FTTC)",
       "Tất cả các ý trên đều đúng"
     ],
-    answer: "Tất cả các đáp án trên"
+    answer: "Tất cả các đáp án trên đều đúng"
   },
   {
     question: "Cấu trúc của khối chức năng ONU trong mạng FTTx bao gồm:",
