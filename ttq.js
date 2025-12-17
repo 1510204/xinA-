@@ -2096,16 +2096,6 @@ const quizData = [
     answer: "Cả 3 đáp án trên"
   },
   {
-    question: "Cơ chế bảo vệ nào yêu cầu phải sử dụng giao thức APS (chuyển mạch bảo vệ tự động) để thực thi:",
-    options: [
-      "Cơ chế bảo vệ chia sẻ",
-      "Cả cơ chế bảo vệ chia sẻ và cơ chế bảo vệ dành riêng",
-      "Chỉ trong cơ chế bảo vệ chia sẻ 1:N",
-      "Cơ chế bảo vệ dành riêng"
-    ],
-    answer: "Cơ chế bảo vệ chia sẻ"
-  },
-  {
     question: "Mô hình tham chiếu mạng truy nhập quang có bao nhiêu điểm tham chiếu:",
     options: [
       "2",
@@ -2134,16 +2124,6 @@ const quizData = [
       "Lớp IP"
     ],
     answer: "Lớp NG-SDH, OTN và các lớp quang"
-  },
-  {
-    question: "Cơ chế bảo vệ nào yêu cầu phải sử dụng giao thức APS (chuyển mạch bảo vệ tự động) để thực thi:",
-    options: [
-      "Cả cơ chế bảo vệ chia sẻ và cơ chế bảo vệ dành riêng",
-      "Cơ chế bảo vệ dành riêng",
-      "Chỉ trong cơ chế bảo vệ chia sẻ 1:N",
-      "Cơ chế bảo vệ chia sẻ"
-    ],
-    answer: "Cơ chế bảo vệ chia sẻ"
   },
   {
     question: "Trong PON, các thiết bị quang thụ động nằm ở đâu:",
