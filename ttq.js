@@ -1460,7 +1460,7 @@ const quizData = [
       "3",
       "4"
     ],
-    answer: "5",
+    answer: "4",
     explanation: "<br> - Thiết bị đầu cuối đường quang (OLT)<br> - Thiết bị kết nối chéo quang (OXC) <br> - Thiết bị xen/rẽ quang (OADM) <br> - Thiết bị khuếch đại đường quang (OA) và tái sinh (Reg)"
   },
   {
