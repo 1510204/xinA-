@@ -17,7 +17,8 @@ const quizData = [
       "3",
       "4"
     ],
-    answer: "3"
+    answer: "3",
+    explanation: "<br>- Giai đoạn IP/ATM/SDH/WDM <br>- Giai đoạn IP/SDH/WDM <br>- Giai đoạn IP/WDM"
   },
   {
     question: "Định dạng của GFP gồm:",
@@ -330,7 +331,7 @@ const quizData = [
     answer: "Cả 2 đáp án B và C"
   },
   {
-    question: "10 bit giá trị con trỏ AU-4 khi không chèn là 0100111000. Tìm cấu trúc 10 bit giá trị con trỏ trong khung chèn dương:",
+    question: "10 bit giá trị con trỏ AU-4 khi không chèn là 0100111000. Tìm cấu trúc 10 bit giá trị con trỏ trong khung chèn dương? (Chèn dương là đảo I, giữ nguyên D, I là bit 0, D là bit 1):",
     options: [
       "0100111001",
       "IDIDIDIDID",
@@ -340,7 +341,7 @@ const quizData = [
     answer: "1110010010"
   },
   {
-    question: "10 bit giá trị con trỏ AU-4 khi không chèn là 0100111000. Tìm cấu trúc 10 bit giá trị con trỏ trong khung chèn âm:",
+    question: "10 bit giá trị con trỏ AU-4 khi không chèn là 0100111000. Tìm cấu trúc 10 bit giá trị con trỏ trong khung chèn âm? Chèn âm là đảo D, giữ nguyên I, I là bit 0, D là bit 1",
     options: [
       "0100111001",
       "IDIDIDIDID",
@@ -350,7 +351,7 @@ const quizData = [
     answer: "0001101101"
   },
   {
-    question: "10 bit giá trị con trỏ AU-4 khi không chèn là 0100111000. Tìm cấu trúc 10 bit giá trị con trỏ trong kung liền sau khung chèn âm:",
+    question: "10 bit giá trị con trỏ AU-4 khi không chèn là 0100111000. Tìm cấu trúc 10 bit giá trị con trỏ trong khung liền sau khung chèn âm? (Đổi sang hệ 10 sau đó giảm 1 đơn vị, rồi chuyển lại về hệ nhị phân):",
     options: [
       "0100111001",
       "0100110111",
@@ -447,7 +448,8 @@ const quizData = [
       "4",
       "5"
     ],
-    answer: "3"
+    answer: "3",
+    explanation: "<br>- UNI (User Network Interface) <br> - ANI (Access Network Interface) <br> - INI (Interconnect Network Interface)"
   },
   {
     question: "Các giao diện mạng quang là?",
@@ -467,7 +469,8 @@ const quizData = [
       "4",
       "5"
     ],
-    answer: "2"
+    answer: "2",
+    explanation: "<br>- Chuyển mạch bước sóng (Wavelength Switching)<br>- Chuyển mạch gói quang (Optical Packet Switching)",
   },
   {
     question: "Các phương pháp chuyển mạch phổ biến là?",
@@ -811,7 +814,8 @@ const quizData = [
       "4",
       "5"
     ],
-    answer: "5"
+    answer: "5",
+    explanation: "<br> Điểm - điểm <br> Đường thẳng <br> Vòng <br> Lưới <br> Hình sao",
   },
   {
     question: "Cấu trúc WDM điểm-điểm có tên gọi khác là?",
@@ -1381,19 +1385,19 @@ const quizData = [
       "GMPLS",
       "IPSEC",
       "OSPF-TE/ISIS-TE",
-      "RSVP,RSVP mở rộng LDP"
+      "RSVP, RSVP mở rộng LDP"
     ],
-    answer: "RSVP,RSVP mở rộng LDP"
+    answer: "RSVP, RSVP mở rộng LDP"
   },
   {
     question: "Dữ liệu trong mạng quang được thực hiện tại lớp",
     options: [
       "Lớp ứng dụng",
-      "Lớp vật lý lớp điều khiển mạng",
-      "Lớp dữ liệu lớp thực hiện mạng",
+      "Lớp vật lý, lớp điều khiển mạng",
+      "Lớp dữ liệu, lớp thực hiện mạng",
       "Lớp liên kết dữ liệu, lớp điều khiển mạng"
     ],
-    answer: "Lớp vật lý lớp điều khiển mạng"
+    answer: "Lớp vật lý, lớp điều khiển mạng"
   },
   {
     question: "Tầng WDM gồm mấy lớp",
@@ -1403,7 +1407,8 @@ const quizData = [
       "1",
       "4"
     ],
-    answer: "3"
+    answer: "3",
+    explanation: "<br> - Lớp kênh quang (OCh) <br> - Lớp đoạn ghép kênh quang (OMS) <br> - Lớp đoạn truyền dẫn quang (OTS)"
   },
   {
     question: "Giao thức của mp dữ liệu là",
@@ -1416,7 +1421,7 @@ const quizData = [
     answer: "Truyền tải dữ liệu trong mạng"
   },
   {
-    question: "Dịch vụ mạng Quang gồm mấy phần chính",
+    question: "Dịch vụ mạng quang gồm mấy phần chính",
     options: [
       "3",
       "1",
@@ -1434,16 +1439,6 @@ const quizData = [
       "Mặt phẳng dữ liệu mặt phẳng điều khiển mặt phẳng giám sát"
     ],
     answer: "Mặt phẳng dữ liệu mặt phẳng điều khiển mặt phẳng quản lý"
-  },
-  {
-    question: "Mô hình kết nối mạng IP/WDM gồm mấy loại chính",
-    options: [
-      "4",
-      "3",
-      "1",
-      "2"
-    ],
-    answer: "3"
   },
   {
     question: "Trong quản lý mạng quang quản lý lỗi được hiểu là",
@@ -1466,14 +1461,15 @@ const quizData = [
     answer: "Thời gian phục hồi mạng nhanh nhất"
   },
   {
-    question: "Kiến trúc mạng quang WDM gồm mấy tp chính",
+    question: "Kiến trúc mạng quang WDM gồm mấy thành phần chính",
     options: [
       "2",
       "5",
       "3",
       "4"
     ],
-    answer: "3"
+    answer: "5",
+    explanation: "<br> - Thiết bị đầu cuối đường quang (OLT)<br> - Thiết bị kết nối chéo quang (OXC) <br> - Thiết bị xen/rẽ quang (OADM) <br> - Thiết bị khuếch đại đường quang (OA) và tái sinh (Reg)"
   },
   {
     question: "Chức năng chính của mặt phẳng quản lý và mặt phẳng điều khiển là",
@@ -1833,7 +1829,8 @@ const quizData = [
       "3",
       "4"
     ],
-    answer: "2"
+    answer: "3",
+    explanation: "<br>IP/WDM Điểm - điểm <br>IP/WDM Tái cấu hình <br>IP/WDM Chuyển mạch <br>"
   },
   {
     question: "Trong các cấu trúc OADM dưới đây, cấu trúc nào luôn làm tăng suy hao khi xen/rẽ thêm bước sóng:",
@@ -1886,14 +1883,15 @@ const quizData = [
     answer: "Giám sát và quản lý các tham số hiệu năng mạng"
   },
   {
-    question: "Kiến trúc mạng quang WDM gồm có mấy loại chính:",
+    question: "Kiến trúc mạng quang WDM gồm có mấy loại chính",
     options: [
       "3",
       "4",
       "2",
       "5"
     ],
-    answer: "3" // Thường bao gồm: Điểm-Điểm (Point-to-Point), Ring, Mesh.
+    answer: "3",
+    explanation: "<br>- Điểm-điểm (cấu hình cố định) <br> - Tái cấu hình (cấu hình chuyển mạch kênh) <br> - Chuyển mạch (cấu hình chuyển mạch gói)."
   },
   {
     question: "Các giao diện mạng quang chủ yếu là:",
@@ -1916,14 +1914,15 @@ const quizData = [
     answer: "Chịu trách nhiệm về truyền tải dữ liệu qua mạng"
   },
   {
-    question: "Trong kiến trúc truyền tải IP/WDM bao gồm mấy lớp:",
+    question: "Trong kiến trúc truyền tải IP/WDM bao gồm mấy lớp (tầng):",
     options: [
       "1",
       "3",
       "2",
       "4"
     ],
-    answer: "2" // Lớp IP và Lớp Quang (Optical Layer).
+    answer: "2",
+    explanation: "<br>- Tầng IP <br>- Tầng ATM <br>- Tầng SDH <br>- Tầng WDM <br> ! Có tất cả 4 tầng nhưng chọn đáp án còn tù theo giai đoạn phát triển: Giai đoạn 1: IP/ATM/SDH/WDM = 4 lớp; Giai đoạn 2: IP/SDH/WDM = 3 lớp; Giai đoạn 3: IP/WDM = 2 lớp. </br> ! Đề không nói gì về giai đoạn thì hiểu là giai đoạn hiện tại là Giai đoạn 3 nên sẽ chọn 2 lớp."
   },
   {
     question: "Xét về mặt chức năng, một mạng có thể được xem như bao gồm mặt phẳng nào:",
@@ -1943,7 +1942,7 @@ const quizData = [
       "Mô hình điều khiển xếp chồng (Overlay)",
       "Tất cả mô hình trên"
     ],
-    answer: "Tất cả mô hình trên"
+    answer: "Mô hình điều khiển xếp chồng (Overlay)"
   },
   {
     question: "Một mạng IP/WDM có thể hỗ trợ mấy mô hình dịch vụ chính:",
@@ -1953,7 +1952,8 @@ const quizData = [
       "4",
       "1"
     ],
-    answer: "2"// Thường là: Permanent (Tĩnh), Soft-Permanent (Bán tĩnh), Switched (Chuyển mạch).
+    answer: "2",
+    explanation: "<br>- Mô hình dịch vụ miền <br>- Mô hình dịch vụ hợp nhất"
   },
   {
     question: "Mô hình định cỡ thống kê gồm có mấy mô hình chính:",
@@ -2393,7 +2393,7 @@ const quizData = [
       "Mào đầu IP, dữ liệu TCP và phần kiểm tra lỗi CRC",
       "Preamble, địa chỉ MAC nguồn/đích và dữ liệu"
     ],
-    answer: "Mào đầu kênh quang (OCh OH), Tải trọng khách hàng (Client) và Sửa lỗi hướng thuận FEC."
+    answer: "Mào đầu kênh quang (OCh OH), Tải trọng khách hàng (Client) và Sửa lỗi hướng thuận FEC"
   },
   {
     question: "Khung OPU-k có cấu trúc như thế nào?",
@@ -2413,7 +2413,7 @@ const quizData = [
       "Bao gồm tiêu đề OPU-k và tải tin người dùng",
       "Bao gồm mào đầu đoạn và mào đầu đường"
     ],
-    answer: "Bao gồm các phần: FAS/MFAS, Tiêu đề OTU-k, Tiêu đề ODU-k, tiêu đề OPU-k, tải tin người dùng, FEC."
+    answer: "Bao gồm các phần: FAS/MFAS, Tiêu đề OTU-k, Tiêu đề ODU-k, tiêu đề OPU-k, tải tin người dùng, FEC"
   },
   {
     question: "Có bao nhiêu cách để tăng dung lượng truyền dẫn trên 1 sợi quang?",
@@ -3001,7 +3001,7 @@ const quizData = [
 
 ];
 
-/// DOM Elements
+// DOM Elements
 const quizContainer = document.getElementById('quiz-container');
 const submitBtn = document.getElementById('submit-btn');
 const resultDiv = document.getElementById('result');
@@ -3023,9 +3023,7 @@ function shuffleArray(array) {
 
 // Initialize Quiz
 function initQuiz() {
-    // Xáo trộn các câu hỏi
     const shuffledQuizData = shuffleArray(quizData);
-    // Gán chỉ số hiển thị theo thứ tự đã xáo
     shuffledQuizData.forEach((q, i) => q.originalIndex = i);
     renderQuiz(shuffledQuizData);
 }
@@ -3043,36 +3041,30 @@ function renderQuiz(questions) {
         const questionBlock = document.createElement('div');
         questionBlock.className = 'question-block';
 
-        // 1. Hiển thị nội dung câu hỏi
+        // 1. Text câu hỏi
         const questionText = document.createElement('div');
         questionText.className = 'question';
         questionText.innerText = `${item.originalIndex + 1}. ${item.question}`;
         questionBlock.appendChild(questionText);
 
-        // --- BẮT ĐẦU PHẦN XỬ LÝ ẢNH (MỚI THÊM) ---
-        // Kiểm tra xem câu hỏi có thuộc tính image không
+        // 2. Ảnh (Nếu có)
         if (item.image) {
             const imgElement = document.createElement('img');
             imgElement.src = item.image;
-            imgElement.className = 'question-image'; // Class để bạn style thêm trong CSS nếu muốn
+            imgElement.className = 'question-image'; 
             
-            // Style cơ bản để ảnh hiển thị gọn gàng
+            // Style inline cho ảnh (hoặc dùng CSS class .question-image)
             imgElement.style.maxWidth = '100%';
             imgElement.style.display = 'block';
             imgElement.style.marginTop = '10px';
-            imgElement.style.marginBottom = '10px';
+            imgElement.style.marginBottom = '15px';
             imgElement.style.borderRadius = '5px';
 
-            // Xử lý lỗi: Nếu đường dẫn ảnh sai, ẩn ảnh đi để không hiện icon lỗi
-            imgElement.onerror = function() {
-                this.style.display = 'none';
-            };
-
+            imgElement.onerror = function() { this.style.display = 'none'; };
             questionBlock.appendChild(imgElement);
         }
-        // --- KẾT THÚC PHẦN XỬ LÝ ẢNH ---
 
-        // 2. Hiển thị các lựa chọn
+        // 3. Các lựa chọn
         const optionsDiv = document.createElement('div');
         optionsDiv.className = 'options';
         optionsDiv.dataset.questionIndex = index;
@@ -3084,8 +3076,19 @@ function renderQuiz(questions) {
             optionDiv.addEventListener('click', () => handleOptionClick(optionDiv));
             optionsDiv.appendChild(optionDiv);
         });
-
         questionBlock.appendChild(optionsDiv);
+
+        // 4. Phần Giải Thích (Mới thêm vào) -- Mặc định ẩn
+        if (item.explanation) {
+            const explanationDiv = document.createElement('div');
+            explanationDiv.className = 'explanation';
+            // Nội dung giải thích
+            explanationDiv.innerHTML = `<strong>Giải thích:</strong> ${item.explanation}`;
+            // Ẩn mặc định, sẽ hiện khi handleOptionClick chạy
+            explanationDiv.style.display = 'none'; 
+            questionBlock.appendChild(explanationDiv);
+        }
+
         quizContainer.appendChild(questionBlock);
     });
 }
@@ -3093,24 +3096,39 @@ function renderQuiz(questions) {
 // Handle Option Selection
 function handleOptionClick(selectedOptionEl) {
     const optionsContainer = selectedOptionEl.parentNode;
+    
+    // Nếu đã trả lời rồi thì không làm gì cả
     if (optionsContainer.dataset.answered === 'true') return;
     
+    // Đánh dấu đã trả lời
     optionsContainer.dataset.answered = 'true';
     const questionIndex = parseInt(optionsContainer.dataset.questionIndex);
     const questionData = currentQuestions[questionIndex];
     
     selectedOptionEl.classList.add('selected');
     
+    // Kiểm tra đúng sai
     if (selectedOptionEl.innerText === questionData.answer) {
         selectedOptionEl.classList.add('correct');
     } else {
         selectedOptionEl.classList.add('wrong');
+        // Hiện đáp án đúng
         Array.from(optionsContainer.children).forEach(opt => {
             if (opt.innerText === questionData.answer) {
                 opt.classList.add('correct');
             }
         });
     }
+
+    // --- BẮT ĐẦU: Hiện giải thích ---
+    // Tìm thẻ .explanation nằm cùng cấp với optionsContainer (trong questionBlock)
+    const questionBlock = optionsContainer.parentNode;
+    const explanationDiv = questionBlock.querySelector('.explanation');
+    
+    if (explanationDiv) {
+        explanationDiv.style.display = 'block'; // Hiện lên
+    }
+    // --- KẾT THÚC ---
 }
 
 // Submit Quiz
@@ -3129,9 +3147,13 @@ function submitQuiz() {
             incorrectQuestions.push(item);
         }
         
+        // Vô hiệu hóa click cho tất cả options sau khi nộp bài (đề phòng sót)
         Array.from(optionsContainer.children).forEach(opt => {
             opt.style.pointerEvents = 'none';
         });
+        
+        // (Tùy chọn) Nếu muốn nộp bài mới hiện giải thích cho tất cả câu thì làm ở đây
+        // Nhưng logic hiện tại là hiện ngay khi click từng câu.
     });
 
     resultDiv.innerHTML = `Bạn đã trả lời đúng ${score} / ${currentQuestions.length} câu!`;

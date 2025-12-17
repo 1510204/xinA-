@@ -208,3 +208,22 @@ h1 {
         max-height: 200px; /* Thu nhỏ chiều cao trên điện thoại */
     }
 }
+/* Style cho khung giải thích */
+.explanation {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #e8f4fd; /* Màu nền xanh nhạt */
+    border-left: 5px solid #2196F3; /* Viền trái màu xanh đậm */
+    border-radius: 4px;
+    color: #333;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    display: none; /* Mặc định ẩn đi */
+    animation: fadeIn 0.5s; /* Hiệu ứng hiện ra từ từ */
+}
+
+/* Hiệu ứng mờ dần */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
