@@ -2233,7 +2233,7 @@ const quizData = [
       "Nền tảng bảo vệ mạng quang tự động",
       "Nền tảng quản lý phần tử mạng tập trung"
     ],
-    answer: "Nền tảng cung cấp đa dịch vụ"
+    answer: "Nền tảng cung cấp đa dịch vụ (Multi-Service Provisioning Platform)"
   },
   {
     question: "MSTP là gì?",
@@ -2253,7 +2253,7 @@ const quizData = [
       "Hệ thống bảo mật đa lớp",
       "Giao thức đồng bộ hóa mạng quang"
     ],
-    answer: "Nền tảng chuyển mạch đa dịch vụ"
+    answer: "Nền tảng chuyển mạch đa dịch vụ (Multi-Service Switching Platform)"
   },
   {
     question: "OTN là gì?",
