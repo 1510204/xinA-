@@ -61,16 +61,6 @@ const quizData = [
     answer: "Mạng đô thị và cự li dài"
   },
   {
-    question: "Về cơ bản có bao nhiêu cách để tăng dung lượng truyền dẫn trên một sợi quang",
-    options: [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    answer: "2"
-  },
-  {
     question: "10 bit giá trị con trỏ AU-4 khi không chèn là 0100111000. Tìm cấu trúc 10 bit giá trị con trỏ trong khung liền sau khung chèn dương:",
     options: [
       "0100111001",
@@ -2423,7 +2413,8 @@ const quizData = [
       "10",
       "1"
     ],
-    answer: "2"
+    answer: "2",
+    explanation: " Tăng tốc độ bit (TDM) và Ghép kênh theo bước sóng (WDM)"
   },
   {
     question: "10 bit giá trị con trỏ AU-4 khi không chèn là 0100111000. Tìm cấu trúc 10 bit giá trị con trỏ trong khung liền sau khi chèn dương:",
