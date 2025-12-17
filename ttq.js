@@ -915,7 +915,8 @@ const quizData = [
       "1 : N",
       "N : N"
     ],
-    answer: "1 : N"
+    answer: "1 : N",
+    explanation: "1 : N và 1 : 1 được xếp vào loại Shared (Bảo vệ chia sẻ)."
   },
   {
     question: "Lớp SDH bao gồm những lớp con nào?",
@@ -1912,7 +1913,7 @@ const quizData = [
       "4"
     ],
     answer: "2",
-    explanation: "<br>- Tầng IP <br>- Tầng ATM <br>- Tầng SDH <br>- Tầng WDM <br> ! Có tất cả 4 tầng nhưng chọn đáp án còn tù theo giai đoạn phát triển: Giai đoạn 1: IP/ATM/SDH/WDM = 4 lớp; Giai đoạn 2: IP/SDH/WDM = 3 lớp; Giai đoạn 3: IP/WDM = 2 lớp. </br> ! Đề không nói gì về giai đoạn thì hiểu là giai đoạn hiện tại là Giai đoạn 3 nên sẽ chọn 2 lớp."
+    explanation: "<br>- Tầng IP <br>- Tầng ATM <br>- Tầng SDH <br>- Tầng WDM <br> ! Có tất cả 4 tầng nhưng chọn đáp án còn tùy theo giai đoạn phát triển: Giai đoạn 1: IP/ATM/SDH/WDM = 4 lớp; Giai đoạn 2: IP/SDH/WDM = 3 lớp; Giai đoạn 3: IP/WDM = 2 lớp. </br> ! Đề không nói gì về giai đoạn thì hiểu là giai đoạn hiện tại là Giai đoạn 3 nên sẽ chọn 2 lớp."
   },
   {
     question: "Xét về mặt chức năng, một mạng có thể được xem như bao gồm mặt phẳng nào:",
@@ -2053,7 +2054,8 @@ const quizData = [
       "1:N",
       "1+1"
     ],
-    answer: "1:N" // 1+1 là bảo vệ 1-1 (Dedicated), 1:N là bảo vệ chia sẻ (Shared).
+    answer: "1:N", // 1+1 là bảo vệ 1-1 (Dedicated), 1:N là bảo vệ chia sẻ (Shared).
+    explanation: "1 : N và 1 : 1 được xếp vào loại Shared (Bảo vệ chia sẻ)."
   },
   {
     question: "NG - PON1 có tốc độ hướng lên là:",
@@ -2183,7 +2185,8 @@ const quizData = [
       "N:N",
       "1+1"
     ],
-    answer: "1+1"
+    answer: "1+1",
+    explanation: "1 + 1 được xếp vào loại Dedicated (Bảo vệ dành riêng)."
   },
   {
     question: "Khung STM-1 có cấu trúc như thế nào?",
