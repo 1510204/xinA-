@@ -2403,7 +2403,7 @@ const quizData = [
       "Bao gồm: Tiêu đề ODU, Tiêu đề OTU và Payload",
       "Chỉ bao gồm phần sửa lỗi FEC"
     ],
-    answer: "Bao gồm các phần: Tiêu đề OPU-k , tải tin người dùng."
+    answer: "Bao gồm các phần: Tiêu đề OPU-k , tải tin người dùng"
   },
   {
     question: "Khung OTU-k có cấu trúc như thế nào?",
