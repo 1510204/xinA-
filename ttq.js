@@ -587,7 +587,7 @@ const quizData = [
       "Chỉ có duy nhất một kiểu cấu trúc",
       "Tất cả đáp án trên"
     ],
-    answer: "Tất cả đáp án trên"
+    answer: "Xen hoặc rẽ vĩnh viễn một số kênh lamda cụ thể"
   },
   {
     question: "Các kiểu cấu trúc OADM cố định là?",
@@ -854,64 +854,64 @@ const quizData = [
     answer: "2"
   },
   {
-    question: "Hàm trọng số dựa trên chặng viết tắt là ?",
+    question: "Hàm trọng số dựa trên số chặng viết tắt là ?",
     options: [
-      "HW",
-      "DW",
-      "AW",
-      "TAW"
+      "HW (Hop)",
+      "DW (Distance)",
+      "AW (Available Wavelength)",
+      "TAW (Total Available Wavelength)"
     ],
-    answer: "HW"
+    answer: "HW (Hop)"
   },
   {
     question: "Hàm trọng số dựa trên khoảng cách viết tắt là ?",
     options: [
-      "HW",
-      "DW",
-      "AW",
-      "TAW"
+      "HW (Hop)",
+      "DW (Distance)",
+      "AW (Available Wavelength)",
+      "TAW (Total Available Wavelength)"
     ],
-    answer: "DW"
+    answer: "DW (Distance)"
   },
   {
     question: "Hàm trọng số dựa trên bước sóng sẵn có viết tắt là ?",
     options: [
-      "AW",
-      "HAW",
-      "TAW",
-      "HTAW"
+      "AW (Available Wavelength)",
+      "HAW (Hop and Available Wavelength)",
+      "TAW (Total Available Wavelength)",
+      "HTAW (Hop and Total Available Wavelength)"
     ],
-    answer: "AW"
+    answer: "AW (Available Wavelength)"
   },
   {
     question: "Hàm trọng số dựa trên số bước sóng sẵn có và số chặng viết tắt là ?",
     options: [
-      "AW",
-      "HAW",
-      "TAW",
-      "HTAW"
+      "AW (Available Wavelength)",
+      "HAW (Hop and Available Wavelength)",
+      "TAW (Total Available Wavelength)",
+      "HTAW (Hop and Total Available Wavelength)"
     ],
-    answer: "HAW"
+    answer: "HAW (Hop and Available Wavelength)"
   },
   {
     question: "Hàm dựa trên tổng số bước sóng và số bước sóng sẵn có viết tắt là?",
     options: [
-      "AW",
-      "HAW",
-      "TAW",
-      "HTAW"
+      "AW (Available Wavelength)",
+      "HAW (Hop and Available Wavelength)",
+      "TAW (Total Available Wavelength)",
+      "HTAW (Hop and Total Available Wavelength)"
     ],
-    answer: "TAW"
+    answer: "TAW (Total Available Wavelength)"
   },
   {
     question: "Hàm trọng số dựa trên số chặng, tổng số bước sóng và số bước sóng sẵn có viết tắt là?",
     options: [
-      "AW",
-      "HAW",
-      "TAW",
-      "HTAW"
+      "AW (Available Wavelength)",
+      "HAW (Hop and Available Wavelength)",
+      "TAW (Total Available Wavelength)",
+      "HTAW (Hop and Total Available Wavelength)"
     ],
-    answer: "HTAW"
+    answer: "HTAW (Hop and Total Available Wavelength)"
   },
   {
     question: "Kí hiệu nào cho biết mạng hoạt động ở cơ chế chia sẻ:",
