@@ -2247,7 +2247,7 @@ const quizData = [
       "Giao thức cây bao trùm (Spanning Tree Protocol)",
       "Nền tảng chuyển mạch nhãn đa giao thức"
     ],
-    answer: "Nền tảng truyền tải đa dịch vụ"
+    answer: "Nền tảng truyền tải đa dịch vụ (Multi-Service Transport Platform)"
   },
   {
     question: "MSSP là gì?",
