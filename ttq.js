@@ -7,7 +7,8 @@ const quizData = [
       "4",
       "5"
     ],
-    answer: "2"
+    answer: "2",
+    explanation: "<br> - Thế hệ 1: Mạng quang đơn bước sóng <br>- Thế hệ 2: Mạng quang đa bước sóng"
   },
   {
     question: "Quá trình phát triển IP/WDM được chia ra làm mấy giai đoạn chính ?",
@@ -69,16 +70,6 @@ const quizData = [
       "0001101101"
     ],
     answer: "0100111001"
-  },
-  {
-    question: "Có bao nhiêu phương pháp kết chuỗi trong NG-SDH:",
-    options: [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    answer: "2"
   },
   {
     question: "Nhận định nào sau đây đúng về cấu trúc khung OPU-k:",
@@ -160,7 +151,8 @@ const quizData = [
       "3",
       "4"
     ],
-    answer: "2"
+    answer: "2",
+    explanation: "<br>- Kết chuỗi liên tục (CCAT): Yêu cầu các container phải nằm liền kề nhau và được xử lý như một khối thống nhất trên toàn mạng. <br>- Kết chuỗi ảo (VCAT): Cho phép ghép các container không liền kề thành một luồng dữ liệu logic lớn hơn."
   },
   {
     question: "Xét về mặt chức năng, một mạng có thể được xem như bao gồm mặt phẳng nào?",
@@ -203,16 +195,6 @@ const quizData = [
     answer: "Đỉnh 2: Bước sóng 1 (lamda 0), Đỉnh 1: bước sóng 2 (lamda 1), Đỉnh 3: bước sóng 2 (lamda 1)."
   },
   {
-    question: "Cấu hình mạng chủ yếu trong ASON là:",
-    options: [
-      "Mạng vòng",
-      "Mạng điểm – điểm",
-      "Mạng lưới",
-      "Mạng cây"
-    ],
-    answer: "Mạng lưới"
-  },
-  {
     question: "Các giao thức quan trọng được sử dụng trong SDH thế hệ sau:",
     options: [
       "Thủ tục đóng khung chung (GFP)",
@@ -240,10 +222,10 @@ const quizData = [
       "2",
       "5"
     ],
-    answer: "3"
+    answer: "4"
   },
   {
-    question: "Trong cấu tạo con trỏ AU-4 PtR, các byte chèn âm là",
+    question: "Trong cấu tạo con trỏ AU-4 PtR, các byte chèn âm là:",
     options: [
       "H3 H3 H3",
       "NNNNSS",
@@ -315,9 +297,9 @@ const quizData = [
   {
     question: "Nhận định nào sau đây về Mạng cự li dài là đúng:",
     options: [
-      "Kết nối các nhóm CO trong một thành phố hoặc một vùng",
-      "Kết nối giữa các thành phố hoặc các vùng khác nhau",
-      "Khoảng các giữa các CO khoảng hàng trăm đến hàng ngàn km",
+      "Kết nối các nhóm CO trong một thành phố hoặc một vùng (A)",
+      "Kết nối giữa các thành phố hoặc các vùng khác nhau (B)",
+      "Khoảng các giữa các CO khoảng hàng trăm đến hàng ngàn km (C)",
       "Cả 2 đáp án B và C"
     ],
     answer: "Cả 2 đáp án B và C"
@@ -372,7 +354,8 @@ const quizData = [
       "4",
       "5"
     ],
-    answer: "3"
+    answer: "3",
+    explanation: "<br> - Thế hệ 1: Hệ thống WDM điểm-điểm với các MUX/DEMUX <br> - Thế hệ 2: Hệ thống WDM đa điểm với các OADM và OXC <br> - Thế hệ 3: Mạng quang WDM với chuyển mạch & định tuyến bước sóng"
   },
   {
     question: "Thế hệ 1, hệ thống WDM điểm-điểm với các?",
@@ -567,7 +550,8 @@ const quizData = [
       "Lưới",
       "Tất cả đáp án trên"
     ],
-    answer: "Lưới"
+    answer: "Lưới",
+    explanation: " <br>- OADM Cho phép triển khai các cấu hình đường thẳng và cấuhình vòng <br>- OXC Cho phép triển khai các cấu hình lưới"
   },
   {
     question: "Phát biểu nào sau đây là sai về OADM?",
@@ -651,7 +635,8 @@ const quizData = [
       "4",
       "5"
     ],
-    answer: "3"
+    answer: "3",
+    explanation: "<br>- Partial tunable OADM: Sử dụng kiến trúc song song với các chuyển mạch quang 2x2. <br>- Full tunable OADM: Sử dụng chuyển mạch quang đa cổng lớn. <br>- Fully tunable serial OADM: Sử dụng các OADM kênh đơn có thể điều chỉnh nối tiếp nhau"
   },
   {
     question: "Phát biểu nào sau đây là sai với chuyển mạch điện và các bộ chuyển phát quang (OEO) trong OXC?",
@@ -1018,16 +1003,6 @@ const quizData = [
     answer: "Bài toán thiết kế kiến trúc tuyến quang"
   },
   {
-    question: "Xét về mặt chức năng, một mạng có thể được xem như bao gồm mặt phẳng nào",
-    options: [
-      "Mặt phẳng dữ liệu, mặt phẳng điều khiển, mặt phẳng quản lý",
-      "Mặt phẳng điều khiển, mặt phẳng quản lý, mặt phẳng giám sát",
-      "Mặt phẳng dữ liệu, mặt phẳng quản lý, mặt phẳng giám sát",
-      "Mặt phẳng dữ liệu, mặt phẳng điều khiển, mặt phẳng giám sát"
-    ],
-    answer: "Mặt phẳng dữ liệu, mặt phẳng điều khiển, mặt phẳng quản lý"
-  },
-  {
     question: "Cấu hình mạng chủ yếu trong ASON là:",
     options: [
       "Mạng vòng",
@@ -1212,9 +1187,9 @@ const quizData = [
   {
     question: "Trong mạng PON các thành phần tích cực là:",
     options: [
-      "OLT",
-      "ONU",
-      "Coupler",
+      "OLT (A)",
+      "ONU (B)",
+      "Coupler (C)",
       "Cả 2 đáp án A và B"
     ],
     answer: "Cả 2 đáp án A và B"
@@ -1251,7 +1226,7 @@ const quizData = [
     explanation: "Slide Chương 2"
   },
   {
-    question: "Mào đầu đồng bộ khung OPU OH nằm ở đầu trong mào đầu kênh quang (Och OH):",
+    question: "Mào đầu đồng bộ khung OPU OH nằm ở đâu trong mào đầu kênh quang (Och OH):",
     options: [
       "Hàng 1, cột 1 – 7",
       "Hàng 1, cột 8 – 14",
@@ -1332,16 +1307,6 @@ const quizData = [
     answer: "Thời gian mạng phát hiện lỗi đến khi khôi phục hoàn toàn truyền dẫn"
   },
   {
-    question: "Bảo vệ lớp vật lý trong mạng quang được thực hiện tại ?",
-    options: [
-      "MPLS,Ethernet",
-      "IP",
-      "lớp liên kết dữ liệu",
-      "Lớp NG-SDH, OTN và các lớp quang"
-    ],
-    answer: "Lớp NG-SDH, OTN và các lớp quang"
-  },
-  {
     question: "Điều khiển nào được sử dụng trong mạng ASON ?",
     options: [
       "Điều khiển ngang hàng",
@@ -1382,7 +1347,7 @@ const quizData = [
     answer: "Lớp vật lý, lớp điều khiển mạng"
   },
   {
-    question: "Tầng WDM gồm mấy lớp",
+    question: "Tầng WDM gồm mấy lớp?",
     options: [
       "3",
       "2",
@@ -1412,16 +1377,6 @@ const quizData = [
     ],
     answer: "2",
     explanation: "<br> - Dịch vụ kết nối (Connection-oriented service) <br> - Dịch vụ không kết nối (Connectionless service)"
-  },
-  {
-    question: "Xét về mặt chức năng mỗi mạng có thể được xem bao gồm những mặt phẳng nào?",
-    options: [
-      "Mặt phẳng dữ liệu mặt phẳng điều khiển mặt phẳng quản lý",
-      "Mặt phẳng điều khiển mặt phẳng quản lý mặt phẳng giám sát",
-      "Mặt phẳng dữ liệu mặt phẳng quản lý mặt phẳng giám sát",
-      "Mặt phẳng dữ liệu mặt phẳng điều khiển mặt phẳng giám sát"
-    ],
-    answer: "Mặt phẳng dữ liệu mặt phẳng điều khiển mặt phẳng quản lý"
   },
   {
     question: "Trong quản lý mạng quang quản lý lỗi được hiểu là:",
@@ -1458,11 +1413,11 @@ const quizData = [
     question: "Chức năng chính của mặt phẳng quản lý và mặt phẳng điều khiển là",
     options: [
       "Chịu trách nhiệm quản lý kết nối giám sát hiệu năng",
-      "Chịu trách nhiệm quản lý kết nối giám sát hiệu năng Và tăng cường khả năng sống sót của mạng",
+      "Chịu trách nhiệm quản lý kết nối giám sát hiệu năng và tăng cường khả năng sống sót của mạng",
       "Chịu trách nhiệm truyền tải dữ liệu qua mạng và tăng cường khả năng sống sót của mạng",
       "Chịu trách nhiệm truyền tải dữ liệu qua mạng"
     ],
-    answer: "Chịu trách nhiệm quản lý kết nối giám sát hiệu năng Và tăng cường khả năng sống sót của mạng"
+    answer: "Chịu trách nhiệm quản lý kết nối giám sát hiệu năng và tăng cường khả năng sống sót của mạng"
   },
   {
     question: "Các giao diện mạng quang chủ yếu là",
@@ -1505,24 +1460,14 @@ const quizData = [
     answer: "Sử dụng giao thức cây mở rộng giao thức cây mở rộng nhanh hoặc giao thức APS cho chuyển mạch bảo vệ tuyến liền mạch bảo vệ cho mạng vòng"
   },
   {
-    question: "Có các cơ chế duy trì mạng nào",
-    options: [
-      "Cascade",
-      "Đầu cuối - đầu cuối",
-      "Giữa các tầng đoạn khu vực",
-      "All"
-    ],
-    answer: "All"
-  },
-  {
     question: "Mạng quang là gì?",
     options: [
       "Cascade",
-      "Một hệ thống truyền tải dữ liệu dựa trên sọi quang",
+      "Một hệ thống truyền tải dữ liệu dựa trên sợi quang",
       "Giữa các tầng đoạn khu vực",
       "All"
     ],
-    answer: "Một hệ thống truyền tải dữ liệu dựa trên sọi quang"
+    answer: "Một hệ thống truyền tải dữ liệu dựa trên sợi quang"
   },
   {
     question: "Kiến trúc mạng quang tổng quát là gì?",
@@ -1678,42 +1623,24 @@ const quizData = [
   {
     question: "Lớp SDH bao gồm những lớp con nào?",
     options: [
-      "Lớp tuyển, lớp đoạn ghép, lớp đoạn lặp, lớp vật lý",
+      "Lớp tuyến, lớp đoạn ghép, lớp đoạn lặp, lớp vật lý",
       "Lớp vật lý, lớp liên kết dữ liệu, lớp mạng, lớp ứng dụng",
       "Lớp quang, lớp điện, lớp vô tuyến, lớp vệ tinh",
       "Lớp kênh, lớp truyền dẫn, lớp phân phối, lớp người dùng"
     ],
-    answer: "Lớp tuyển, lớp đoạn ghép, lớp đoạn lặp, lớp vật lý"
-  },
-  {
-    question: "Lớp SONET bao gồm những lớp con nào?",
-    options: [
-      "Lớp tuyến, lớp đường, lớp đoạn và lớp vật lý",
-      "Lớp lõi, lớp biên, lớp truy nhập và lớp ứng dụng",
-      "Lớp server, lớp client, lớp database và lớp mạng",
-      "Lớp ATM, lớp IP, lớp Ethernet và lớp vật lý"
-    ],
-    answer: "Lớp tuyến, lớp đường, lớp đoạn và lớp vật lý"
+    answer: "Lớp tuyến, lớp đoạn ghép, lớp đoạn lặp, lớp vật lý",
+    explanation: "Slide Chương 2 - Trang 14"
   },
   {
     question: "Dựa trên khoảng cách mục tiêu, lớp vật lý SDH có thể phân loại thành các ứng dụng khác nhau nào?",
     options: [
-      "Kết nối nội bộ",
-      "Kết nối cự li ngắn, kết nối cự li dài, rất dài và cực dài",
+      "Kết nối nội bộ (A)",
+      "Kết nối cự li ngắn, kết nối cự li dài, rất dài và cực dài (B)",
       "Cả A và B đúng",
-      "Chỉ kết nối vệ tinh và vi ba"
+      "Chỉ kết nối vệ tinh và vi ba (C)"
     ],
-    answer: "Cả A và B đúng"
-  },
-  {
-    question: "LCAS là gì?",
-    options: [
-      "Giao thức điều chỉnh linh hoạt băng thông",
-      "Giao thức định tuyến gói tin trên mạng quang",
-      "Cơ chế mã hóa tín hiệu đường truyền",
-      "Chuẩn giao tiếp giữa OLT và ONU"
-    ],
-    answer: "Giao thức điều chỉnh linh hoạt băng thông"
+    answer: "Cả A và B đúng",
+    explanation: "SLide Chương 2 <br> - Kết nối nội bộ (I):Khoảng cách dưới 2km <br> - Kết nối cự li ngắn(S): Khoảng cách ~15km ở bước sóng 1310nm và 40km ở bước sóng 1550nm <br> - Kết nối cự li dài (L): Khoảng cách ~40km ở bước sóng 1310nm và ~80km ở bước sóng 1550nm<br> - Kết nối rất dài (V): Khoảng cách ~60km ở bước sóng 1310nm và 120km ở bước sóng 1550nm <br> - Kết nối cự li cực dài (U): Khoảng cách ~160km "
   },
   {
     question: "Để thực hiện kết chuỗi ảo (VCAT), chức năng kết chuỗi chỉ cần thực hiện ở thiết bị nào của tuyến?",
@@ -1911,16 +1838,6 @@ const quizData = [
     explanation: "<br>- Tầng IP <br>- Tầng ATM <br>- Tầng SDH <br>- Tầng WDM <br> ! Có tất cả 4 tầng nhưng chọn đáp án còn tùy theo giai đoạn phát triển: Giai đoạn 1: IP/ATM/SDH/WDM = 4 lớp; Giai đoạn 2: IP/SDH/WDM = 3 lớp; Giai đoạn 3: IP/WDM = 2 lớp. </br> ! Đề không nói gì về giai đoạn thì hiểu là giai đoạn hiện tại là Giai đoạn 3 nên sẽ chọn 2 lớp."
   },
   {
-    question: "Xét về mặt chức năng, một mạng có thể được xem như bao gồm mặt phẳng nào:",
-    options: [
-      "Mặt phẳng dữ liệu, mặt phẳng điều khiển, mặt phẳng giám sát",
-      "Mặt phẳng dữ liệu, mặt phẳng điều khiển, mặt phẳng quản lý",
-      "Mặt phẳng dữ liệu, mặt phẳng quản lý, mặt phẳng giám sát",
-      "Mặt phẳng điều khiển, mặt phẳng quản lý, mặt phẳng giám sát"
-    ],
-    answer: "Mặt phẳng dữ liệu, mặt phẳng điều khiển, mặt phẳng quản lý" // Data, Control, Management Planes.
-  },
-  {
     question: "Mô hình điều khiển nào được sử dụng trong ASON:",
     options: [
       "Mô hình điều khiển ngang hàng (Peer)",
@@ -1950,7 +1867,8 @@ const quizData = [
       "4",
       "3"
     ],
-    answer: "2"
+    answer: "2",
+    explanation: "<br>- Mô hình First-passage <br>- Mô hình Blocking"
   },
   {
     question: "Công nghệ mạng WDM bao gồm mấy loại chính:",
@@ -1970,7 +1888,8 @@ const quizData = [
       "3",
       "4"
     ],
-    answer: "2" // Thường là cấu hình Điểm - Điểm (P2P) và cấu hình Sao chủ động (Active Star).
+    answer: "2",
+    explanation: "<br>- Home Run <br>- Active Star"
   },
   {
     question: "Giải pháp chủ yếu bảo vệ trong lớp IP là:",
@@ -1991,7 +1910,8 @@ const quizData = [
       "Duy trì kết nối đầu cuối - đầu cuối",
       "Cả 3 đáp án trên"
     ],
-    answer: "Cả 3 đáp án trên"
+    answer: "Cả 3 đáp án trên",
+    explanation: "Slide Chương 5"
   },
   {
     question: "Hiện tại, mức dự phòng quỹ suy hao khi thiết kế tuyến FTTx không lớn hơn:",
@@ -2063,7 +1983,8 @@ const quizData = [
       "5 Gbit/s",
       "1,25 Gbit/s"
     ],
-    answer: "2,5 Gbit/s" // XG-PON (NG-PON1): Down 10G / Up 2.5G.
+    answer: "2,5 Gbit/s", // XG-PON (NG-PON1): Down 10G / Up 2.5G.
+    explanation:"Downstream: 10 Gbit/s; Upstream: 2.5 Gbit/s."
   },
   {
     question: "Nhận định nào sau đây về phương thức FTTC là đúng:",
@@ -2074,16 +1995,6 @@ const quizData = [
       "Sợi được kéo tới ONU đặt ở vỉa hè"
     ],
     answer: "Sợi được kéo tới ONU đặt ở vỉa hè"
-  },
-  {
-    question: "Trong mạng PON các thành phần tích cực là:",
-    options: [
-      "OLT",
-      "ONU",
-      "Coupler",
-      "Cả 2 đáp án A, B (OLT và ONU)"
-    ],
-    answer: "Cả 2 đáp án A, B (OLT và ONU)"
   },
   {
     question: "Mạng quang thụ động có cấu hình cơ bản sau:",
@@ -2103,7 +2014,8 @@ const quizData = [
       "4",
       "3"
     ],
-    answer: "4"
+    answer: "4",
+    explanation: "<br> - T <br> - V <br> -a <br> - Q"
   },
   {
     question: "Bảo vệ tại lớp liên kết trong mạng quang được thực hiện tại:",
@@ -2280,22 +2192,23 @@ const quizData = [
   {
     question: "Phân cấp OTN theo miền điện bao gồm những lớp nào?",
     options: [
-      "Lớp OPU, lớp ODU, lớp OTU",
-      "Lớp OTS, lớp OMS, lớp OCh",
-      "Lớp VC-12, lớp VC-3, lớp VC-4",
-      "Lớp MPLS, lớp IP, lớp Ethernet"
+      "OPU, ODU, OTU",
+      "OTS, OMS, OCh",
+      "VC-12, VC-3, VC-4",
+      "MPLS, IP, Ethernet"
     ],
-    answer: "Lớp OPU, lớp ODU, lớp OTU"
+    answer: "OPU, ODU, OTU",
+    explanation: "OTN được phân cấp theo hai miền chính: Miền quang và Miền điện. <br>- Trong miền điện, OTN bao gồm ba lớp chính: Lớp OPU, Lớp ODU và Lớp OTU. <br>- Trong miền quang, OTN bao gồm ba lớp chính: Lớp OTS, Lớp OMS và Lớp OCh."
   },
   {
     question: "Phân cấp OTN theo miền quang bao gồm những lớp nào?",
     options: [
-      "Lớp OTS, lớp OMS, lớp OCh",
-      "Lớp OPU, lớp ODU, lớp OTU",
-      "Lớp Physical, lớp Data Link, lớp Network",
-      "Lớp Regenerator, lớp Multiplexer, lớp Path"
+      "OTS, OMS, OCh",
+      "OPU, ODU, OTU",
+      "Physical, Data Link, Network",
+      "Regenerator, Multiplexer, Path"
     ],
-    answer: "Lớp OTS, lớp OMS, lớp OCh"
+    answer: "OTS, OMS, OCh"
   },
   {
     question: "Nhận định nào sau đây là đúng về chức năng của lớp OTS?",
@@ -2315,7 +2228,7 @@ const quizData = [
       "Điều khiển việc sửa lỗi hướng thuận (FEC)",
       "Thực hiện chức năng chuyển mạch gói tin IP"
     ],
-    answer: "Quản lý các liên kết sợi quang giữa các bộ ghép kênh và bộ chuyển mạch quang."
+    answer: "Quản lý các liên kết sợi quang giữa các bộ ghép kênh và bộ chuyển mạch quang"
   },
   {
     question: "Nhận định nào sau đây là đúng về chức năng của lớp OCh?",
@@ -2439,34 +2352,14 @@ const quizData = [
     answer: "4 dòng x 3824 cột"
   },
   {
-    question: "Giá trị k trong cấu trúc khung OPU-k, ODU-k, OTU-k là:",
-    options: [
-      "1, 2, 3",
-      "Chỉ 1",
-      "Chỉ 1 và 2",
-      "1, 2, 3 và 4"
-    ],
-    answer: "1, 2, 3"
-  },
-  {
-    question: "Hãy xác định tốc độ truyền của tín hiệu OTU-1 khi biết chu kỳ khung là 48,971 us:",
-    options: [
-      "2,667Mbps",
-      "155 Mbps",
-      "10 Gbps",
-      "40 Gbps"
-    ],
-    answer: "2,667Mbps"
-  },
-  {
     question: "Những chức năng của điều khiển mạng quang bao gồm:",
     options: [
-      "Quản lý hiệu năng, quản lý lỗi, quản lý cấu hình",
-      "Quản lý bảo mật và quản lý cước",
-      "Chỉ bao gồm quản lý định tuyến và bước sóng",
-      "Cả 2 ý trên đều đúng (Bao gồm hiệu năng, lỗi, cấu hình, bảo mật, cước)"
+      "Quản lý hiệu năng, quản lý lỗi, quản lý cấu hình (A)",
+      "Quản lý bảo mật và quản lý cước (B)",
+      "Chỉ bao gồm quản lý định tuyến và bước sóng (C)",
+      "Cả A và B"
     ],
-    answer: "Cả 2 ý trên đều đúng (Bao gồm hiệu năng, lỗi, cấu hình, bảo mật, cước)"
+    answer: "Cả A và B"
   },
   {
     question: "Chức năng quản lý hiệu năng trong mạng quang liên quan đến việc gì?",
@@ -2549,7 +2442,7 @@ const quizData = [
     answer: "ASON, GMPLS"
   },
   {
-    question: "Thuật ngữ 'duy trì mạng quang' (Network Survivability) là gì?",
+    question: "Thuật ngữ 'Duy trì mạng quang' (Network Survivability) là gì?",
     options: [
       "Khả năng bảo đảm an toàn của một mạng với một mức độ truy cập dịch vụ cho phép khi mạng bị sự cố",
       "Khả năng mạng hoạt động mãi mãi không bao giờ hỏng",
@@ -2569,16 +2462,6 @@ const quizData = [
     answer: "Giai đoạn thiết kế và phát triển mạng quang"
   },
   {
-    question: "Các cơ chế duy trì mạng quang có thể bao gồm?",
-    options: [
-      "Duy trì Đầu cuối - Đầu cuối",
-      "Duy trì tại Cascade",
-      "Xếp chồng các khả năng tồn tại",
-      "Tất cả các cơ chế trên"
-    ],
-    answer: "Tất cả các cơ chế trên"
-  },
-  {
     question: "Trong cơ chế bảo vệ mạng quang, cơ chế bảo vệ nào yêu cầu 50% dung lượng mạng được lưu trữ cho bảo vệ?",
     options: [
       "Bảo vệ dành riêng (Dedicated Protection)",
@@ -2596,7 +2479,8 @@ const quizData = [
       "Bảo vệ 1+1",
       "Không có cơ chế nào"
     ],
-    answer: "Bảo vệ chia sẻ"
+    answer: "Bảo vệ chia sẻ",
+    explanation: "Bảo vệ chia sẻ (Shared Protection) chỉ yêu cầu một phần dung lượng mạng được lưu trữ cho bảo vệ, trong khi bảo vệ dành riêng (Dedicated Protection) yêu cầu 50% dung lượng mạng được lưu trữ cho bảo vệ."
   },
   {
     question: "Giao thức APS được kích hoạt khi nào?",
@@ -2722,9 +2606,9 @@ const quizData = [
   {
     question: "Đặc điểm của khối chức năng OLT trong mạng FTTx là gì?",
     options: [
-      "Quản lý báo hiệu và thông tin giám sát từ ONU, cung cấp chức năng bảo dưỡng",
-      "Cung cấp giao diện quang phía mạng với ODN và giao diện phía mạng dịch vụ",
-      "Chỉ có chức năng cấp nguồn cho hệ thống",
+      "Quản lý báo hiệu và thông tin giám sát từ ONU, cung cấp chức năng bảo dưỡng (A)",
+      "Cung cấp giao diện quang phía mạng với ODN và giao diện phía mạng dịch vụ (B)",
+      "Chỉ có chức năng cấp nguồn cho hệ thống (C)",
       "Cả A và B đều đúng"
     ],
     answer: "Cả A và B đều đúng"
@@ -2732,9 +2616,9 @@ const quizData = [
   {
     question: "Cấu trúc của khối chức năng OLT trong mạng FTTx gồm:",
     options: [
-      "Khối thích ứng dịch vụ",
-      "Khối kết nối chéo, MAC và Lớp PMD",
-      "Chỉ bao gồm khối nguồn và vỏ máy",
+      "Khối thích ứng dịch vụ (A)",
+      "Khối kết nối chéo, MAC và Lớp PMD (B)",
+      "Chỉ bao gồm khối nguồn và vỏ máy (C)",
       "Cả A và B đều đúng"
     ],
     answer: "Cả A và B đều đúng"
@@ -2745,9 +2629,9 @@ const quizData = [
       "Có giao diện quang phía mạng và giao diện điện phía thuê bao",
       "Biến đổi quang/điện, xử lý và quản lý bảo dưỡng tín hiệu điện",
       "Có thể đặt ở phía khách hàng (FTTH/B) hoặc ngoài trời (FTTC)",
-      "Tất cả các ý trên đều đúng"
+      "Tất cả các đáp án trên"
     ],
-    answer: "Tất cả các đáp án trên đều đúng"
+    answer: "Tất cả các đáp án trên"
   },
   {
     question: "Cấu trúc của khối chức năng ONU trong mạng FTTx bao gồm:",
@@ -2772,9 +2656,9 @@ const quizData = [
   {
     question: "Đặc điểm phương thức FTTB là gì?",
     options: [
-      "Sợi được kéo tới một ONU đặt trong tòa nhà (< 20km).",
-      "Sử dụng cáp đồng từ tòa nhà đến từng hộ (thường < 10m).",
-      "Khách hàng truy nhập Internet kết nối đến ONU thông qua mạng LAN.",
+      "Sợi được kéo tới một ONU đặt trong tòa nhà (< 20km). (A)",
+      "Sử dụng cáp đồng từ tòa nhà đến từng hộ (thường < 10m). (B)",
+      "Khách hàng truy nhập Internet kết nối đến ONU thông qua mạng LAN. (C)",
       "Cả A và B"
     ],
     answer: "Cả A và B"
@@ -2960,7 +2844,8 @@ const quizData = [
       "2",
       "4"
     ],
-    answer: "3"
+    answer: "3",
+    explanation: "Mức 0, 1 và mức ngưỡng"
   },
   {
     question: "Chuyển mạch nhãn đa giao thức tổng quát (GMPLS) được hiểu là:",
