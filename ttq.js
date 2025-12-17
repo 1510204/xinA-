@@ -825,7 +825,8 @@ const quizData = [
       "Cấu hình chuyển mạch kênh",
       "Cấu hình chuyển mạch gói"
     ],
-    answer: "Cấu hình cố định"
+    answer: "Cấu hình cố định",
+    explanation: "<br> WDM điểm-điểm - Cấu hình cố định <br> WDM tái cấu hình - Cấu hình chuyển mạch kênh <br> WDM chuyển mạch - Cấu hình chuyển mạch gói.",
   },
   {
     question: "Cấu trúc WDM tái cấu hình có tên gọi khác là?",
@@ -835,7 +836,8 @@ const quizData = [
       "Cấu hình chuyển mạch kênh",
       "Cấu hình chuyển mạch gói"
     ],
-    answer: "Cấu hình chuyển mạch kênh"
+    answer: "Cấu hình chuyển mạch kênh",
+    explanation: "<br> WDM điểm-điểm - Cấu hình cố định <br> WDM tái cấu hình - Cấu hình chuyển mạch kênh <br> WDM chuyển mạch - Cấu hình chuyển mạch gói.",
   },
   {
     question: "Cấu trúc WDM chuyển mạch có tên gọi khác là?",
@@ -845,77 +847,75 @@ const quizData = [
       "Cấu hình chuyển mạch kênh",
       "Cấu hình chuyển mạch gói"
     ],
-    answer: "Cấu hình chuyển mạch gói"
-  },
-  {
-    question: "IP/WDM có bao nhiêu mô hình dịch vụ?",
-    options: [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    answer: "2"
+    answer: "Cấu hình chuyển mạch gói",
+    explanation: "<br> WDM điểm-điểm - Cấu hình cố định <br> WDM tái cấu hình - Cấu hình chuyển mạch kênh <br> WDM chuyển mạch - Cấu hình chuyển mạch gói.",
   },
   {
     question: "Hàm trọng số dựa trên số chặng viết tắt là ?",
     options: [
-      "HW (Hop)",
-      "DW (Distance)",
-      "AW (Available Wavelength)",
-      "TAW (Total Available Wavelength)"
+      "HW",
+      "DW",
+      "AW",
+      "TAW"
     ],
-    answer: "HW (Hop)"
+    answer: "HW",
+    explanation: "<br> - HW (Hop-based Weight): Dựa trên số chặng <br> - DW (Distance-based Weight): Dựa trên khoảng cách <br> - AW (Available Wavelength-based Weight): Dựa trên bước sóng sẵn có <br> - HAW (Hop and Available Wavelength-based Weight): Dựa trên số chặng và bước sóng sẵn có <br> - TAW (Total Available Wavelength-based Weight): Dựa trên tổng số bước sóng và bước sóng sẵn có <br> - HTAW (Hop and Total Available Wavelength-based Weight): Dựa trên số chặng, tổng số bước sóng và bước sóng sẵn có."
+
   },
   {
     question: "Hàm trọng số dựa trên khoảng cách viết tắt là ?",
     options: [
-      "HW (Hop)",
-      "DW (Distance)",
-      "AW (Available Wavelength)",
-      "TAW (Total Available Wavelength)"
+      "HW",
+      "DW",
+      "AW",
+      "TAW"
     ],
-    answer: "DW (Distance)"
+    answer: "DW",
+    explanation: "<br> - HW (Hop-based Weight): Dựa trên số chặng <br> - DW (Distance-based Weight): Dựa trên khoảng cách <br> - AW (Available Wavelength-based Weight): Dựa trên bước sóng sẵn có <br> - HAW (Hop and Available Wavelength-based Weight): Dựa trên số chặng và bước sóng sẵn có <br> - TAW (Total Available Wavelength-based Weight): Dựa trên tổng số bước sóng và bước sóng sẵn có <br> - HTAW (Hop and Total Available Wavelength-based Weight): Dựa trên số chặng, tổng số bước sóng và bước sóng sẵn có."
   },
   {
     question: "Hàm trọng số dựa trên bước sóng sẵn có viết tắt là ?",
     options: [
-      "AW (Available Wavelength)",
-      "HAW (Hop and Available Wavelength)",
-      "TAW (Total Available Wavelength)",
-      "HTAW (Hop and Total Available Wavelength)"
+      "AW",
+      "HAW",
+      "TAW",
+      "HTAW"
     ],
-    answer: "AW (Available Wavelength)"
+    answer: "AW",
+    explanation: "<br> - HW (Hop-based Weight): Dựa trên số chặng <br> - DW (Distance-based Weight): Dựa trên khoảng cách <br> - AW (Available Wavelength-based Weight): Dựa trên bước sóng sẵn có <br> - HAW (Hop and Available Wavelength-based Weight): Dựa trên số chặng và bước sóng sẵn có <br> - TAW (Total Available Wavelength-based Weight): Dựa trên tổng số bước sóng và bước sóng sẵn có <br> - HTAW (Hop and Total Available Wavelength-based Weight): Dựa trên số chặng, tổng số bước sóng và bước sóng sẵn có."
   },
   {
     question: "Hàm trọng số dựa trên số bước sóng sẵn có và số chặng viết tắt là ?",
     options: [
-      "AW (Available Wavelength)",
-      "HAW (Hop and Available Wavelength)",
-      "TAW (Total Available Wavelength)",
-      "HTAW (Hop and Total Available Wavelength)"
+      "AW",
+      "HAW",
+      "TAW",
+      "HTAW"
     ],
-    answer: "HAW (Hop and Available Wavelength)"
+    answer: "HAW",
+    explanation: "<br> - HW (Hop-based Weight): Dựa trên số chặng <br> - DW (Distance-based Weight): Dựa trên khoảng cách <br> - AW (Available Wavelength-based Weight): Dựa trên bước sóng sẵn có <br> - HAW (Hop and Available Wavelength-based Weight): Dựa trên số chặng và bước sóng sẵn có <br> - TAW (Total Available Wavelength-based Weight): Dựa trên tổng số bước sóng và bước sóng sẵn có <br> - HTAW (Hop and Total Available Wavelength-based Weight): Dựa trên số chặng, tổng số bước sóng và bước sóng sẵn có."
   },
   {
     question: "Hàm dựa trên tổng số bước sóng và số bước sóng sẵn có viết tắt là?",
     options: [
-      "AW (Available Wavelength)",
-      "HAW (Hop and Available Wavelength)",
-      "TAW (Total Available Wavelength)",
-      "HTAW (Hop and Total Available Wavelength)"
+      "AW",
+      "HAW",
+      "TAW",
+      "HTAW"
     ],
-    answer: "TAW (Total Available Wavelength)"
+    answer: "TAW",
+    explanation: "<br> - HW (Hop-based Weight): Dựa trên số chặng <br> - DW (Distance-based Weight): Dựa trên khoảng cách <br> - AW (Available Wavelength-based Weight): Dựa trên bước sóng sẵn có <br> - HAW (Hop and Available Wavelength-based Weight): Dựa trên số chặng và bước sóng sẵn có <br> - TAW (Total Available Wavelength-based Weight): Dựa trên tổng số bước sóng và bước sóng sẵn có <br> - HTAW (Hop and Total Available Wavelength-based Weight): Dựa trên số chặng, tổng số bước sóng và bước sóng sẵn có."
   },
   {
     question: "Hàm trọng số dựa trên số chặng, tổng số bước sóng và số bước sóng sẵn có viết tắt là?",
     options: [
-      "AW (Available Wavelength)",
-      "HAW (Hop and Available Wavelength)",
-      "TAW (Total Available Wavelength)",
-      "HTAW (Hop and Total Available Wavelength)"
+      "AW",
+      "HAW",
+      "TAW",
+      "HTAW"
     ],
-    answer: "HTAW (Hop and Total Available Wavelength)"
+    answer: "HTAW",
+    explanation: "<br> - HW (Hop-based Weight): Dựa trên số chặng <br> - DW (Distance-based Weight): Dựa trên khoảng cách <br> - AW (Available Wavelength-based Weight): Dựa trên bước sóng sẵn có <br> - HAW (Hop and Available Wavelength-based Weight): Dựa trên số chặng và bước sóng sẵn có <br> - TAW (Total Available Wavelength-based Weight): Dựa trên tổng số bước sóng và bước sóng sẵn có <br> - HTAW (Hop and Total Available Wavelength-based Weight): Dựa trên số chặng, tổng số bước sóng và bước sóng sẵn có."
   },
   {
     question: "Kí hiệu nào cho biết mạng hoạt động ở cơ chế chia sẻ:",
