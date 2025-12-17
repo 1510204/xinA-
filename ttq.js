@@ -1357,7 +1357,7 @@ const quizData = [
       "Điều khiển ngang hàng",
       "Mô hình điều khiển tăng cường",
       "Điều khiển xếp chồng",
-      "tất cả các kiểu trên"
+      "Tất cả các kiểu trên"
     ],
     answer: "Điều khiển xếp chồng"
   },
@@ -1367,7 +1367,7 @@ const quizData = [
       "GMPLS",
       "IPSEC",
       "OSPF-TE/ISIS-TE",
-      "RSVP,RSVP mở rộng"
+      "RSVP, RSVP mở rộng"
     ],
     answer: "OSPF-TE/ISIS-TE"
   },
@@ -1403,7 +1403,7 @@ const quizData = [
     explanation: "<br> - Lớp kênh quang (OCh) <br> - Lớp đoạn ghép kênh quang (OMS) <br> - Lớp đoạn truyền dẫn quang (OTS)"
   },
   {
-    question: "Giao thức của mp dữ liệu là",
+    question: "Giao thức của mặt phẳng dữ liệu là",
     options: [
       "Quản lý kết nối giám sát hiệu năng và tăng Cường thời gian sống sót của mạng",
       "Truyền tải dữ liệu qua mạng và tăng cường thời gian sống sót của mạng",
@@ -2986,7 +2986,7 @@ const retryBtn = document.getElementById('retry-btn');
 let currentQuestions = [];
 let incorrectQuestions = [];
 
-// Shuffle function
+// Shuffle function (Hàm xáo trộn mảng)
 function shuffleArray(array) {
     const shuffled = [...array];
     for (let i = shuffled.length - 1; i > 0; i--) {
@@ -2996,11 +2996,26 @@ function shuffleArray(array) {
     return shuffled;
 }
 
-// Initialize Quiz
+// Initialize Quiz (Cập nhật phần này)
 function initQuiz() {
-    const shuffledQuizData = shuffleArray(quizData);
-    shuffledQuizData.forEach((q, i) => q.originalIndex = i);
-    renderQuiz(shuffledQuizData);
+    // 1. Tạo bản sao sâu (deep copy) của quizData để không làm hỏng dữ liệu gốc
+    // Đồng thời xáo trộn thứ tự các câu hỏi
+    const shuffledQuestions = shuffleArray(
+        quizData.map(question => ({
+            ...question,
+            options: [...question.options] // Copy mảng options để xáo trộn không ảnh hưởng gốc
+        }))
+    );
+
+    // 2. Xáo trộn thứ tự đáp án trong từng câu hỏi
+    shuffledQuestions.forEach(question => {
+        question.options = shuffleArray(question.options);
+    });
+
+    // 3. Gán số thứ tự hiển thị (1, 2, 3...)
+    shuffledQuestions.forEach((q, i) => q.originalIndex = i);
+
+    renderQuiz(shuffledQuestions);
 }
 
 // Render Quiz Questions
@@ -3028,7 +3043,7 @@ function renderQuiz(questions) {
             imgElement.src = item.image;
             imgElement.className = 'question-image'; 
             
-            // Style inline cho ảnh (hoặc dùng CSS class .question-image)
+            // Style inline cho ảnh
             imgElement.style.maxWidth = '100%';
             imgElement.style.display = 'block';
             imgElement.style.marginTop = '10px';
@@ -3039,7 +3054,7 @@ function renderQuiz(questions) {
             questionBlock.appendChild(imgElement);
         }
 
-        // 3. Các lựa chọn
+        // 3. Các lựa chọn (Đã được xáo trộn ở initQuiz)
         const optionsDiv = document.createElement('div');
         optionsDiv.className = 'options';
         optionsDiv.dataset.questionIndex = index;
@@ -3053,13 +3068,11 @@ function renderQuiz(questions) {
         });
         questionBlock.appendChild(optionsDiv);
 
-        // 4. Phần Giải Thích (Mới thêm vào) -- Mặc định ẩn
+        // 4. Phần Giải Thích (Mặc định ẩn)
         if (item.explanation) {
             const explanationDiv = document.createElement('div');
             explanationDiv.className = 'explanation';
-            // Nội dung giải thích
             explanationDiv.innerHTML = `<strong>Giải thích:</strong> ${item.explanation}`;
-            // Ẩn mặc định, sẽ hiện khi handleOptionClick chạy
             explanationDiv.style.display = 'none'; 
             questionBlock.appendChild(explanationDiv);
         }
@@ -3095,15 +3108,12 @@ function handleOptionClick(selectedOptionEl) {
         });
     }
 
-    // --- BẮT ĐẦU: Hiện giải thích ---
-    // Tìm thẻ .explanation nằm cùng cấp với optionsContainer (trong questionBlock)
+    // Hiện giải thích (nếu có)
     const questionBlock = optionsContainer.parentNode;
     const explanationDiv = questionBlock.querySelector('.explanation');
-    
     if (explanationDiv) {
-        explanationDiv.style.display = 'block'; // Hiện lên
+        explanationDiv.style.display = 'block';
     }
-    // --- KẾT THÚC ---
 }
 
 // Submit Quiz
@@ -3122,13 +3132,10 @@ function submitQuiz() {
             incorrectQuestions.push(item);
         }
         
-        // Vô hiệu hóa click cho tất cả options sau khi nộp bài (đề phòng sót)
+        // Vô hiệu hóa click cho tất cả options
         Array.from(optionsContainer.children).forEach(opt => {
             opt.style.pointerEvents = 'none';
         });
-        
-        // (Tùy chọn) Nếu muốn nộp bài mới hiện giải thích cho tất cả câu thì làm ở đây
-        // Nhưng logic hiện tại là hiện ngay khi click từng câu.
     });
 
     resultDiv.innerHTML = `Bạn đã trả lời đúng ${score} / ${currentQuestions.length} câu!`;
@@ -3142,13 +3149,23 @@ function submitQuiz() {
 
 // Retry Incorrect Questions
 function retryIncorrect() {
-    incorrectQuestions.forEach(q => delete q.originalIndex);
-    quizData.forEach((q, i) => q.originalIndex = i);
-    const retryQuestions = incorrectQuestions.map(q => ({
-        ...q,
-        originalIndex: quizData.findIndex(qd => qd.question === q.question)
-    }));
-    renderQuiz(retryQuestions);
+    // Lấy danh sách các câu sai
+    const questionsToRetry = incorrectQuestions.map(q => {
+        // Tạo bản sao mới để xáo trộn lại đáp án cho lần làm lại (tùy chọn)
+        const newQ = { ...q, options: [...q.options] };
+        newQ.options = shuffleArray(newQ.options);
+        return newQ;
+    });
+
+    // Xáo trộn thứ tự các câu sai
+    const shuffledRetry = shuffleArray(questionsToRetry);
+    
+    // Cập nhật lại chỉ số hiển thị
+    // (Ở đây ta tìm vị trí gốc trong quizData để hiển thị "Câu X" cho đúng với ban đầu, hoặc đánh số lại từ 1)
+    // Cách đơn giản nhất là đánh số lại từ 1 cho bài làm lại:
+    shuffledRetry.forEach((q, i) => q.originalIndex = i);
+
+    renderQuiz(shuffledRetry);
 }
 
 // Event Listeners
