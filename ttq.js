@@ -222,7 +222,8 @@ const quizData = [
       "2",
       "5"
     ],
-    answer: "4"
+    answer: "4",
+    explanation: " Slide Chương 6 - Trang 11<br>- Khối thích ứng dịch vụ <br> - Khối kết nối chéo <br> -Lớp Mac <br> - PMD"
   },
   {
     question: "Trong cấu tạo con trỏ AU-4 PtR, các byte chèn âm là:",
