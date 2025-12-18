@@ -82,7 +82,7 @@ const quizData = [
     answer: "4 dòng x 3810 cột"
   },
   {
-    question: "Giá trị k trong các cấu trúc khung OPU-k, ODU-k, OUT-k:",
+    question: "Giá trị k trong các cấu trúc khung OPU-k, ODU-k, OTU-k:",
     options: [
       "1",
       "2",
@@ -92,7 +92,7 @@ const quizData = [
     answer: "Cả 3 đáp án"
   },
   {
-    question: "Hãy xác định tốc độ truyền của tín hiệu OUT-k biết chu kì khung là 48,971 us:",
+    question: "Hãy xác định tốc độ truyền của tín hiệu OTU-k biết chu kì khung là 48,971 us:",
     options: [
       "2,499 Mbps",
       "2,667 Mbps",
@@ -1634,7 +1634,7 @@ const quizData = [
     answer: "Mô hình Service - Transport network - Transmission media"
   },
   {
-    question: "Cấu trúc ghép kênh mở rộng SDH gồm những thủ tục cơ bản nào?",
+    question: "Cấu trúc ghép kênh SDH gồm những thủ tục cơ bản nào?",
     options: [
       "Sắp xếp, chèn, ghép kênh, bổ sung mào đầu và đồng chỉnh",
       "Mã hóa, nén dữ liệu, truyền tải và giải mã",
@@ -1642,6 +1642,17 @@ const quizData = [
       "Lấy mẫu, lượng tử hóa, mã hóa và điều chế"
     ],
     answer: "Sắp xếp, chèn, ghép kênh, bổ sung mào đầu và đồng chỉnh"
+  },
+    {
+    question: "Cấu trúc ghép kênh mở rộng SDH gồm những thủ tục cơ bản nào?",
+    options: [
+      "Thủ tục kết chuỗi ảo (VCAT)",
+      "Thủ tục điều chỉnh dung lượng liên kết (LCAS)",
+      "Thủ tục khung định dạng chung (GFP)",
+      "Tất cả đáp án trên đều đúng"
+    ],
+    answer: "Tất cả đáp án trên đều đúng",
+    explanation: "Đây là SDH mở rộng, không phải SDH truyền thống"
   },
   {
     question: "Lớp SDH bao gồm những lớp con nào?",
