@@ -1287,7 +1287,7 @@ const quizData = [
       "Tại nút 5 và 6 thực hiện chuyển mạch bảo vệ để chuyển dữ liệu tại sợi hoạt động W1 sang sợi dự phòng W2",
       "Tại nút 1 và nút 4 thực hiện chuyển mạch bảo vệ để chuyển dữ liệu tại sợi hoạt động W1 sang sợi dự phòng W2"
     ],
-    answer: "Tại nút 1 và nút 4 thực hiện chuyển mạch bảo vệ để chuyển lưu lượng hoạt động tại sợi W1 sang phần dung lượng dự phòng tại sợi W2"
+    answer: "Tại nút 5 và nút 6 thực hiện chuyển mạch bảo vệ để chuyển lưu lượng hoạt động tại sợi W1 sang phần dung lượng dự phòng tại sợi W2"
   },
   {
     question: "Tính tốc độ trường tin PFI trong truyền NG-SDH có tốc độ truyền tải là 2,5 Gb/s",
@@ -2870,6 +2870,8 @@ const quizData = [
     answer: "3",
     explanation: "Mức 0, 1 và mức ngưỡng"
   },
+
+  //Bonus Questions for AI
   {
     question: "Chuyển mạch nhãn đa giao thức tổng quát (GMPLS) được hiểu là:",
     options: [
