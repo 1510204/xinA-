@@ -478,7 +478,7 @@ const quizData = [
       "4",
       "5"
     ],
-    answer: "3"
+    answer: "4"
   },
   {
     question: "Khối chức năng nào là không bắt buộc phải có trong OLT?",
@@ -552,7 +552,7 @@ const quizData = [
       "Tất cả đáp án trên"
     ],
     answer: "Lưới",
-    explanation: " <br>- OADM Cho phép triển khai các cấu hình đường thẳng và cấuhình vòng <br>- OXC Cho phép triển khai các cấu hình lưới"
+    explanation: " <br>- OADM Cho phép triển khai các cấu hình đường thẳng và cấu hình vòng <br>- OXC Cho phép triển khai các cấu hình lưới"
   },
   {
     question: "Phát biểu nào sau đây là sai về OADM?",
@@ -2579,9 +2579,9 @@ const quizData = [
       "Chi phí lắp đặt, bảo dưỡng, thiết bị đầu cuối lớn (1)",
       "Thiết bị đầu cuối còn đắt nên không phải lúc nào cũng phù hợp (2)",
       "Tốc độ truyền dẫn thấp hơn cáp đồng (3)",
-      " (1), (2) đều đúng"
+      "(1), (2) đều đúng"
     ],
-    answer: " (1), (2) đều đúng",
+    answer: "(1), (2) đều đúng",
     explanation: "Slide Chương 6 - Trang 6, 12"
   },
   {
