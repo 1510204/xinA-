@@ -729,6 +729,17 @@ const quizData = [
     ],
     answer: "IP/WDM"
   },
+    {
+    question: "Kết chuỗi ảo bậc thấp sử dụng container nào?",
+    options: [
+      "VC12",
+      "VC2",
+      "VC3",
+      "VC4"
+    ],
+    answer: "VC12",
+    explanation: "<br>- Kết chuỗi ảo bậc thấp (LO-VCAT) sử dụng XVC12 (VC12-Xv, X=1...64). <br>- Kết chuỗi ảo bậc cao (HO-VCAT) sử dụng XVC3 hoặc VC4 (VC3/4-Xv, X=1...256), cung cấp dung lượng tải X lần 48.384 hoặc 149.760kbit/s"
+  },
   {
     question: "Các giải pháp truyền tải IP qua quang tập trung vào",
     options: [
@@ -738,6 +749,17 @@ const quizData = [
       "Tất cả đáp án trên"
     ],
     answer: "Tất cả đáp án trên"
+  },
+    {
+    question: "STS-24 tương đương với?",
+    options: [
+      "STM - 4",
+      "STM - 16",
+      "STM - 64",
+      "STM - 8"
+    ],
+    answer: "STM - 8",
+    explanation: "Tỷ lệ chuyển đổi là: 1 STM-n = STS-3n."
   },
   {
     question: "Tầng IP trong kiến trúc IP/WDM có tác dụng?",
