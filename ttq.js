@@ -2323,7 +2323,7 @@ const quizData = [
     answer: "1110010010"
   },
   {
-    question: "10 bit giá trị con trỏ AU-4 khi không chèn là 0100111000. Tìm cấu trúc 10 bít giá trị con trỏ trong khung liền sau khi chèn âm:",
+    question: "10 bit giá trị con trỏ AU-4 khi không chèn là 0100111000. Tìm cấu trúc 10 bít giá trị con trỏ trong khung liền sau khung chèn âm:",
     options: [
       "0100110111",
       "1110011111",
