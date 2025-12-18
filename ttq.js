@@ -1755,7 +1755,7 @@ const quizData = [
       "Đỉnh 1: bước sóng 1, Đỉnh 2: bước sóng 2, Đỉnh 5: bước sóng 2, Đỉnh 3: bước sóng 1",
       "Đỉnh 1: bước sóng 1, Đỉnh 2: bước sóng 2, Đỉnh 3: bước sóng 1, Đỉnh 5: bước sóng 2"
     ],
-    answer: "Đỉnh 1: bước sóng 1, Đỉnh 2: bước sóng 2, Đỉnh 3: bước sóng 1, Đỉnh 5: bước sóng 2"
+    answer: "Đỉnh 2: bước sóng 1, Đỉnh 1: bước sóng 2, Đỉnh 3: bước sóng 2, Đỉnh 5: bước sóng 1"
   },
   {
     question: "Mô hình kết nối mạng IP/WDM bao gồm mấy loại chính:",
