@@ -1429,8 +1429,8 @@ const quizData = [
       "3",
       "4"
     ],
-    answer: "3",
-    explanation: "<br> - Thiết bị đầu cuối đường quang (OLT)<br> - Thiết bị kết nối chéo quang (OXC) <br> - Thiết bị xen/rẽ quang (OADM) <br> - Thiết bị khuếch đại đường quang (OA) và tái sinh (Reg) <br> - OA là tự chọn, đề bài hỏi thành phần chính thì chỉ có 3"
+    answer: "4",
+    explanation: "<br> - Thiết bị đầu cuối đường quang (OLT)<br> - Thiết bị kết nối chéo quang (OXC) <br> - Thiết bị xen/rẽ quang (OADM) <br> - Thiết bị khuếch đại đường quang (OA) và tái sinh (Reg)"
   },
   {
     question: "Chức năng chính của mặt phẳng quản lý và mặt phẳng điều khiển là",
