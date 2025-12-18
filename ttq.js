@@ -2879,6 +2879,853 @@ const quizData = [
       "Là sự mở rộng chức năng điều khiển của mạng MPLS cho mạng quang, cho phép tạo mặt phẳng điều khiển, quản lý trên lớp IP, tách biệt khỏi lớp WDM, tối ưu cho chuyển mạch kênh quang."
     ],
     answer: "Là sự mở rộng chức năng điều khiển của mạng MPLS cho mạng quang, cho phép tạo mặt phẳng điều khiển, quản lý thống nhất không chỉ ở lớp mạng mà còn ở lớp ứng dụng, lớp truyền dẫn và lớp vật lý."
+  },
+  {
+    question: "Mạng quang thế hệ thứ hai (Optical Network Generation 2) có đặc điểm nổi bật nào so với thế hệ thứ nhất?",
+    options: [
+      "Chỉ sử dụng công nghệ ghép kênh theo thời gian (TDM) để tăng dung lượng",
+      "Toàn bộ chức năng chuyển mạch và định tuyến đều được xử lý bằng điện tử",
+      "Có khả năng định tuyến, chuyển mạch và tính thông minh ngay trong lớp quang",
+      "Sử dụng cáp đồng trục thay thế cho cáp quang để giảm chi phí"
+    ],
+    answer: "Có khả năng định tuyến, chuyển mạch và tính thông minh ngay trong lớp quang",
+    explanation: "Mạng quang thế hệ thứ hai (mạng WDM) đưa các chức năng định tuyến, chuyển mạch và trí thông minh xuống lớp quang, khác với thế hệ đầu (SONET/SDH) chỉ dùng quang để truyền dẫn."
+  },
+  {
+    question: "Trong kiến trúc mạng quang tổng quát, 'Mạng đô thị' (Metropolitan network) bao gồm những thành phần nào?",
+    options: [
+      "Chỉ bao gồm mạng truy nhập kết nối đến nhà riêng",
+      "Mạng truy nhập đô thị và mạng liên kết đô thị",
+      "Mạng đường trục quốc tế và mạng vệ tinh",
+      "Các kết nối nội bộ trong một tòa nhà văn phòng duy nhất"
+    ],
+    answer: "Mạng truy nhập đô thị và mạng liên kết đô thị",
+    explanation: "Theo kiến trúc tổng quát, mạng đô thị gồm mạng truy nhập (kết nối từ trung tâm đến khách hàng) và mạng liên kết (kết nối các trung tâm/CO trong vùng)."
+  },
+  {
+    question: "Phương pháp nào sau đây được sử dụng để tăng dung lượng truyền dẫn trên một sợi quang bằng cách ghép nhiều bước sóng khác nhau?",
+    options: [
+      "Ghép kênh phân chia theo thời gian (TDM)",
+      "Ghép kênh phân chia bước sóng (WDM)",
+      "Chuyển mạch gói (Packet Switching)",
+      "Mã hóa đường truyền (Line Coding)"
+    ],
+    answer: "Ghép kênh phân chia bước sóng (WDM)",
+    explanation: "WDM (Wavelength Division Multiplexing) là kỹ thuật cho phép truyền đồng thời nhiều tín hiệu quang với các bước sóng khác nhau trên cùng một sợi quang."
+  },
+  {
+    question: "Đặc điểm nào sau đây là nhược điểm của chuyển mạch kênh (Circuit switching) so với chuyển mạch gói?",
+    options: [
+      "Không đảm bảo băng thông cho kết nối",
+      "Không hiệu quả trong việc xử lý lưu lượng dữ liệu có tính bùng nổ",
+      "Độ trễ truyền dẫn thay đổi liên tục",
+      "Không thể sử dụng cho dịch vụ thoại"
+    ],
+    answer: "Không hiệu quả trong việc xử lý lưu lượng dữ liệu có tính bùng nổ",
+    explanation: "Do chuyển mạch kênh dành riêng băng thông cố định, nếu dữ liệu truyền không liên tục (bùng nổ), phần băng thông dự trữ sẽ bị lãng phí."
+  },
+  {
+    question: "Trong các thông số đo hiệu năng lỗi, 'Giây lỗi nghiêm trọng' (SES - Severely Errored Second) được định nghĩa là gì?",
+    options: [
+      "Khoảng thời gian 1 giây có ít nhất 1 khối bị lỗi",
+      "Khoảng thời gian 1 giây trong đó có hơn 30% khối bị lỗi",
+      "Khoảng thời gian 1 giây mà hệ thống hoàn toàn mất tín hiệu",
+      "Một chuỗi liên tiếp từ 3 đến 9 giây bị lỗi"
+    ],
+    answer: "Khoảng thời gian 1 giây trong đó có hơn 30% khối bị lỗi",
+    explanation: "Theo chuẩn đo lường hiệu năng, SES là khoảng thời gian 1 giây mà tại đó tỷ lệ các khối bị lỗi vượt quá 30%."
+  },
+  {
+    question: "Mục đích chính của việc phân lớp mạng (layering) trong kiến trúc mạng quang là gì?",
+    options: [
+      "Để tăng tốc độ truyền dẫn của tín hiệu quang",
+      "Để loại bỏ hoàn toàn nhu cầu sử dụng phần mềm quản lý",
+      "Giảm độ phức tạp, tiêu chuẩn hóa giao diện và thuận tiện module hóa",
+      "Để đảm bảo tất cả các thiết bị mạng đều phải từ cùng một nhà sản xuất"
+    ],
+    answer: "Giảm độ phức tạp, tiêu chuẩn hóa giao diện và thuận tiện module hóa",
+    explanation: "Phân lớp giúp chia nhỏ các chức năng phức tạp của mạng thành các phần quản lý được, chuẩn hóa giao diện giữa các lớp và hỗ trợ phát triển độc lập (module hóa)."
+  },
+  {
+    question: "Trong mô hình phân lớp của mạng quang thế hệ thứ hai, lớp nào đóng vai trò là 'máy chủ' cung cấp dịch vụ đường truyền cho các lớp khách hàng khác?",
+    options: [
+      "Lớp Ứng dụng (Application layer)",
+      "Lớp Quang (Optical layer)",
+      "Lớp Liên kết dữ liệu (Data link layer)",
+      "Lớp Phiên (Session layer)"
+    ],
+    answer: "Lớp Quang (Optical layer)",
+    explanation: "Lớp quang là lớp được thêm vào trong thế hệ thứ hai, đóng vai trò server cung cấp các lightpath (tuyến quang) cho các lớp khách hàng như IP, ATM, SONET/SDH."
+  },
+  {
+    question: "Thuật ngữ BER (Bit Error Ratio) được hiểu chính xác nhất là gì?",
+    options: [
+      "Số lượng bit lỗi trong một giây",
+      "Tỷ số giữa số bit bị lỗi trên tổng số bit được truyền đi",
+      "Tổng số gói tin bị mất do nghẽn mạng",
+      "Thời gian trễ trung bình của một bit khi đi qua mạng"
+    ],
+    answer: "Tỷ số giữa số bit bị lỗi trên tổng số bit được truyền đi",
+    explanation: "BER (Bit Error Ratio) phản ánh xác suất lỗi, được tính bằng số bit lỗi chia cho tổng số bit đã truyền trong khoảng thời gian đo."
+  },
+  {
+    question: "Mạng truy nhập quang thụ động (PON) phát triển qua các giai đoạn nào theo xu hướng tăng tốc độ?",
+    options: [
+      "ATM-PON -> Ethernet PON (EPON) -> Gigabit PON (GPON) -> NG-PON",
+      "NG-PON -> GPON -> EPON -> ATM-PON",
+      "WDM-PON -> TDM-PON -> Analog PON",
+      "Chỉ có duy nhất công nghệ GPON được sử dụng"
+    ],
+    answer: "ATM-PON -> Ethernet PON (EPON) -> Gigabit PON (GPON) -> NG-PON",
+    explanation: "Lịch sử phát triển PON đi từ các chuẩn thấp (APON/BPON) lên các chuẩn tốc độ cao hơn như EPON, GPON và sau đó là các thế hệ kế tiếp (NG-PON)."
+  },
+  {
+    question: "Một trong những lý do khiến dịch vụ hướng kết nối (connection-oriented) khác biệt so với phi kết nối là:",
+    options: [
+      "Các gói tin trong cùng một kết nối có thể đi theo nhiều đường khác nhau",
+      "Không cần thiết lập kết nối trước khi truyền dữ liệu",
+      "Cần thiết lập kết nối giữa hai bên trên mạng cơ sở trước khi truyền tin",
+      "Không đảm bảo chất lượng dịch vụ (QoS)"
+    ],
+    answer: "Cần thiết lập kết nối giữa hai bên trên mạng cơ sở trước khi truyền tin",
+    explanation: "Dịch vụ hướng kết nối bắt buộc phải có pha thiết lập (handshake/setup) để xác định đường truyền và tài nguyên trước khi dữ liệu được gửi đi."
+  },
+  {
+    question: "Công nghệ NG-SDH (Next Generation SDH) được phát triển nhằm mục đích chính là gì?",
+    options: [
+      "Thay thế hoàn toàn mạng Ethernet bằng mạng SDH",
+      "Khắc phục sự kém hiệu quả của SDH truyền thống khi truyền tải lưu lượng số liệu (data) và cung cấp băng thông linh hoạt",
+      "Tăng tốc độ truyền dẫn của cáp quang lên vô hạn",
+      "Loại bỏ hoàn toàn lớp quang ra khỏi mô hình mạng"
+    ],
+    answer: "Khắc phục sự kém hiệu quả của SDH truyền thống khi truyền tải lưu lượng số liệu (data) và cung cấp băng thông linh hoạt",
+    explanation: "SDH truyền thống được thiết kế tối ưu cho thoại (voice) và rất cứng nhắc. NG-SDH ra đời với các giao thức mới giúp truyền tải dữ liệu gói (IP/Ethernet) hiệu quả hơn trên nền tảng SDH có sẵn."
+  },
+  {
+    question: "Ba giao thức cốt lõi tạo nên công nghệ NG-SDH là gì?",
+    options: [
+      "TCP, IP, và UDP",
+      "GFP, VCAT, và LCAS",
+      "MPLS, GMPLS, và OSPF",
+      "WDM, TDM, và FDM"
+    ],
+    answer: "GFP, VCAT, và LCAS",
+    explanation: "NG-SDH được định nghĩa bởi 3 giao thức: GFP (Generic Framing Procedure - đóng gói), VCAT (Virtual Concatenation - ghép kênh ảo), và LCAS (Link Capacity Adjustment Scheme - điều chỉnh dung lượng)."
+  },
+  {
+    question: "Giao thức GFP (Generic Framing Procedure) có chức năng gì trong NG-SDH?",
+    options: [
+      "Định tuyến các gói tin IP",
+      "Thích ứng và đóng gói các luồng dữ liệu (như Ethernet, Fiber Channel) vào các container đồng bộ của SDH",
+      "Tăng cường độ tín hiệu quang",
+      "Phát hiện lỗi đứt cáp quang"
+    ],
+    answer: "Thích ứng và đóng gói các luồng dữ liệu (như Ethernet, Fiber Channel) vào các container đồng bộ của SDH",
+    explanation: "GFP là một giao thức đóng gói tiêu chuẩn (ITU-T G.7041) cho phép ánh xạ các tín hiệu khách hàng không đồng bộ, có độ dài thay đổi vào các khung đồng bộ byte-oriented."
+  },
+  {
+    question: "Sự khác biệt chính giữa ghép kênh liền kề (Contiguous Concatenation) và ghép kênh ảo (Virtual Concatenation - VCAT) là gì?",
+    options: [
+      "VCAT yêu cầu các container phải nằm cạnh nhau và đi cùng một đường",
+      "VCAT cho phép các container thành phần (VC) được định tuyến độc lập qua mạng và không cần thiết bị trung gian hỗ trợ",
+      "VCAT có tốc độ thấp hơn ghép kênh liền kề",
+      "VCAT chỉ dùng cho thoại, ghép kênh liền kề dùng cho dữ liệu"
+    ],
+    answer: "VCAT cho phép các container thành phần (VC) được định tuyến độc lập qua mạng và không cần thiết bị trung gian hỗ trợ",
+    explanation: "VCAT phá vỡ sự cứng nhắc của SDH bằng cách cho phép nhóm các VC rời rạc lại thành một liên kết logic lớn, các VC này có thể đi các đường vật lý khác nhau."
+  },
+  {
+    question: "Giao thức LCAS (Link Capacity Adjustment Scheme) mang lại lợi ích gì cho mạng quang?",
+    options: [
+      "Cho phép thay đổi băng thông của liên kết VCAT một cách linh hoạt mà không gây gián đoạn dịch vụ (hitless)",
+      "Tự động sửa lỗi bit (Forward Error Correction)",
+      "Chuyển đổi tín hiệu quang sang điện",
+      "Tăng khoảng cách truyền dẫn"
+    ],
+    answer: "Cho phép thay đổi băng thông của liên kết VCAT một cách linh hoạt mà không gây gián đoạn dịch vụ (hitless)",
+    explanation: "LCAS (ITU-T G.7042) là giao thức bắt tay cho phép thêm hoặc bớt các thành viên VCAT trong thời gian thực để tăng/giảm băng thông mà không làm mất dữ liệu."
+  },
+  {
+    question: "Trong công nghệ MPLS (Multiprotocol Label Switching), việc chuyển tiếp gói tin dựa trên yếu tố nào?",
+    options: [
+      "Địa chỉ IP nguồn và đích dài nhất",
+      "Nhãn (Label) ngắn có độ dài cố định",
+      "Địa chỉ MAC",
+      "Số cổng vật lý"
+    ],
+    answer: "Nhãn (Label) ngắn có độ dài cố định",
+    explanation: "MPLS cải thiện tốc độ chuyển tiếp bằng cách sử dụng các nhãn ngắn (Label) thay vì phải tra cứu bảng định tuyến IP phức tạp tại mỗi nút mạng."
+  },
+  {
+    question: "Hai chế độ hoạt động chính của giao thức GFP là gì?",
+    options: [
+      "GFP-A (Async) và GFP-S (Sync)",
+      "GFP-F (Frame-mapped) và GFP-T (Transparent-mapped)",
+      "GFP-L (Light) và GFP-H (Heavy)",
+      "GFP-TCP và GFP-UDP"
+    ],
+    answer: "GFP-F (Frame-mapped) và GFP-T (Transparent-mapped)",
+    explanation: "GFP-F đóng gói toàn bộ khung PDU (hiệu quả băng thông tốt), trong khi GFP-T đóng gói mã 8B/10B (độ trễ thấp, phù hợp với SAN/Video)."
+  },
+  {
+    question: "Tại sao nói Ethernet là một lớp khách hàng quan trọng của lớp quang?",
+    options: [
+      "Vì Ethernet là công nghệ thống trị trong mạng LAN và đang mở rộng ra MAN/WAN",
+      "Vì Ethernet có khả năng truyền dẫn xa hơn cáp quang",
+      "Vì Ethernet thay thế hoàn toàn giao thức IP",
+      "Vì Ethernet không cần đóng gói khi đi qua mạng quang"
+    ],
+    answer: "Vì Ethernet là công nghệ thống trị trong mạng LAN và đang mở rộng ra MAN/WAN",
+    explanation: "Ethernet chiếm hơn 90% lưu lượng mạng LAN toàn cầu, do đó các mạng quang (MAN/WAN) phải tối ưu hóa để vận chuyển lưu lượng Ethernet này đi xa."
+  },
+  {
+    question: "Chức năng của LSP (Label Switched Path) trong mạng MPLS là gì?",
+    options: [
+      "Là một đường dẫn ảo được thiết lập trước cho các gói tin có cùng nhãn di chuyển qua mạng MPLS",
+      "Là thiết bị định tuyến biên",
+      "Là giao thức phân phối nhãn",
+      "Là bảng định tuyến IP"
+    ],
+    answer: "Là một đường dẫn ảo được thiết lập trước cho các gói tin có cùng nhãn di chuyển qua mạng MPLS",
+    explanation: "LSP là con đường luận lý được thiết lập xuyên suốt mạng MPLS, giống như một mạch ảo để chuyển gói tin từ LER đầu vào đến LER đầu ra."
+  },
+  {
+    question: "Xu hướng IP over WDM (IP trực tiếp trên quang) nhằm mục đích gì?",
+    options: [
+      "Tăng thêm nhiều lớp trung gian để quản lý chặt chẽ hơn",
+      "Giảm bớt các lớp trung gian (như SDH/ATM), giảm độ phức tạp và chi phí mạng (overhead)",
+      "Làm chậm tốc độ mạng để đảm bảo an toàn",
+      "Chuyển tất cả về mạng chuyển mạch kênh"
+    ],
+    answer: "Giảm bớt các lớp trung gian (như SDH/ATM), giảm độ phức tạp và chi phí mạng (overhead)",
+    explanation: "Mô hình IP over WDM hướng tới kiến trúc mạng phẳng hơn, loại bỏ các tầng giao thức chồng chéo không cần thiết để tối ưu hóa hiệu suất và chi phí."
+  },
+  {
+    question: "Công nghệ OTN (Optical Transport Network) thường được gọi là gì do đặc điểm cấu trúc khung của nó?",
+    options: [
+      "Digital Wrapper (Vỏ bọc số)",
+      "Analog Carrier (Sóng mang tương tự)",
+      "Virtual Circuit (Mạch ảo)",
+      "Optical Burst (Chùm quang)"
+    ],
+    answer: "Digital Wrapper (Vỏ bọc số)",
+    explanation: "OTN được mệnh danh là 'Digital Wrapper' vì nó bọc các tín hiệu khách hàng (như Ethernet, SDH, IP) vào trong một cấu trúc khung số tiêu chuẩn để thêm các tính năng quản lý, giám sát và sửa lỗi."
+  },
+  {
+    question: "Ưu điểm vượt trội của OTN so với SDH/SONET là khả năng tích hợp sẵn kỹ thuật nào để cải thiện cự ly truyền dẫn?",
+    options: [
+      "CSMA/CD (Đa truy nhập nhận biết sóng mang)",
+      "FEC (Forward Error Correction - Sửa lỗi trước)",
+      "WDM (Ghép kênh bước sóng)",
+      "Mã hóa Manchester"
+    ],
+    answer: "FEC (Forward Error Correction - Sửa lỗi trước)",
+    explanation: "OTN dành riêng một phần trong khung (frame) cho FEC (Reed-Solomon), giúp khôi phục các bit bị lỗi tại đầu thu, cho phép truyền đi xa hơn mà không cần các trạm tái sinh tín hiệu (3R regenerator)."
+  },
+  {
+    question: "Trong phân cấp OTN, đơn vị nào tương ứng với tốc độ khoảng 10 Gbps (dùng để tải Ethernet 10G hoặc STM-64)?",
+    options: [
+      "OTU1",
+      "OTU2",
+      "OTU3",
+      "OTU4"
+    ],
+    answer: "OTU2",
+    explanation: "Phân cấp OTN: OTU1 (~2.5G), OTU2 (~10G), OTU3 (~40G), OTU4 (~100G). OTU2 là chuẩn phổ biến để truyền tải 10 Gigabit Ethernet hoặc OC-192/STM-64."
+  },
+  {
+    question: "GMPLS (Generalized MPLS) mở rộng khả năng của MPLS truyền thống bằng cách hỗ trợ chuyển mạch trên các giao diện nào?",
+    options: [
+      "Chỉ hỗ trợ giao diện gói (Packet)",
+      "Hỗ trợ đa dạng: Gói, Khe thời gian (TDM), Bước sóng (Lambda) và Sợi quang (Fiber)",
+      "Chỉ hỗ trợ giao diện vô tuyến",
+      "Chỉ hỗ trợ mạng LAN nội bộ"
+    ],
+    answer: "Hỗ trợ đa dạng: Gói, Khe thời gian (TDM), Bước sóng (Lambda) và Sợi quang (Fiber)",
+    explanation: "GMPLS tổng quát hóa khái niệm 'nhãn' (Label). Nhãn không chỉ là số trong header gói tin, mà có thể là một khe thời gian, một bước sóng ánh sáng, hoặc một cổng sợi quang vật lý."
+  },
+  {
+    question: "Cấu trúc khung của OTN bao gồm các vùng chức năng chính nào?",
+    options: [
+      "Header, IP Payload, Footer",
+      "Overhead, Payload, FEC",
+      "Preamble, SFD, FCS",
+      "Virtual Container, Pointer, Path Overhead"
+    ],
+    answer: "Overhead, Payload, FEC",
+    explanation: "Khung OTN (OTUk) gồm 3 phần chính: Vùng Overhead (để quản lý, giám sát), vùng Payload (chứa dữ liệu OPU), và vùng FEC (để sửa lỗi)."
+  },
+  {
+    question: "Giao thức Ethernet khi chạy trên mạng WAN/Metro quang (Carrier Ethernet) cần giải quyết vấn đề gì quan trọng nhất so với Ethernet trong LAN?",
+    options: [
+      "Phát hiện xung đột (Collision Detection)",
+      "Đảm bảo chất lượng dịch vụ (QoS) và giám sát lỗi từ đầu cuối đến đầu cuối (OAM)",
+      "Giảm tốc độ để phù hợp với cáp quang",
+      "Sử dụng cáp đồng xoắn đôi"
+    ],
+    answer: "Đảm bảo chất lượng dịch vụ (QoS) và giám sát lỗi từ đầu cuối đến đầu cuối (OAM)",
+    explanation: "Ethernet LAN nguyên thủy là 'nỗ lực tối đa' (best-effort) và thiếu công cụ giám sát. Carrier Ethernet phải bổ sung OAM (Operation, Administration, Maintenance) để nhà mạng có thể cam kết SLA với khách hàng."
+  },
+  {
+    question: "Tầng OPU (Optical Payload Unit) trong cấu trúc OTN có chức năng gì?",
+    options: [
+      "Thực hiện sửa lỗi FEC",
+      "Định tuyến bước sóng quang",
+      "Thích ứng tốc độ và ghép các tín hiệu khách hàng (Client signals) vào khung",
+      "Giám sát đoạn lặp (Section Monitoring)"
+    ],
+    answer: "Thích ứng tốc độ và ghép các tín hiệu khách hàng (Client signals) vào khung",
+    explanation: "OPU là tầng trong cùng của OTN, có nhiệm vụ map (ánh xạ) tín hiệu khách hàng (như IP, Ethernet, SDH) vào tải trọng và điều chỉnh tốc độ cho phù hợp."
+  },
+  {
+    question: "10 Gigabit Ethernet (10GbE) có hai chuẩn giao diện vật lý chính là LAN PHY và WAN PHY. WAN PHY được thiết kế để làm gì?",
+    options: [
+      "Kết nối trực tiếp với máy tính cá nhân",
+      "Tương thích và đóng gói trực tiếp vào khung SDH/SONET (STM-64/OC-192)",
+      "Sử dụng cho mạng không dây",
+      "Thay thế hoàn toàn OTN"
+    ],
+    answer: "Tương thích và đóng gói trực tiếp vào khung SDH/SONET (STM-64/OC-192)",
+    explanation: "WAN PHY hoạt động ở tốc độ 9.953 Gbps (tương đương OC-192c) và có cấu trúc khung tương thích với SDH/SONET, cho phép Ethernet chạy qua mạng đường trục SDH cũ một cách dễ dàng."
+  },
+  {
+    question: "Trong mô hình IP over WDM, mô hình 'Overlay' (Chồng lấn) có đặc điểm gì?",
+    options: [
+      "Lớp IP và lớp Quang có chung một mặt phẳng điều khiển",
+      "Lớp IP và lớp Quang tách biệt hoàn toàn, lớp IP hoạt động như một khách hàng của lớp Quang",
+      "Router IP điều khiển trực tiếp các thiết bị chuyển mạch quang",
+      "Không sử dụng định tuyến"
+    ],
+    answer: "Lớp IP và lớp Quang tách biệt hoàn toàn, lớp IP hoạt động như một khách hàng của lớp Quang",
+    explanation: "Mô hình Overlay tách biệt miền dữ liệu (IP) và miền quang. Router IP không biết cấu trúc bên trong của mạng quang, chỉ yêu cầu kết nối (lightpath) từ điểm A đến B."
+  },
+  {
+    question: "Khái niệm 'Control Plane' (Mặt phẳng điều khiển) và 'Data Plane' (Mặt phẳng dữ liệu) tách biệt là đặc trưng của công nghệ nào trong mạng quang thông minh?",
+    options: [
+      "SDH truyền thống",
+      "ASON/GMPLS (Automatically Switched Optical Network)",
+      "Ethernet Hub",
+      "Cáp quang biển"
+    ],
+    answer: "ASON/GMPLS (Automatically Switched Optical Network)",
+    explanation: "ASON/GMPLS đưa trí thông minh vào mạng quang bằng cách tách rời Control Plane (xử lý báo hiệu, định tuyến, khôi phục) khỏi Data Plane (chuyển tải dữ liệu người dùng)."
+  },
+  {
+    question: "Trong mạng quang WDM, thiết bị nào cho phép rẽ (drop) và xen (add) một hoặc nhiều bước sóng tại một nút mạng mà không cần chuyển đổi toàn bộ tín hiệu quang sang điện?",
+    options: [
+      "OLT (Optical Line Terminal)",
+      "OADM (Optical Add-Drop Multiplexer)",
+      "OA (Optical Amplifier)",
+      "Regenerator (Bộ tái sinh)"
+    ],
+    answer: "OADM (Optical Add-Drop Multiplexer)",
+    explanation: "OADM (Optical Add-Drop Multiplexer) là thiết bị quan trọng trong mạng quang WDM, cho phép trích xuất (drop) các kênh bước sóng cụ thể tại nút địa phương và chèn (add) các kênh mới vào sợi quang chung, trong khi các kênh khác đi thẳng (express/pass-through)."
+  },
+  {
+    question: "ROADM (Reconfigurable OADM) khác biệt so với OADM cố định (Fixed OADM) ở điểm nào?",
+    options: [
+      "ROADM rẻ hơn OADM cố định",
+      "ROADM cho phép điều khiển cấu hình xen/rẽ bước sóng từ xa bằng phần mềm mà không cần can thiệp thủ công tại hiện trường",
+      "ROADM chỉ hoạt động được với tín hiệu điện",
+      "ROADM không hỗ trợ WDM"
+    ],
+    answer: "ROADM cho phép điều khiển cấu hình xen/rẽ bước sóng từ xa bằng phần mềm mà không cần can thiệp thủ công tại hiện trường",
+    explanation: "ROADM sử dụng các công nghệ như WSS (Wavelength Selective Switch) để cho phép nhà quản trị định tuyến lại các bước sóng từ xa qua phần mềm quản lý, mang lại sự linh hoạt cao so với OADM cố định phải hàn nối thủ công."
+  },
+  {
+    question: "Thiết bị OXC (Optical Cross Connect) đóng vai trò gì trong mạng quang dạng lưới (Mesh)?",
+    options: [
+      "Chuyển mạch các kênh quang (bước sóng) từ cổng đầu vào bất kỳ sang cổng đầu ra bất kỳ",
+      "Chỉ thực hiện chức năng khuếch đại tín hiệu",
+      "Chuyển đổi gói tin IP thành khung Ethernet",
+      "Tạo ra xung clock đồng bộ cho toàn mạng"
+    ],
+    answer: "Chuyển mạch các kênh quang (bước sóng) từ cổng đầu vào bất kỳ sang cổng đầu ra bất kỳ",
+    explanation: "OXC là thiết bị chuyển mạch cốt lõi trong mạng Mesh WDM, thực hiện chức năng nối chéo (cross-connect) các tín hiệu quang giữa nhiều sợi quang đầu vào và đầu ra, giúp định tuyến linh hoạt dung lượng lớn."
+  },
+  {
+    question: "Bài toán RWA (Routing and Wavelength Assignment) trong thiết kế mạng WDM bao gồm hai nhiệm vụ chính nào?",
+    options: [
+      "Tìm đường đi vật lý cho kết nối và gán một bước sóng hợp lệ cho kết nối đó",
+      "Định tuyến IP và chuyển mạch nhãn MPLS",
+      "Khuếch đại tín hiệu và bù tán sắc",
+      "Mã hóa dữ liệu và nén dữ liệu"
+    ],
+    answer: "Tìm đường đi vật lý cho kết nối và gán một bước sóng hợp lệ cho kết nối đó",
+    explanation: "RWA là bài toán cơ bản khi thiết lập một 'Lightpath' (tuyến quang): cần xác định đi qua những sợi quang nào (Routing) và sử dụng bước sóng màu gì (Wavelength Assignment) để tránh xung đột."
+  },
+  {
+    question: "Ràng buộc về tính liên tục của bước sóng (Wavelength Continuity Constraint) trong bài toán RWA có nghĩa là gì?",
+    options: [
+      "Bước sóng phải thay đổi liên tục qua mỗi nút mạng",
+      "Một kết nối quang phải sử dụng cùng một bước sóng trên tất cả các liên kết (link) từ nguồn đến đích (nếu không có bộ chuyển đổi bước sóng)",
+      "Ánh sáng phải được truyền liên tục không ngắt quãng",
+      "Mọi bước sóng đều có cùng tốc độ truyền dẫn"
+    ],
+    answer: "Một kết nối quang phải sử dụng cùng một bước sóng trên tất cả các liên kết (link) từ nguồn đến đích (nếu không có bộ chuyển đổi bước sóng)",
+    explanation: "Nếu mạng không có bộ chuyển đổi bước sóng (Wavelength Converter), một tín hiệu bắt đầu bằng bước sóng λ1 thì bắt buộc phải duy trì là λ1 trên toàn bộ hành trình."
+  },
+  {
+    question: "Mô hình 'Overlay' (Chồng lấn) trong kiến trúc IP over WDM có đặc điểm gì?",
+    options: [
+      "Lớp IP và lớp Quang chia sẻ hoàn toàn thông tin định tuyến",
+      "Lớp IP hoạt động độc lập với lớp Quang; lớp Quang cung cấp kết nối như một dịch vụ cho lớp IP",
+      "Lớp IP điều khiển trực tiếp thiết bị OXC",
+      "Loại bỏ hoàn toàn lớp quang"
+    ],
+    answer: "Lớp IP hoạt động độc lập với lớp Quang; lớp Quang cung cấp kết nối như một dịch vụ cho lớp IP",
+    explanation: "Mô hình Overlay tách biệt hai lớp (Client-Server). Lớp IP (Client) yêu cầu băng thông, lớp Quang (Server) cung cấp đường truyền. Thông tin cấu trúc mạng quang được ẩn giấu đối với lớp IP."
+  },
+  {
+    question: "Kiến trúc mạng quang nào có khả năng bảo vệ và phục hồi (survivability) tốt nhất và linh hoạt nhất?",
+    options: [
+      "Mạng điểm - điểm (Point-to-Point)",
+      "Mạng Ring (Vòng)",
+      "Mạng Mesh (Lưới)",
+      "Mạng hình sao (Star)"
+    ],
+    answer: "Mạng Mesh (Lưới)",
+    explanation: "Mạng Mesh cung cấp nhiều tuyến đường thay thế giữa các nút, cho phép các thuật toán phục hồi thông minh tìm đường tránh sự cố hiệu quả hơn và tiết kiệm tài nguyên dự phòng hơn so với mạng Ring."
+  },
+  {
+    question: "Thiết bị OXC loại 'Opaque' (Quang - Điện - Quang hay O-E-O) có ưu điểm gì so với loại 'Transparent' (Toàn quang hay O-O-O)?",
+    options: [
+      "Giá thành rẻ hơn và tiêu thụ ít điện năng hơn",
+      "Có khả năng tái tạo tín hiệu, chuyển đổi bước sóng dễ dàng và giám sát chất lượng bit (BER) tốt hơn",
+      "Hoàn toàn trong suốt với tốc độ bit và định dạng tín hiệu",
+      "Không gây trễ xử lý"
+    ],
+    answer: "Có khả năng tái tạo tín hiệu, chuyển đổi bước sóng dễ dàng và giám sát chất lượng bit (BER) tốt hơn",
+    explanation: "OXC Opaque chuyển đổi tín hiệu về miền điện để xử lý. Điều này cho phép thực hiện 3R (Reamplifying, Reshaping, Retiming), chuyển đổi bước sóng tùy ý và giám sát lỗi chi tiết trước khi chuyển lại sang quang."
+  },
+  {
+    question: "Giải pháp nào giúp giải quyết vấn đề tắc nghẽn bước sóng (wavelength blocking) trong bài toán RWA?",
+    options: [
+      "Sử dụng bộ chuyển đổi bước sóng (Wavelength Converter)",
+      "Giảm công suất phát quang",
+      "Tăng chiều dài sợi quang",
+      "Sử dụng sợi quang đơn mode (SMF)"
+    ],
+    answer: "Sử dụng bộ chuyển đổi bước sóng (Wavelength Converter)",
+    explanation: "Bộ chuyển đổi bước sóng cho phép thay đổi bước sóng của tín hiệu tại các nút trung gian. Nếu bước sóng λ1 bị bận ở đoạn tiếp theo, nó có thể đổi sang λ2 đang rỗi, giúp giảm khả năng cuộc gọi bị chặn (blocking)."
+  },
+  {
+    question: "Mạng quang WDM định nghĩa bởi phần mềm (SDN - Software Defined Networking) hướng tới mục tiêu gì?",
+    options: [
+      "Tách biệt mặt phẳng điều khiển (Control Plane) khỏi thiết bị phần cứng và quản lý tập trung bằng phần mềm",
+      "Thay thế cáp quang bằng sóng vô tuyến",
+      "Loại bỏ hoàn toàn nhu cầu về con người vận hành",
+      "Tăng số lượng phần cứng cần thiết"
+    ],
+    answer: "Tách biệt mặt phẳng điều khiển (Control Plane) khỏi thiết bị phần cứng và quản lý tập trung bằng phần mềm",
+    explanation: "SDN (Software Defined Networking) trong mạng quang tập trung quyền điều khiển về một bộ Controller trung tâm, cho phép lập trình, tự động hóa và tối ưu hóa tài nguyên mạng một cách linh hoạt qua các API mở."
+  },
+  {
+    question: "Trong các mô hình chuyển mạch quang, kỹ thuật nào được coi là giải pháp trung gian khả thi nhất giữa chuyển mạch kênh (OCS) và chuyển mạch gói (OPS)?",
+    options: [
+      "Optical Burst Switching (OBS) - Chuyển mạch chùm quang",
+      "Circuit Switching - Chuyển mạch kênh",
+      "Time Division Multiplexing - Ghép kênh theo thời gian",
+      "Ethernet Switching"
+    ],
+    answer: "Optical Burst Switching (OBS) - Chuyển mạch chùm quang",
+    explanation: "OBS (Optical Burst Switching) gom các gói tin IP thành các 'chùm' (burst). Gói điều khiển (header) được gửi đi trước trên kênh riêng để đặt chỗ tài nguyên tại các nút, sau một khoảng thời gian trễ (offset time), chùm dữ liệu sẽ đi theo mà không cần chờ xác nhận (ACK), giúp dung hòa giữa tốc độ xử lý quang và độ linh hoạt của gói."
+  },
+  {
+    question: "Chức năng chính của thiết bị Transponder (Bộ phát đáp) trong mạng WDM là gì?",
+    options: [
+      "Chỉ khuếch đại tín hiệu quang",
+      "Chuyển đổi bước sóng từ phía khách hàng (client side, ví dụ 1310nm 'xám') sang bước sóng chuẩn ITU (line side, ví dụ kênh C-band 'màu') để ghép vào hệ thống WDM",
+      "Định tuyến gói tin IP",
+      "Cấp nguồn cho các thiết bị khác"
+    ],
+    answer: "Chuyển đổi bước sóng từ phía khách hàng (client side, ví dụ 1310nm 'xám') sang bước sóng chuẩn ITU (line side, ví dụ kênh C-band 'màu') để ghép vào hệ thống WDM",
+    explanation: "Transponder thực hiện chuyển đổi O-E-O (Quang-Điện-Quang). Nó nhận tín hiệu quang bước sóng ngắn/rộng từ thiết bị khách hàng (Router/Switch), tái tạo tín hiệu điện, rồi phát lại bằng laser có bước sóng cực kỳ chính xác (theo lưới ITU) để có thể ghép kênh WDM."
+  },
+  {
+    question: "Trong cấu hình mạng Ring WDM 2 sợi (2-fiber Ring), cơ chế bảo vệ thường dùng nhất là gì?",
+    options: [
+      "OMS-SPRing (Optical Multiplex Section Shared Protection Ring)",
+      "O-UPSR (Optical Unidirectional Path Switched Ring) hoặc O-SNCP (Subnetwork Connection Protection)",
+      "Mesh Restoration",
+      "Không có bảo vệ"
+    ],
+    answer: "O-UPSR (Optical Unidirectional Path Switched Ring) hoặc O-SNCP (Subnetwork Connection Protection)",
+    explanation: "Trong cơ chế này (bảo vệ đường 1+1), tín hiệu nguồn được phát đồng thời đi theo hai hướng ngược nhau trên vòng Ring (hướng làm việc và hướng bảo vệ). Tại đầu thu, thiết bị sẽ giám sát và chọn tín hiệu tốt hơn. Nếu đứt một hướng, nó tự động chuyển sang dùng tín hiệu từ hướng kia."
+  },
+  {
+    question: "Thiết bị OA (Optical Amplifier) loại EDFA (Erbium Doped Fiber Amplifier) hoạt động hiệu quả nhất ở vùng bước sóng nào?",
+    options: [
+      "Vùng 1310 nm (O-band)",
+      "Vùng 1550 nm (C-band và L-band)",
+      "Vùng 850 nm",
+      "Vùng ánh sáng nhìn thấy"
+    ],
+    answer: "Vùng 1550 nm (C-band và L-band)",
+    explanation: "EDFA sử dụng sợi quang pha tạp Erbium, khi được bơm năng lượng sẽ khuếch đại ánh sáng rất mạnh trong vùng 1530nm-1565nm (C-band), trùng khớp với vùng có độ suy hao thấp nhất của sợi quang Silica, làm cho nó trở thành bộ khuếch đại phổ biến nhất."
+  },
+  {
+    question: "Vấn đề 'Tán sắc' (Dispersion) và 'Phi tuyến' (Non-linear effects) trở nên nghiêm trọng nhất trong loại mạng quang nào?",
+    options: [
+      "Mạng truy nhập ngắn (Access Network)",
+      "Mạng đường trục cự ly dài (Long-haul WDM Network)",
+      "Mạng LAN nội bộ",
+      "Mạng điện thoại cố định"
+    ],
+    answer: "Mạng đường trục cự ly dài (Long-haul WDM Network)",
+    explanation: "Trong mạng đường trục (Long-haul), tín hiệu đi quãng đường rất xa với cường độ lớn (do khuếch đại nhiều lần). Tán sắc tích lũy làm doãng xung gây chồng lấn bit (ISI), còn hiệu ứng phi tuyến gây méo tín hiệu, đòi hỏi thiết kế mạng phải tính toán bù trừ rất kỹ."
+  },
+  {
+    question: "Kiến trúc nút mạng quang nào cho phép tín hiệu đi qua (express) mà không cần bất kỳ thiết bị điện tử nào xử lý?",
+    options: [
+      "Opaque Node (Nút mờ/đục)",
+      "Transparent Node (Nút trong suốt - All Optical)",
+      "Router IP",
+      "DSLAM"
+    ],
+    answer: "Transparent Node (Nút trong suốt - All Optical)",
+    explanation: "Nút trong suốt (Transparent) sử dụng các công nghệ chuyển mạch quang học (như MEMS, LCOS) để lái luồng ánh sáng từ cổng này sang cổng kia mà không cần chuyển đổi sang điện. Ưu điểm là không phụ thuộc tốc độ bit hay giao thức, nhưng khó giám sát lỗi từng bit."
+  },
+  {
+    question: "Trong mạng WDM, khái niệm 'Lưới bước sóng linh hoạt' (Flex-grid) có ý nghĩa gì so với 'Lưới cố định' (Fixed-grid ITU-T)?",
+    options: [
+      "Chỉ sử dụng một bước sóng duy nhất",
+      "Cho phép thay đổi độ rộng băng thông của kênh quang tùy theo nhu cầu tốc độ (ví dụ: kênh 37.5GHz, 50GHz, 75GHz...) thay vì cố định 50GHz",
+      "Bước sóng tự động thay đổi màu sắc",
+      "Không cần sử dụng bộ lọc quang"
+    ],
+    answer: "Cho phép thay đổi độ rộng băng thông của kênh quang tùy theo nhu cầu tốc độ (ví dụ: kênh 37.5GHz, 50GHz, 75GHz...) thay vì cố định 50GHz",
+    explanation: "Flex-grid chia phổ quang thành các lát nhỏ (frequency slots, ví dụ 12.5GHz). Một kênh truyền siêu tốc (400G, 1T) có thể chiếm nhiều slot ghép lại để vừa đủ băng thông cần thiết, tránh lãng phí khoảng bảo vệ (guard band) lớn như trong lưới cố định (Fixed-grid 50GHz/100GHz)."
+  },
+  {
+    question: "Sự khác biệt cơ bản nhất về mặt thời gian đáp ứng giữa 'Quản lý mạng' (Management) và 'Điều khiển mạng' (Control) là gì?",
+    options: [
+      "Quản lý mạng diễn ra trong thời gian thực (real-time), còn Điều khiển mạng diễn ra chậm hơn",
+      "Quản lý mạng thường có thời gian đáp ứng chậm (phút, giờ) và có sự can thiệp của con người, trong khi Điều khiển mạng diễn ra nhanh (mili-giây, giây) và tự động hóa",
+      "Hai khái niệm này là một, không có sự khác biệt",
+      "Điều khiển mạng chỉ thực hiện khi lắp đặt thiết bị"
+    ],
+    answer: "Quản lý mạng thường có thời gian đáp ứng chậm (phút, giờ) và có sự can thiệp của con người, trong khi Điều khiển mạng diễn ra nhanh (mili-giây, giây) và tự động hóa",
+    explanation: "Quản lý mạng (NMS) tập trung vào giám sát dài hạn và cấu hình tĩnh. Điều khiển mạng (Control Plane) tập trung vào các tác vụ thời gian thực như khôi phục lỗi (restoration) và cấp phát tài nguyên động theo yêu cầu (signaling)."
+  },
+  {
+    question: "Mô hình chức năng quản lý mạng tiêu chuẩn FCAPS bao gồm những thành phần nào?",
+    options: [
+      "Fiber, Cable, Amplifier, Protection, Switch",
+      "Fault, Configuration, Accounting, Performance, Security",
+      "Forwarding, Control, Access, Power, Signaling",
+      "Frequency, Channel, Amplitude, Phase, Speed"
+    ],
+    answer: "Fault, Configuration, Accounting, Performance, Security",
+    explanation: "FCAPS là chuẩn ISO bao gồm: Quản lý lỗi (Fault), Cấu hình (Configuration), Tính cước (Accounting), Hiệu năng (Performance), và Bảo mật (Security)."
+  },
+  {
+    question: "Trong kiến trúc ASON (Automatically Switched Optical Network), giao diện UNI (User Network Interface) kết nối giữa hai thực thể nào?",
+    options: [
+      "Giữa hai nút mạng quang (OXC) với nhau",
+      "Giữa thiết bị khách hàng (Client, ví dụ Router IP) và thiết bị biên của mạng quang (Optical Network Edge)",
+      "Giữa hệ thống quản lý mạng (NMS) và thiết bị mạng",
+      "Giữa phần mềm điều khiển và phần cứng"
+    ],
+    answer: "Giữa thiết bị khách hàng (Client, ví dụ Router IP) và thiết bị biên của mạng quang (Optical Network Edge)",
+    explanation: "UNI (User Network Interface) là cổng giao tiếp cho phép thiết bị khách hàng (như Router) gửi yêu cầu thiết lập băng thông hoặc kết nối quang tới nhà cung cấp mạng."
+  },
+  {
+    question: "Giao thức nào trong bộ giao thức GMPLS chịu trách nhiệm 'phát hiện lỗi liên kết' và 'quản lý kết nối vật lý' giữa hai nút lân cận?",
+    options: [
+      "RSVP-TE (Resource Reservation Protocol)",
+      "OSPF-TE (Open Shortest Path First)",
+      "LMP (Link Management Protocol)",
+      "BGP (Border Gateway Protocol)"
+    ],
+    answer: "LMP (Link Management Protocol)",
+    explanation: "LMP chạy giữa hai nút kề nhau để kiểm tra xem sợi quang có thông không, ánh xạ cổng nào nối với cổng nào và phát hiện lỗi suy hao tín hiệu cục bộ."
+  },
+  {
+    question: "Mặt phẳng điều khiển (Control Plane) trong mạng quang thông minh ASON/GMPLS có chức năng chính là gì?",
+    options: [
+      "Vận chuyển dữ liệu người dùng",
+      "Tự động thiết lập, duy trì và giải phóng các kết nối quang thông qua các giao thức báo hiệu và định tuyến",
+      "Giám sát nhiệt độ phòng máy",
+      "Cung cấp nguồn điện cho các laser"
+    ],
+    answer: "Tự động thiết lập, duy trì và giải phóng các kết nối quang thông qua các giao thức báo hiệu và định tuyến",
+    explanation: "Control Plane chuyển mạng quang từ trạng thái 'tĩnh' (cấu hình thủ công) sang trạng thái 'động' (thông minh), cho phép mạng tự động tìm đường và thiết lập dịch vụ theo yêu cầu."
+  },
+  {
+    question: "Giao thức RSVP-TE (Resource Reservation Protocol - Traffic Engineering) trong GMPLS được sử dụng để làm gì?",
+    options: [
+      "Quảng bá thông tin topo mạng",
+      "Báo hiệu (Signaling) để yêu cầu thiết lập đường dẫn (LSP) và dành trước tài nguyên băng thông dọc theo tuyến",
+      "Mã hóa dữ liệu",
+      "Quản lý lỗi thiết bị"
+    ],
+    answer: "Báo hiệu (Signaling) để yêu cầu thiết lập đường dẫn (LSP) và dành trước tài nguyên băng thông dọc theo tuyến",
+    explanation: "RSVP-TE là giao thức báo hiệu. Sau khi định tuyến xong, RSVP-TE sẽ đi dọc theo tuyến đó để 'đặt gạch' (giữ chỗ) tài nguyên (bước sóng, khe thời gian) tại từng nút để tạo thành đường truyền."
+  },
+  {
+    question: "Mạng quản lý viễn thông (TMN - Telecommunications Management Network) thường sử dụng giao thức nào để trao đổi thông tin quản lý giữa các thiết bị mạng và hệ thống quản lý trung tâm?",
+    options: [
+      "HTTP và HTML",
+      "SNMP (Simple Network Management Protocol) hoặc CMIP (Common Management Information Protocol)",
+      "RTP (Real-time Transport Protocol)",
+      "ARP (Address Resolution Protocol)"
+    ],
+    answer: "SNMP (Simple Network Management Protocol) hoặc CMIP (Common Management Information Protocol)",
+    explanation: "SNMP là giao thức tiêu chuẩn công nghiệp cho phép các trạm quản lý (Manager) đọc/ghi thông tin từ các Agent chạy trên thiết bị mạng để giám sát trạng thái và cấu hình."
+  },
+  {
+    question: "Trong quản lý lỗi (Fault Management), khái niệm 'Tương quan cảnh báo' (Alarm Correlation) có ý nghĩa gì?",
+    options: [
+      "Tắt tất cả các cảnh báo để màn hình đỡ rối",
+      "Phân tích hàng loạt cảnh báo phát sinh để tìm ra nguyên nhân gốc rễ (Root Cause) duy nhất",
+      "Gửi cảnh báo qua email cho người quản trị",
+      "Lưu trữ cảnh báo vào ổ cứng"
+    ],
+    answer: "Phân tích hàng loạt cảnh báo phát sinh để tìm ra nguyên nhân gốc rễ (Root Cause) duy nhất",
+    explanation: "Trong mạng quang, một sự cố vật lý (đứt cáp) sẽ lan truyền lỗi lên các lớp trên (SDH, IP) gây ra cơn bão cảnh báo. Alarm Correlation giúp hệ thống thông minh chỉ ra đúng vị trí cáp đứt thay vì bắt người quản trị kiểm tra từng thiết bị."
+  },
+  {
+    question: "Mô hình SDN (Software Defined Networking) áp dụng vào mạng quang (Optical SDN/Transport SDN) có đặc điểm nổi bật nào?",
+    options: [
+      "Phân tán quyền điều khiển về từng thiết bị",
+      "Tách rời mặt phẳng điều khiển khỏi thiết bị phần cứng và tập trung hóa bộ điều khiển (SDN Controller)",
+      "Sử dụng cáp đồng thay cho cáp quang",
+      "Loại bỏ hoàn toàn giao thức IP"
+    ],
+    answer: "Tách rời mặt phẳng điều khiển khỏi thiết bị phần cứng và tập trung hóa bộ điều khiển (SDN Controller)",
+    explanation: "SDN thay đổi kiến trúc từ phân tán (GMPLS) sang tập trung (Centralized Controller). Phần cứng trở nên đơn giản hơn, còn mọi logic điều khiển nằm ở phần mềm trung tâm, giúp mạng linh hoạt và dễ lập trình."
+  },
+  {
+    question: "Trong kiến trúc GMPLS, giao thức OSPF-TE được mở rộng để quảng bá thông tin gì đặc thù của mạng quang?",
+    options: [
+      "Địa chỉ email của người quản trị",
+      "Thông tin về băng thông khả dụng, loại bước sóng, giao diện bảo vệ và các ràng buộc vật lý quang học",
+      "Nội dung gói tin người dùng",
+      "Mật khẩu wifi"
+    ],
+    answer: "Thông tin về băng thông khả dụng, loại bước sóng, giao diện bảo vệ và các ràng buộc vật lý quang học",
+    explanation: "OSPF-TE không chỉ quảng bá trạng thái 'up/down' của liên kết mà còn quảng bá các thuộc tính TE (Traffic Engineering) như: số lượng bước sóng rỗi, loại mã hóa, khả năng chuyển mạch, giúp thuật toán tìm đường chính xác hơn."
+  },
+  {
+    question: "Sự khác biệt cơ bản giữa 'Bảo vệ' (Protection) và 'Phục hồi' (Restoration) trong mạng quang là gì?",
+    options: [
+      "Bảo vệ sử dụng tài nguyên dự phòng được thiết lập sẵn, thời gian chuyển mạch nhanh; Phục hồi sử dụng tài nguyên còn rỗi để tìm đường mới khi có sự cố, thời gian chậm hơn",
+      "Bảo vệ diễn ra ở lớp IP, còn Phục hồi diễn ra ở lớp Quang",
+      "Bảo vệ không tốn băng thông, còn Phục hồi tốn băng thông",
+      "Hai khái niệm này hoàn toàn giống nhau"
+    ],
+    answer: "Bảo vệ sử dụng tài nguyên dự phòng được thiết lập sẵn, thời gian chuyển mạch nhanh; Phục hồi sử dụng tài nguyên còn rỗi để tìm đường mới khi có sự cố, thời gian chậm hơn",
+    explanation: "Bảo vệ (Protection) dựa trên các đường dẫn dự phòng đã được định trước (pre-calculated) nên chuyển mạch rất nhanh (thường < 50ms). Phục hồi (Restoration) dựa trên việc tính toán đường đi động sau khi sự cố xảy ra, tiết kiệm băng thông hơn nhưng chậm hơn."
+  },
+  {
+    question: "Trong cơ chế bảo vệ tuyến tính 1+1 (Linear 1+1 Protection), tín hiệu được truyền như thế nào?",
+    options: [
+      "Tín hiệu chỉ được truyền trên đường làm việc, đường bảo vệ để trống",
+      "Tín hiệu được phát song song đồng thời trên cả đường làm việc và đường bảo vệ",
+      "Tín hiệu được chia đôi dung lượng ra hai đường",
+      "Chỉ sử dụng khi đường chính bị đứt"
+    ],
+    answer: "Tín hiệu được phát song song đồng thời trên cả đường làm việc và đường bảo vệ",
+    explanation: "Trong chế độ 1+1, tín hiệu được sao chép và gửi đi trên cả hai đường (Working & Protection). Tại đầu thu, thiết bị giám sát chất lượng và chọn tín hiệu tốt nhất. Điều này giúp loại bỏ nhu cầu báo hiệu phức tạp giữa hai đầu."
+  },
+  {
+    question: "Cơ chế bảo vệ mạng vòng MS-SPRing có ưu điểm gì so với SNCP?",
+    options: [
+      "Đơn giản hơn và không cần giao thức APS",
+      "Hiệu quả sử dụng băng thông cao hơn do có thể chia sẻ băng thông bảo vệ cho lưu lượng ưu tiên thấp (extra traffic)",
+      "Thời gian chuyển mạch nhanh hơn",
+      "Chỉ hoạt động trên một sợi quang duy nhất"
+    ],
+    answer: "Hiệu quả sử dụng băng thông cao hơn do có thể chia sẻ băng thông bảo vệ cho lưu lượng ưu tiên thấp (extra traffic)",
+    explanation: "SNCP là bảo vệ 1+1 (dành riêng), tốn 50% băng thông cố định. MS-SPRing là bảo vệ chia sẻ (Shared Protection), dung lượng bảo vệ có thể được dùng để truyền lưu lượng không quan trọng (Extra Traffic) khi mạng bình thường, giúp tối ưu hóa tài nguyên."
+  },
+  {
+    question: "Tại sao cơ chế bảo vệ truyền thống của lớp IP (định tuyến lại) thường chậm và không đáp ứng được yêu cầu thời gian thực?",
+    options: [
+      "Do tốc độ ánh sáng quá chậm",
+      "Do quá trình hội tụ bảng định tuyến (Routing Convergence) mất nhiều thời gian khi mạng lớn",
+      "Do IP không có khả năng phát hiện lỗi",
+      "Do cáp quang không hỗ trợ IP"
+    ],
+    answer: "Do quá trình hội tụ bảng định tuyến (Routing Convergence) mất nhiều thời gian khi mạng lớn",
+    explanation: "Khi liên kết đứt, các Router phải gửi thông tin cập nhật (LSA) và chạy lại thuật toán Dijkstra để tính bảng định tuyến mới. Quá trình này trong mạng lớn có thể mất hàng chục giây, gây gián đoạn dịch vụ."
+  },
+  {
+    question: "Chuẩn ITU-T G.8032 quy định cơ chế bảo vệ nào cho mạng Ethernet?",
+    options: [
+      "Ethernet Ring Protection (ERP) sử dụng giao thức R-APS",
+      "Spanning Tree Protocol (STP)",
+      "Link Aggregation (LAG)",
+      "MPLS Fast Reroute"
+    ],
+    answer: "Ethernet Ring Protection (ERP) sử dụng giao thức R-APS",
+    explanation: "G.8032 ERP được thiết kế chuyên biệt cho topo mạng Ring Ethernet, sử dụng bản tin R-APS để phối hợp đóng/mở cổng khóa (RPL Owner), đạt thời gian hồi phục < 50ms, khắc phục nhược điểm chậm chạp của STP."
+  },
+  {
+    question: "Trong bảo vệ MPLS, kỹ thuật 'Fast Reroute' (FRR) sử dụng cơ chế gì để đạt thời gian phục hồi nhanh?",
+    options: [
+      "Tính toán lại đường đi từ đầu nguồn",
+      "Sử dụng các đường hầm dự phòng (Backup Tunnels) được thiết lập sẵn tại các nút trung gian để đi vòng qua điểm lỗi",
+      "Gửi lại gói tin bị mất",
+      "Chuyển sang mạng Wifi"
+    ],
+    answer: "Sử dụng các đường hầm dự phòng (Backup Tunnels) được thiết lập sẵn tại các nút trung gian để đi vòng qua điểm lỗi",
+    explanation: "MPLS FRR cho phép nút phát hiện lỗi (PLR) chuyển ngay lưu lượng vào một đường hầm dự phòng (bypass/detour) đã được dựng sẵn bao quanh điểm lỗi, thay vì chờ thiết bị đầu cuối tính toán lại toàn bộ tuyến đường."
+  },
+  {
+    question: "Bảo vệ đoạn ghép quang (OMS Protection) khác với bảo vệ kênh quang (OCh Protection) ở điểm nào?",
+    options: [
+      "Bảo vệ OMS bảo vệ từng bước sóng riêng lẻ, còn OCh bảo vệ toàn bộ sợi quang",
+      "Bảo vệ OMS bảo vệ toàn bộ tín hiệu ghép kênh (tất cả các bước sóng chung một đường), còn OCh bảo vệ từng kênh bước sóng riêng biệt",
+      "OMS dùng cho mạng LAN, OCh dùng cho mạng WAN",
+      "Hai cơ chế này là một"
+    ],
+    answer: "Bảo vệ OMS bảo vệ toàn bộ tín hiệu ghép kênh (tất cả các bước sóng chung một đường), còn OCh bảo vệ từng kênh bước sóng riêng biệt",
+    explanation: "OMS (Optical Multiplex Section) bảo vệ đoạn đường truyền vật lý chứa tín hiệu WDM tổng hợp. OCh (Optical Channel) bảo vệ từng bước sóng (lambda) cụ thể trước khi hoặc sau khi ghép kênh, cho phép bảo vệ chọn lọc các dịch vụ quan trọng."
+  },
+  {
+    question: "Trong mô hình bảo vệ OMS-DPRing (Dedicated Protection Ring), khi xảy ra sự cố đứt cáp, hệ thống sẽ làm gì?",
+    options: [
+      "Tắt toàn bộ hệ thống",
+      "Các bộ khuếch đại quang (Amplifiers) trên cung bảo vệ sẽ được bật lên để tạo thành đường vòng thay thế",
+      "Chuyển đổi tín hiệu sang điện",
+      "Dùng vệ tinh để truyền tin"
+    ],
+    answer: "Các bộ khuếch đại quang (Amplifiers) trên cung bảo vệ sẽ được bật lên để tạo thành đường vòng thay thế",
+    explanation: "Cấu trúc OMS-DPRing thường thiết lập các bộ khuếch đại ở trạng thái chờ (inactive) trên cung bảo vệ. Khi phát hiện lỗi, các bộ khuếch đại này được kích hoạt (active) để thiết lập tuyến quang mới đi vòng qua điểm sự cố."
+  },
+  {
+    question: "Thời gian chờ (Hold-off time) trong quy trình phục hồi mạng có tác dụng gì?",
+    options: [
+      "Để người quản trị mạng đi uống cà phê",
+      "Chờ đợi để xác nhận lỗi là thật sự bền vững, tránh kích hoạt bảo vệ khi lỗi chỉ chập chờn hoặc để các lớp thấp hơn tự sửa lỗi trước",
+      "Tăng tốc độ truyền dữ liệu",
+      "Giảm công suất tiêu thụ điện"
+    ],
+    answer: "Chờ đợi để xác nhận lỗi là thật sự bền vững, tránh kích hoạt bảo vệ khi lỗi chỉ chập chờn hoặc để các lớp thấp hơn tự sửa lỗi trước",
+    explanation: "Hold-off time là khoảng thời gian hệ thống 'nghe ngóng' sau khi phát hiện lỗi. Nó giúp tránh hiện tượng 'đua điều khiển' (race condition) giữa các lớp mạng (ví dụ: để lớp Quang tự sửa xong trước khi lớp IP kịp phản ứng) và tránh kích hoạt sai do lỗi thoáng qua."
+  },
+  {
+    question: "Mô hình 'Dual Homing' khi kết nối các vòng Ring SDH nhằm mục đích gì?",
+    options: [
+      "Tăng gấp đôi băng thông",
+      "Tránh điểm lỗi đơn lẻ (Single Point of Failure) tại nút giao tiếp giữa hai vòng ring",
+      "Giảm chi phí thiết bị",
+      "Đơn giản hóa quản lý"
+    ],
+    answer: "Tránh điểm lỗi đơn lẻ (Single Point of Failure) tại nút giao tiếp giữa hai vòng ring",
+    explanation: "Dual Homing sử dụng hai nút giao tiếp (Interconnection Nodes) riêng biệt để kết nối hai vòng Ring. Nếu một nút bị hỏng, lưu lượng vẫn có thể đi qua nút còn lại, đảm bảo tính sẵn sàng cao hơn so với Single Homing."
+  },
+  {
+    question: "Đặc điểm cơ bản nhất phân biệt mạng quang thụ động (PON) với mạng quang chủ động (AON) là gì?",
+    options: [
+      "PON sử dụng thiết bị chuyển mạch điện tử cần nguồn điện ở giữa mạng lưới",
+      "PON không sử dụng bất kỳ thành phần điện tử tích cực nào (cần nguồn điện) trong mạng phân phối quang (ODN) mà chỉ dùng các bộ chia quang (Splitter) thụ động",
+      "PON có tốc độ thấp hơn AON",
+      "PON chỉ dùng cho doanh nghiệp, AON dùng cho hộ gia đình"
+    ],
+    answer: "PON không sử dụng bất kỳ thành phần điện tử tích cực nào (cần nguồn điện) trong mạng phân phối quang (ODN) mà chỉ dùng các bộ chia quang (Splitter) thụ động",
+    explanation: "PON (Passive Optical Network) loại bỏ các thiết bị điện tử hoạt động (Active) giữa nhà mạng và khách hàng, thay thế bằng các bộ chia quang (Passive Splitter) không cần nguồn điện, giúp giảm chi phí vận hành và bảo dưỡng."
+  },
+  {
+    question: "Trong kiến trúc mạng PON, thiết bị OLT (Optical Line Terminal) thường được đặt ở đâu và có chức năng gì?",
+    options: [
+      "Đặt tại nhà khách hàng để chuyển đổi quang-điện",
+      "Đặt tại tủ cáp ngoài đường để chia tín hiệu",
+      "Đặt tại trung tâm (Central Office), đóng vai trò điều khiển toàn bộ hệ thống PON và kết nối với mạng lõi (Core Network)",
+      "Đặt trên cột điện để khuếch đại tín hiệu"
+    ],
+    answer: "Đặt tại trung tâm (Central Office), đóng vai trò điều khiển toàn bộ hệ thống PON và kết nối với mạng lõi (Core Network)",
+    explanation: "OLT là 'bộ não' của mạng PON đặt tại đài trạm. Nó thực hiện các chức năng lập lịch, cấp phát băng thông (DBA) và quản lý tất cả các ONU/ONT trong mạng."
+  },
+  {
+    question: "Kỹ thuật đa truy nhập nào được sử dụng trong mạng PON để truyền dữ liệu theo hướng lên (Upstream) từ nhiều người dùng về trung tâm mà không gây xung đột?",
+    options: [
+      "Phát quảng bá (Broadcast)",
+      "CSMA/CD (Đa truy nhập nhận biết sóng mang phát hiện xung đột)",
+      "TDMA (Time Division Multiple Access - Đa truy nhập phân chia theo thời gian)",
+      "Token Ring"
+    ],
+    answer: "TDMA (Time Division Multiple Access - Đa truy nhập phân chia theo thời gian)",
+    explanation: "Do môi trường chia sẻ, để tránh xung đột dữ liệu khi nhiều nhà cùng gửi tin lên OLT, mạng PON sử dụng TDMA để cấp cho mỗi ONU một khe thời gian (time slot) riêng biệt."
+  },
+  {
+    question: "Trong mô hình FTTx, kiến trúc nào đưa cáp quang đến tận thiết bị đầu cuối bên trong nhà thuê bao?",
+    options: [
+      "FTTC (Fiber To The Curb - Cáp quang đến lề đường)",
+      "FTTN (Fiber To The Node - Cáp quang đến nút mạng)",
+      "FTTH (Fiber To The Home - Cáp quang đến tận nhà)",
+      "FTTB (Fiber To The Building - Cáp quang đến tòa nhà)"
+    ],
+    answer: "FTTH (Fiber To The Home - Cáp quang đến tận nhà)",
+    explanation: "FTTH (Fiber To The Home) là mô hình mà sợi quang được kéo xuyên suốt từ nhà mạng đến tận thiết bị ONT đặt trong nhà khách hàng, cung cấp băng thông cao nhất."
+  },
+  {
+    question: "Cơ chế truyền dữ liệu hướng xuống (Downstream) trong mạng GPON hoạt động như thế nào?",
+    options: [
+      "Dữ liệu được gửi riêng lẻ đến từng ONU (Point-to-Point)",
+      "OLT phát quảng bá (Broadcast) toàn bộ dữ liệu đến tất cả các ONU; mỗi ONU sẽ lọc và chỉ lấy gói tin dành cho mình (dựa trên ID/mật mã)",
+      "Sử dụng Token để chuyển dữ liệu lần lượt",
+      "Dữ liệu đi theo vòng tròn qua từng nhà"
+    ],
+    answer: "OLT phát quảng bá (Broadcast) toàn bộ dữ liệu đến tất cả các ONU; mỗi ONU sẽ lọc và chỉ lấy gói tin dành cho mình (dựa trên ID/mật mã)",
+    explanation: "Hướng xuống của PON hoạt động theo cơ chế Broadcast: tín hiệu ánh sáng đi qua bộ chia sẽ đến tất cả các nhánh. Để đảm bảo bảo mật, dữ liệu thường được mã hóa (AES) và mỗi ONU chỉ giải mã gói tin có ID của mình."
+  },
+  {
+    question: "Thiết bị đo OTDR (Optical Time-Domain Reflectometer) được sử dụng chủ yếu để làm gì trong mạng truy nhập quang?",
+    options: [
+      "Đo tốc độ download/upload Internet",
+      "Xác định vị trí điểm đứt cáp, đo suy hao của mối hàn, connector và chiều dài sợi quang",
+      "Cấp nguồn cho thiết bị ONU",
+      "Chuyển đổi tín hiệu quang sang wifi"
+    ],
+    answer: "Xác định vị trí điểm đứt cáp, đo suy hao của mối hàn, connector và chiều dài sợi quang",
+    explanation: "OTDR là công cụ quan trọng nhất để bảo trì cáp quang. [cite: 40] Nó phát xung ánh sáng và đo tín hiệu phản xạ (backscatter/reflection) theo thời gian để vẽ nên 'bản đồ' của sợi cáp, giúp kỹ thuật viên biết chính xác vị trí đứt hoặc suy hao cao."
+  },
+  {
+    question: "WDM-PON (Wavelength Division Multiplexing PON) ưu việt hơn TDM-PON (như GPON/EPON) ở điểm nào?",
+    options: [
+      "Giá thành rẻ hơn rất nhiều",
+      "Mỗi người dùng được cấp một bước sóng riêng biệt, đảm bảo băng thông cực lớn và tính bảo mật cao, không phải chia sẻ thời gian",
+      "Không cần sử dụng sợi quang",
+      "Dễ lắp đặt hơn"
+    ],
+    answer: "Mỗi người dùng được cấp một bước sóng riêng biệt, đảm bảo băng thông cực lớn và tính bảo mật cao, không phải chia sẻ thời gian",
+    explanation: "WDM-PON sử dụng công nghệ ghép bước sóng để tạo ra các kênh quang ảo (virtual point-to-point) cho từng người dùng[cite: 31]. Điều này loại bỏ việc chia sẻ băng thông và xung đột của TDM, nhưng chi phí thiết bị hiện tại còn cao."
+  },
+  {
+    question: "Bộ chia quang (Optical Splitter) tỷ lệ 1:32 có nghĩa là gì?",
+    options: [
+      "Nó khuếch đại tín hiệu lên 32 lần",
+      "Nó chia 1 tín hiệu đầu vào thành 32 tín hiệu đầu ra (hoặc gộp 32 vào 1), công suất tín hiệu bị chia nhỏ tương ứng",
+      "Nó nối dài cáp quang thêm 32km",
+      "Nó chuyển đổi tín hiệu cho 32 loại giao thức khác nhau"
+    ],
+    answer: "Nó chia 1 tín hiệu đầu vào thành 32 tín hiệu đầu ra (hoặc gộp 32 vào 1), công suất tín hiệu bị chia nhỏ tương ứng",
+    explanation: "Bộ chia quang (Splitter) là thiết bị thụ động dùng để phân chia công suất quang[cite: 21]. Tỷ lệ 1:32 là tỷ lệ phổ biến trong GPON, cho phép 1 sợi quang từ OLT phục vụ 32 hộ gia đình."
+  },
+  {
+    question: "Sự khác biệt chính giữa ONU (Optical Network Unit) và ONT (Optical Network Terminal) là gì?",
+    options: [
+      "Không có sự khác biệt, hai thuật ngữ này dùng thay thế cho nhau hoàn toàn",
+      "ONT thường dùng cho FTTH (dành riêng cho 1 thuê bao), còn ONU thường dùng cho FTTB/FTTC (phục vụ nhiều thuê bao hoặc cả tòa nhà)",
+      "ONT là thiết bị của nhà mạng, ONU là thiết bị khách hàng tự mua",
+      "ONT dùng điện, ONU dùng pin"
+    ],
+    answer: "ONT thường dùng cho FTTH (dành riêng cho 1 thuê bao), còn ONU thường dùng cho FTTB/FTTC (phục vụ nhiều thuê bao hoặc cả tòa nhà)",
+    explanation: "Theo chuẩn ITU-T, ONT là một trường hợp đặc biệt của ONU. ONT là thiết bị đầu cuối duy nhất cho 1 thuê bao (FTTH). [cite_start]ONU thường là thiết bị đặt tại lề đường/tòa nhà (FTTC/B) và cung cấp dịch vụ cho nhiều thuê bao qua các cổng dây đồng/LAN khác nhau[cite: 21]."
+  },
+  {
+    question: "Chuẩn GPON (Gigabit PON) cung cấp tốc độ lý thuyết (Down/Up) phổ biến là bao nhiêu?",
+    options: [
+      "1.25 Gbps / 1.25 Gbps (Đối xứng)",
+      "2.488 Gbps (Down) / 1.244 Gbps (Up) (Bất đối xứng)",
+      "10 Gbps / 10 Gbps",
+      "100 Mbps / 100 Mbps"
+    ],
+    answer: "2.488 Gbps (Down) / 1.244 Gbps (Up) (Bất đối xứng)",
+    explanation: "GPON (ITU-T G.984) được thiết kế bất đối xứng để tối ưu cho nhu cầu tải xuống của người dùng Internet. [cite_start]Tốc độ tiêu chuẩn là xấp xỉ 2.5 Gbps hướng xuống và 1.25 Gbps hướng lên[cite: 23]."
   }
 
 
