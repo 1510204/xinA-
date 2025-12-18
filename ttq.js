@@ -2015,7 +2015,7 @@ const quizData = [
       "4",
       "3"
     ],
-    answer: "4",
+    answer: "5",
     explanation: "<br> - T <br> - V <br> -a <br> - Q"
   },
   {
