@@ -134,7 +134,7 @@ const quizData = [
     answer: "Bài toán thiết kế kiến trúc tuyến quang"
   },
   {
-    question: "Cho mạng quang có 5 nút (A, B, C, D và E) với 4 liên kết (AB, BC, CD, DE)... Kết quả nào sau đây là sai khi các bước sóng được gán theo giải thuật First-fit:",
+    question: "Cho mạng quang có 5 nút (A, B, C, D và E) với 4 liên kết (AB, BC, CD, DE)Mỗi liên kết có thể có 3 bước sóng. Giả sử các yêu cầu tuyến quang(lightpath) là:{A, C), {A, B}, {D, E), {C, E}, {B, D}, {C, D}. Kết quả nào sau đây là sai khi các bước sóng được gán theo giải thuật First-fit:",
     options: [
       "Bước sóng thứ nhất: {A, C}, {D, E}, {C, D}",
       "Bước sóng thứ hai: {A, B}, {D, E}",
@@ -2016,7 +2016,7 @@ const quizData = [
       "3"
     ],
     answer: "5",
-    explanation: "<br> - T <br> - V <br> -a <br> - Q"
+    explanation: "<br> - T <br> - V <br> -a <br> - Q <br> - S"
   },
   {
     question: "Bảo vệ tại lớp liên kết trong mạng quang được thực hiện tại:",
