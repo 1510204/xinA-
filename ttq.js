@@ -124,16 +124,6 @@ const quizData = [
     answer: "1,6 ms"
   },
   {
-    question: "Bài toán LTD là:",
-    options: [
-      "Bài toán thiết kế kiến trúc tuyến quang",
-      "Bài toán định tuyến bước sóng",
-      "Bài toán gán bước sóng",
-      "Cả 3 đáp án trên"
-    ],
-    answer: "Bài toán thiết kế kiến trúc tuyến quang"
-  },
-  {
     question: "Cho mạng quang có 5 nút (A, B, C, D và E) với 4 liên kết (AB, BC, CD, DE)Mỗi liên kết có thể có 3 bước sóng. Giả sử các yêu cầu tuyến quang(lightpath) là:{A, C), {A, B}, {D, E), {C, E}, {B, D}, {C, D}. Kết quả nào sau đây là sai khi các bước sóng được gán theo giải thuật First-fit:",
     options: [
       "Bước sóng thứ nhất: {A, C}, {D, E}, {C, D}",
@@ -173,16 +163,6 @@ const quizData = [
       "1500 byte"
     ],
     answer: "46-1500 byte"
-  },
-  {
-    question: "Mạng thụ động PON bao gồm bao nhiêu phần chính",
-    options: [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    answer: "3"
   },
   {
     question: "Cho mạng quang có 6 nút (A, B, C, D, E và F)... Kết quả gán bước sóng nào sau đây là đúng khi các bước sóng được gán theo giải thuật tô màu đồ thị ở lần tô thứ 3",
@@ -923,16 +903,7 @@ const quizData = [
     answer: "1 : N",
     explanation: "1 : N và 1 : 1 được xếp vào loại Shared (Bảo vệ chia sẻ)."
   },
-  {
-    question: "Lớp SDH bao gồm những lớp con nào?",
-    options: [
-      "Lớp tuyến (Path), lớp đoạn ghép (MS), lớp đoạn lặp (RS), lớp vật lý",
-      "Lớp ứng dụng, lớp trình diễn, lớp phiên, lớp giao vận",
-      "Lớp mạng, lớp liên kết dữ liệu, lớp vật lý, lớp truy nhập",
-      "Lớp kênh quang, lớp đoạn quang, lớp khuếch đại quang"
-    ],
-    answer: "Lớp tuyến (Path), lớp đoạn ghép (MS), lớp đoạn lặp (RS), lớp vật lý"
-  },
+
   {
     question: "Lớp SONET bao gồm những lớp con nào?",
     options: [
@@ -963,17 +934,7 @@ const quizData = [
     ],
     answer: "Gồm mào đầu chính (Core Header) và phần tải trọng (Payload)"
   },
-  {
-    question: "Có bao nhiêu phương pháp kết chuỗi trong NG-SDH?",
-    options: [
-      "2",
-      "3",
-      "4",
-      "5"
-    ],
-    answer: "2",
-    explanation:"Kết chuỗi liền kề và Kết chuỗi ảo"
-  },
+
   {
     question: "LCAS là gì?",
     options: [
@@ -994,16 +955,6 @@ const quizData = [
     ],
     answer: "Thiết bị đầu cuối (Path Termination)",
     explanation: "Slide chương 2 - Trang 28"
-  },
-  {
-    question: "Các chức năng chính của LCAS là gì?",
-    options: [
-      "Để quản lý phân bổ băng thông của tuyến VCAT (tăng/giảm dung lượng không gây lỗi)",
-      "Để đóng gói các khung Ethernet vào khung SDH",
-      "Để định tuyến các luồng dữ liệu quang qua các nút mạng",
-      "Để giám sát lỗi bit (BER) trên đường truyền vật lý"
-    ],
-    answer: "Để quản lý phân bổ băng thông của tuyến VCAT (tăng/giảm dung lượng không gây lỗi)"
   },
   {
     question: "Con trỏ AU-4 có cấu tạo như thế nào?",
@@ -1176,16 +1127,6 @@ const quizData = [
       "Suy hao thấp, băng thông rộng, tính cách điện, tính bảo mật, không bị can nhiễu điện, từ trường, linh hoạt."
     ],
     answer: "Suy hao thấp, băng thông rộng, tính cách điện, tính bảo mật, không bị can nhiễu điện, từ trường, linh hoạt."
-  },
-  {
-    question: "Phạm vi chỉ thị của AU-PTR trong khung AUG là:",
-    options: [
-      "1 – 782",
-      "0 – 782",
-      "0 – 783",
-      "1 – 783"
-    ],
-    answer: "0 – 782"
   },
   {
     question: "Hiệu năng liên kết và hiệu năng tín hiệu chủ yếu liên qua đến",
@@ -1410,16 +1351,6 @@ const quizData = [
       "Quản lý Thiết bị kết nối Thích ứng đến sự thay đổi mạng"
     ],
     answer: "Phát hiện sự cố và cô lập thành phần lỗi"
-  },
-  {
-    question: "Tiêu chí nào là quan trọng nhất để đánh giá khả năng bảo vệ và phục hồi của mạng quang",
-    options: [
-      "Thời gian phục hồi mạng nhanh nhất",
-      "Lưu lượng chuyển tài bị mất là nhỏ nhất",
-      "Hậu quả pháp lý ít nhất",
-      "Tổn thất lợi nhuận nhỏ nhất"
-    ],
-    answer: "Thời gian phục hồi mạng nhanh nhất"
   },
   {
     question: "Kiến trúc mạng quang WDM gồm mấy thành phần chính?",
@@ -1675,16 +1606,6 @@ const quizData = [
     ],
     answer: "Cả A và B đúng",
     explanation: "SLide Chương 2 <br> - Kết nối nội bộ (I):Khoảng cách dưới 2km <br> - Kết nối cự li ngắn(S): Khoảng cách ~15km ở bước sóng 1310nm và 40km ở bước sóng 1550nm <br> - Kết nối cự li dài (L): Khoảng cách ~40km ở bước sóng 1310nm và ~80km ở bước sóng 1550nm<br> - Kết nối rất dài (V): Khoảng cách ~60km ở bước sóng 1310nm và 120km ở bước sóng 1550nm <br> - Kết nối cự li cực dài (U): Khoảng cách ~160km "
-  },
-  {
-    question: "Để thực hiện kết chuỗi ảo (VCAT), chức năng kết chuỗi chỉ cần thực hiện ở thiết bị nào của tuyến?",
-    options: [
-      "Thiết bị đầu cuối",
-      "Thiết bị trung gian",
-      "Bộ lặp quang (Repeater)",
-      "Tất cả các nút mạng"
-    ],
-    answer: "Thiết bị đầu cuối"
   },
   {
     question: "Các chức năng chính của LCAS là gì?",
