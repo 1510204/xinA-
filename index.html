@@ -1,17 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AE XÃ ĐOÀN</title>
+  <title>AE XÃ ĐOÀN – Ôn Luyện</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>ÔL TẬP TRẮC NGHIỆM</h1>
-  <div id="quiz-container"></div>
-  <button id="submit-btn">Nộp bài</button>
-  <button id="retry-btn" style="display: none;">Làm lại các câu sai</button>
-  <div id="result"></div>
+
+  <div id="top-progress"><div id="top-progress-fill"></div></div>
+
+  <div id="exam-header">
+    <button id="back-btn">&#8592;</button>
+    <div id="header-title">Reading Part 1</div>
+    <div id="header-subtitle"></div>
+    <div id="header-counter">1 / 5</div>
+  </div>
+
+  <div id="home-screen" class="screen active">
+    <h1>ÔN LUYỆN TRẮC NGHIỆM</h1>
+    <p>Chọn kỹ năng bạn muốn ôn luyện</p>
+    <div class="skill-cards">
+      <div class="skill-card" onclick="goSkill('reading')">
+        <div class="icon">📖</div>
+        <h2>Reading</h2>
+        <p>Đọc hiểu – 4 dạng bài</p>
+      </div>
+      <div class="skill-card" onclick="goSkill('listening')">
+        <div class="icon">🎧</div>
+        <h2>Listening</h2>
+        <p>Nghe hiểu – 4 dạng bài</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="part-screen" class="screen">
+    <h2 id="part-screen-title">Reading</h2>
+    <span class="back-link" onclick="goHome()">← Quay lại</span>
+    <div class="part-cards" id="part-cards-container"></div>
+  </div>
+
+  <div id="quiz-screen" class="screen">
+    <div class="quiz-wrapper" id="quiz-wrapper"></div>
+  </div>
+
+  <div class="submit-area" style="display:none" id="submit-area">
+    <div id="score-badge"></div>
+    <div style="display:flex;gap:10px">
+      <button class="btn-retry" id="btn-retry" onclick="retryWrong()">Làm lại câu sai</button>
+      <button class="btn-submit" id="btn-submit" onclick="submitQuiz()">Nộp bài</button>
+    </div>
+  </div>
+
+  <div id="result-overlay">
+    <div id="result-box">
+      <div class="emoji" id="result-emoji">🎉</div>
+      <h2>Kết quả</h2>
+      <div class="score-text" id="result-score">0 / 0</div>
+      <p id="result-msg"></p>
+      <div class="btn-row">
+        <button id="btn-close-result" onclick="closeResult()">Xem lại</button>
+        <button id="btn-retry-result" onclick="retryFromResult()">Làm lại câu sai</button>
+        <button id="btn-home-result" onclick="goHome()">Trang chủ</button>
+      </div>
+    </div>
+  </div>
+
+  <button id="config-btn" title="Tùy chỉnh câu hỏi">⚙️</button>
+
+  <div id="config-overlay" onclick="closeConfig()"></div>
+  <div id="config-panel">
+    <div id="config-panel-header">
+      <span>⚙️ Tùy chỉnh câu hỏi</span>
+      <button id="config-close" onclick="closeConfig()">✕</button>
+    </div>
+    <div id="config-body"></div>
+    <div id="config-footer">
+      <button id="config-cancel" onclick="closeConfig()">Hủy</button>
+      <button id="config-save" onclick="saveConfig()">💾 Lưu & Làm lại</button>
+    </div>
+  </div>
+
   <script src="ttq.js"></script>
 </body>
 </html>
