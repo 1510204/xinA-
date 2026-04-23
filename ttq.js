@@ -771,49 +771,1066 @@ const DATA = {
           answer: "White"
         }
       ]
+    },
+    ,{ // Trang 15
+      items: [{
+        situation: "Louis is calling his friend Standar.",
+        audioSrc: "", transcript: "",
+        question: "Where will Luis meet Standar?",
+        options: ["Outside the station", "At the cafe", "Near the ticket counter"],
+        answer: "Outside the station"
+      }]
+    },
+    { // Trang 16
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "What time do they meet?",
+        options: ["7:00", "7:30", "8:00"],
+        answer: "7:30"
+      }]
+    },
+    { // Trang 17
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "What day do they walk?",
+        options: ["Saturday", "Sunday", "Monday"],
+        answer: "Sunday"
+      }]
+    },
+    { // Trang 18
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "What does she forget?",
+        options: ["Phone", "Wallet", "Watch"],
+        answer: "Watch"
+      }]
+    },
+    { // Trang 19
+      items: [{
+        situation: "A woman is talking about shopping places.",
+        audioSrc: "", transcript: "",
+        question: "Where is she going to go shopping?",
+        options: ["At the downtown market", "At a new shopping center", "At the mall"],
+        answer: "At a new shopping center"
+      }]
+    },
+    { // Trang 20
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "What color is the door of the house?",
+        options: ["Red", "Blue", "Green"],
+        answer: "Blue"
+      }]
+    },
+    { // Trang 21
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "What did he like when he studied at university?",
+        options: ["Group work", "Lectures", "Self-study"],
+        answer: "Group work"
+      }]
+    },
+    { // Trang 22
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "How does the old teacher look like?",
+        options: ["Black hair", "Grey hair", "Bald"],
+        answer: "Black hair"
+      }]
+    },
+    { // Trang 23
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "How long is the assignment?",
+        options: ["10 pages", "15 pages", "20 pages"],
+        answer: "15 pages"
+      }]
+    },
+    { // Trang 24
+      items: [{
+        situation: "A tour guide is making an announcement.",
+        audioSrc: "", transcript: "",
+        question: "Why was the tour canceled?",
+        options: ["Not enough people", "Bad weather", "Transportation problems"],
+        answer: "Not enough people"
+      }]
+    },
+    { // Trang 25
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "What award does the film win?",
+        options: ["Photography", "Best actor", "Best director"],
+        answer: "Photography"
+      }]
+    },
+    { // Trang 26
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "What can we do on the top floor of the hotel?",
+        options: ["Do exercise", "Have dinner", "Swim"],
+        answer: "Do exercise"
+      }]
+    },
+    { // Trang 27
+      items: [{
+        situation: "A woman is talking to the police.",
+        audioSrc: "", transcript: "",
+        question: "What did she lose?",
+        options: ["A necklace", "A bag", "A wallet"],
+        answer: "A bag"
+      }]
+    },
+    { // Trang 28
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "What is not working?",
+        options: ["Printer", "Computer", "Phone"],
+        answer: "Computer"
+      }]
+    },
+    { // Trang 29
+      items: [{
+        situation: "Jane is calling her friend Martha.",
+        audioSrc: "", transcript: "",
+        question: "What time are they going to meet?",
+        options: ["4:00", "5:30", "6:00"],
+        answer: "5:30"
+      }]
+    },
+    { // Trang 30
+      items: [{
+        situation: "A saleswoman is talking to her customer.",
+        audioSrc: "", transcript: "",
+        question: "How much is the cheapest computer in the shop?",
+        options: ["135 pounds", "145 pounds", "155 pounds"],
+        answer: "135 pounds"
+      }]
+    },
+    { // Trang 31
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "What is Mary's number?",
+        options: ["5553920", "5553921", "5553922"],
+        answer: "5553920"
+      }]
+    },
+    { // Trang 32
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "How many pages of the assignment?",
+        options: ["Three", "Four", "Five"],
+        answer: "Four"
+      }]
+    },
+    { // Trang 33
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "What is the woman doing?",
+        options: ["Cooking", "Cleaning", "Washing"],
+        answer: "Cleaning"
+      }]
+    },
+    { // Trang 34
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "What are they going to do on this holiday?",
+        options: ["Teaching", "Traveling", "Relaxing"],
+        answer: "Teaching"
+      }]
+    },
+    { // Trang 35
+      items: [{
+        situation: "A tour guide is introducing a famous building.",
+        audioSrc: "", transcript: "",
+        question: "What is this building currently used for?",
+        options: ["A museum", "A department store", "A cinema"],
+        answer: "A department store"
+      }]
+    },
+    { // Trang 36
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "How much is the coffee?",
+        options: ["3.99", "4.99", "5.99"],
+        answer: "4.99"
+      }]
+    },
+    { // Trang 37
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "What is the main change the managers are going to make?",
+        options: ["Adjust the schedule", "Hire new staff", "Change the location"],
+        answer: "Adjust the schedule"
+      }]
+    },
+    { // Trang 38
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "Which traffic does he get?",
+        options: ["Bus", "Train", "Car"],
+        answer: "Train"
+      }]
+    },
+    { // Trang 39
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "What is the outfit of the girl?",
+        options: ["Dress", "Shirt", "Skirt"],
+        answer: "Shirt"
+      }]
+    },
+    { // Trang 40
+      items: [{
+        situation: "Listen to Anna talking about her routine.",
+        audioSrc: "", transcript: "",
+        question: "Where does Anna go for a walk every morning?",
+        options: ["Park", "Neighborhood", "College"],
+        answer: "College"
+      }]
+    },
+    { // Trang 41
+      items: [{
+        situation: "A woman is discussing with her group.",
+        audioSrc: "", transcript: "",
+        question: "How many seats does she need?",
+        options: ["12", "15", "20"],
+        answer: "20"
+      }]
+    },
+    { // Trang 42
+      items: [{
+        situation: "Listen to a girl calling the cafe.",
+        audioSrc: "", transcript: "",
+        question: "What did she forget, and where did she leave it?",
+        options: ["On the counter", "In the corner", "Near the door"],
+        answer: "In the corner"
+      }]
+    },
+    { // Trang 43
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "Where did they meet?",
+        options: ["The front entrance", "The back door", "The lobby"],
+        answer: "The front entrance"
+      }]
+    },
+    { // Trang 44
+      items: [{
+        situation: "A woman is going home after shopping.",
+        audioSrc: "", transcript: "",
+        question: "What did she buy?",
+        options: ["A dress", "A blouse", "A hat"],
+        answer: "A dress"
+      }]
+    },
+    { // Trang 45
+      items: [{
+        situation: "Listen to a teacher talking about meeting preparations.",
+        audioSrc: "", transcript: "",
+        question: "What is the teacher preparing for the meeting now?",
+        options: ["Set up the chairs", "Organize the documents", "Order the food"],
+        answer: "Order the food"
+      }]
+    },
+    { // Trang 46
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "When will she need a computer?",
+        options: ["Tuesday", "Friday", "Saturday"],
+        answer: "Friday"
+      }]
+    },
+    { // Trang 47
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "What country will they study next semester?",
+        options: ["France", "Spain", "Germany"],
+        answer: "France"
+      }]
+    },
+    { // Trang 48
+      items: [{
+        situation: "A woman is talking about her house.",
+        audioSrc: "", transcript: "",
+        question: "What is she going to change in their house?",
+        options: ["The window", "The car", "The computer"],
+        answer: "The window"
+      }]
+    },
+    { // Trang 49
+      items: [{
+        situation: "Listen to an actor discussing his hobbies.",
+        audioSrc: "", transcript: "",
+        question: "What does the actor like to do in his free time?",
+        options: ["Drawing", "Watching movies", "Playing sports"],
+        answer: "Drawing"
+      }]
+    },
+    { // Trang 50
+      items: [{
+        situation: "Listen to a principal talking about new school facilities.",
+        audioSrc: "", transcript: "",
+        question: "What new facility will the school have?",
+        options: ["A new library", "A sports field", "The performance space"],
+        answer: "The performance space"
+      }]
+    },
+    { // Trang 51
+      items: [{
+        situation: "Listening to a man talking about his business trip.",
+        audioSrc: "", transcript: "",
+        question: "What does he like in Dubai?",
+        options: ["Enjoy the food there", "Enjoy his job there", "Enjoy the people there"],
+        answer: "Enjoy his job there"
+      }]
+    },
+    { // Trang 52
+      items: [{
+        situation: "A finance expert is giving advice to young people.",
+        audioSrc: "", transcript: "",
+        question: "What shouldn't they do?",
+        options: ["Spend too much on clothes", "Ask for more money", "Save for emergencies"],
+        answer: "Ask for more money"
+      }]
+    },
+    { // Trang 53
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "Why did the wife come home late?",
+        options: ["Heavy traffic", "No car", "Worked late"],
+        answer: "No car"
+      }]
+    },
+    { // Trang 54
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "What did he feed the cat?",
+        options: ["Fish", "Chicken", "Beef"],
+        answer: "Fish"
+      }]
+    },
+    { // Trang 55
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "What is the phone number?",
+        options: ["...456", "...457", "...458"],
+        answer: "...457"
+      }]
+    },
+    { // Trang 56
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "How much?",
+        options: ["Twenty pounds", "Thirty pounds", "Forty pounds"],
+        answer: "Thirty pounds"
+      }]
+    },
+    { // Trang 57
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "What's the direction of the supermarket?",
+        options: ["The South", "The North", "The East"],
+        answer: "The North"
+      }]
+    },
+    { // Trang 58
+      items: [{
+        situation: "The woman is calling a friend about meeting for dinner.",
+        audioSrc: "", transcript: "",
+        question: "How long does it take to get to the station?",
+        options: ["30 minutes", "40 minutes", "50 minutes"],
+        answer: "40 minutes"
+      }]
+    },
+    { // Trang 59
+      items: [{
+        situation: "A man is talking about the city concert.",
+        audioSrc: "", transcript: "",
+        question: "How will the concert end?",
+        options: ["The city's favorite group", "Fireworks performance", "Singing from orchestra"],
+        answer: "The city's favorite group"
+      }]
+    },
+    { // Trang 60
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "What did he do in the morning?",
+        options: ["Read a book", "Look at the view", "Have breakfast"],
+        answer: "Look at the view"
+      }]
+    },
+    { // Trang 61
+      items: [{
+        situation: "A woman tells her friend about her plans for the day.",
+        audioSrc: "", transcript: "",
+        question: "What is the woman going to do?",
+        options: ["Have coffee", "Have lunch", "Drink tea"],
+        answer: "Have coffee"
+      }]
+    },
+    { // Trang 62
+      items: [{
+        situation: "Listen to the announcement.",
+        audioSrc: "", transcript: "",
+        question: "When does the train leave?",
+        options: ["At 9:15", "At 9:30", "At 9:45"],
+        answer: "At 9:15"
+      }]
+    },
+    { // Trang 63
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "What time does the man work?",
+        options: ["11 o'clock", "12 o'clock", "1 o'clock"],
+        answer: "12 o'clock"
+      }]
+    },
+    { // Trang 64
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "What did they both buy?",
+        options: ["Shirts", "Shoes", "Trousers"],
+        answer: "Trousers"
+      }]
+    },
+    { // Trang 65
+      items: [{
+        situation: "Listen to a woman explaining why he was late.",
+        audioSrc: "", transcript: "",
+        question: "What is the main reason he gets late?",
+        options: ["Overslept", "Forgot something", "Missed the train"],
+        answer: "Missed the train"
+      }]
+    },
+    { // Trang 66
+      items: [{
+        situation: "Two people are talking about meeting for dinner.",
+        audioSrc: "", transcript: "",
+        question: "What time does Ahmed meet Rose?",
+        options: ["Half past seven", "Quarter past seven", "Quarter to eight"],
+        answer: "Quarter to eight"
+      }]
+    },
+    { // Trang 67
+      items: [{
+        situation: "Anna is calling her friend.",
+        audioSrc: "", transcript: "",
+        question: "Where will they meet?",
+        options: ["At the marketplace", "At the mall", "At the park"],
+        answer: "At the marketplace"
+      }]
+    },
+    { // Trang 68
+      items: [{
+        situation: "Stephanie is looking for a job taking care of children.",
+        audioSrc: "", transcript: "",
+        question: "How old is she?",
+        options: ["21", "20", "22"],
+        answer: "21"
+      }]
+    },
+    { // Trang 69
+      items: [{
+        situation: "A man is giving directions to a friend about how to get to the football club.",
+        audioSrc: "", transcript: "",
+        question: "The football club is near:",
+        options: ["A grocery store", "A park", "A library"],
+        answer: "A park"
+      }]
+    },
+    { // Trang 70
+      items: [{
+        situation: "A boy is talking about his cat.",
+        audioSrc: "", transcript: "",
+        question: "What does he feed the cat?",
+        options: ["Mice", "Insects", "Fish"],
+        answer: "Fish"
+      }]
+    },
+    { // Trang 71
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "What does this family do most weekends?",
+        options: ["Go for a walk", "Go picnic", "Go cycling"],
+        answer: "Go cycling"
+      }]
+    },
+    { // Trang 72
+      items: [{
+        situation: "Jack is phoning his mom.",
+        audioSrc: "", transcript: "",
+        question: "What does Jack need to buy for his sister?",
+        options: ["Chocolates", "Milk", "Fruit"],
+        answer: "Chocolates"
+      }]
+    },
+    { // Trang 73
+      items: [{
+        situation: "Listen to a man talking about their train journey.",
+        audioSrc: "", transcript: "",
+        question: "What time did it depart?",
+        options: ["9:00", "9:30", "10:00"],
+        answer: "9:30"
+      }]
+    },
+    { // Trang 74
+      items: [{
+        situation: "Listen to a weather forecast.",
+        audioSrc: "", transcript: "",
+        question: "Where will the weather be best?",
+        options: ["In the south", "In the west", "In the east"],
+        answer: "In the east"
+      }]
+    },
+    { // Trang 75
+      items: [{
+        situation: "Listen to the conversation.",
+        audioSrc: "", transcript: "",
+        question: "Why was the museum visit canceled?",
+        options: ["Not enough people", "Bad weather", "Renovation"],
+        answer: "Not enough people"
+      }]
+    },
+    { // Trang 76
+      items: [{
+        situation: "A man is calling his friend to meet for coffee.",
+        audioSrc: "", transcript: "",
+        question: "Where is the Coffee shop located?",
+        options: ["Opposite the gift shop", "Next to the gift shop", "Behind the gift shop"],
+        answer: "Opposite the gift shop"
+      }]
     }
   ],
 
   // ── LISTENING PART 2 ──────────────────────────────────────────
+  // ── LISTENING PART 2 ──────────────────────────────────────────
   listening_p2: [
     { // Trang 1
-      situation: "Write a short text (20-30 words).",
+      situation: "Topic 1: Protecting the Environment (bản 2)",
       speakers: [
-        { label: "A", audioSrc: "", transcript: "I always bring reusable bags..." },
-        { label: "B", audioSrc: "", transcript: "My company recently switched to solar energy..." }
+        { label: "A", audioSrc: "", transcript: "" },
+        { label: "B", audioSrc: "", transcript: "" },
+        { label: "C", audioSrc: "", transcript: "" },
+        { label: "D", audioSrc: "", transcript: "" }
       ],
       questions: [
-        { q: "Speaker A", options: ["- Chọn câu mô tả -", "Reduces plastic use", "Uses renewable energy"], answer: "Reduces plastic use" },
-        { q: "Speaker B", options: ["- Chọn câu mô tả -", "Reduces plastic use", "Uses renewable energy"], answer: "Uses renewable energy" }
+        { q: "Speaker A", options: ["- Chọn câu mô tả -", "Give away used items", "Buy environmentally friendly products", "Reuse containers for storing food", "Not buy commercial cleaning products", "Plant more trees"], answer: "Give away used items" },
+        { q: "Speaker B", options: ["- Chọn câu mô tả -", "Give away used items", "Buy environmentally friendly products", "Reuse containers for storing food", "Not buy commercial cleaning products", "Plant more trees"], answer: "Buy environmentally friendly products" },
+        { q: "Speaker C", options: ["- Chọn câu mô tả -", "Give away used items", "Buy environmentally friendly products", "Reuse containers for storing food", "Not buy commercial cleaning products", "Plant more trees"], answer: "Reuse containers for storing food" },
+        { q: "Speaker D", options: ["- Chọn câu mô tả -", "Give away used items", "Buy environmentally friendly products", "Reuse containers for storing food", "Not buy commercial cleaning products", "Plant more trees"], answer: "Not buy commercial cleaning products" }
+      ]
+    },
+    { // Trang 2
+      situation: "Topic 2: Protecting the Environment (2)",
+      speakers: [
+        { label: "A", audioSrc: "", transcript: "" },
+        { label: "B", audioSrc: "", transcript: "" },
+        { label: "C", audioSrc: "", transcript: "" },
+        { label: "D", audioSrc: "", transcript: "" }
+      ],
+      questions: [
+        { q: "Speaker A", options: ["- Chọn câu mô tả -", "Using less electricity", "Not driving to work", "Shopping online", "Using less water", "Recycling plastic bags"], answer: "Using less electricity" },
+        { q: "Speaker B", options: ["- Chọn câu mô tả -", "Using less electricity", "Not driving to work", "Shopping online", "Using less water", "Recycling plastic bags"], answer: "Not driving to work" },
+        { q: "Speaker C", options: ["- Chọn câu mô tả -", "Using less electricity", "Not driving to work", "Shopping online", "Using less water", "Recycling plastic bags"], answer: "Shopping online" },
+        { q: "Speaker D", options: ["- Chọn câu mô tả -", "Using less electricity", "Not driving to work", "Shopping online", "Using less water", "Recycling plastic bags"], answer: "Using less water" }
+      ]
+    },
+    { // Trang 3
+      situation: "Topic 3: Shopping Habits",
+      speakers: [
+        { label: "A", audioSrc: "", transcript: "" },
+        { label: "B", audioSrc: "", transcript: "" },
+        { label: "C", audioSrc: "", transcript: "" },
+        { label: "D", audioSrc: "", transcript: "" }
+      ],
+      questions: [
+        { q: "Speaker A", options: ["- Chọn câu mô tả -", "The products are delivered", "It is cheaper", "Save time", "It has more choices", "Easy to compare prices"], answer: "The products are delivered" },
+        { q: "Speaker B", options: ["- Chọn câu mô tả -", "The products are delivered", "It is cheaper", "Save time", "It has more choices", "Easy to compare prices"], answer: "It is cheaper" },
+        { q: "Speaker C", options: ["- Chọn câu mô tả -", "The products are delivered", "It is cheaper", "Save time", "It has more choices", "Easy to compare prices"], answer: "Save time" },
+        { q: "Speaker D", options: ["- Chọn câu mô tả -", "The products are delivered", "It is cheaper", "Save time", "It has more choices", "Easy to compare prices"], answer: "It has more choices" }
+      ]
+    },
+    { // Trang 4
+      situation: "Topic 4: Listening to Music",
+      speakers: [
+        { label: "A", audioSrc: "", transcript: "" },
+        { label: "B", audioSrc: "", transcript: "" },
+        { label: "C", audioSrc: "", transcript: "" },
+        { label: "D", audioSrc: "", transcript: "" }
+      ],
+      questions: [
+        { q: "Speaker A", options: ["- Chọn câu mô tả -", "To relax", "While studying", "While singing", "After waking up", "Improve sleep quality"], answer: "To relax" },
+        { q: "Speaker B", options: ["- Chọn câu mô tả -", "To relax", "While studying", "While singing", "After waking up", "Improve sleep quality"], answer: "While studying" },
+        { q: "Speaker C", options: ["- Chọn câu mô tả -", "To relax", "While studying", "While singing", "After waking up", "Improve sleep quality"], answer: "While singing" },
+        { q: "Speaker D", options: ["- Chọn câu mô tả -", "To relax", "While studying", "While singing", "After waking up", "Improve sleep quality"], answer: "After waking up" }
+      ]
+    },
+    { // Trang 5
+      situation: "Topic 5: Exercise Preferences",
+      speakers: [
+        { label: "A", audioSrc: "", transcript: "" },
+        { label: "B", audioSrc: "", transcript: "" },
+        { label: "C", audioSrc: "", transcript: "" },
+        { label: "D", audioSrc: "", transcript: "" }
+      ],
+      questions: [
+        { q: "Speaker A", options: ["- Chọn câu mô tả -", "Mountain biking", "Going for a run", "Walking", "Horse riding", "Swimming"], answer: "Mountain biking" },
+        { q: "Speaker B", options: ["- Chọn câu mô tả -", "Mountain biking", "Going for a run", "Walking", "Horse riding", "Swimming"], answer: "Going for a run" },
+        { q: "Speaker C", options: ["- Chọn câu mô tả -", "Mountain biking", "Going for a run", "Walking", "Horse riding", "Swimming"], answer: "Walking" },
+        { q: "Speaker D", options: ["- Chọn câu mô tả -", "Mountain biking", "Going for a run", "Walking", "Horse riding", "Swimming"], answer: "Horse riding" }
+      ]
+    },
+    ,{ // Trang 6
+      situation: "Topic 6: The Place to Run",
+      speakers: [
+        { label: "A", audioSrc: "", transcript: "" },
+        { label: "B", audioSrc: "", transcript: "" },
+        { label: "C", audioSrc: "", transcript: "" },
+        { label: "D", audioSrc: "", transcript: "" }
+      ],
+      questions: [
+        { q: "Speaker A", options: ["- Chọn câu mô tả -", "In the fitness center", "In the street", "At the seaside", "On the running track", "In the park", "In the forest"], answer: "In the street" },
+        { q: "Speaker B", options: ["- Chọn câu mô tả -", "In the fitness center", "In the street", "At the seaside", "On the running track", "In the park", "In the forest"], answer: "At the seaside" },
+        { q: "Speaker C", options: ["- Chọn câu mô tả -", "In the fitness center", "In the street", "At the seaside", "On the running track", "In the park", "In the forest"], answer: "On the running track" },
+        { q: "Speaker D", options: ["- Chọn câu mô tả -", "In the fitness center", "In the street", "At the seaside", "On the running track", "In the park", "In the forest"], answer: "In the fitness center" }
+      ]
+    },
+    { // Trang 7
+      situation: "Topic 7: Doing Exercise",
+      speakers: [
+        { label: "A", audioSrc: "", transcript: "" },
+        { label: "B", audioSrc: "", transcript: "" },
+        { label: "C", audioSrc: "", transcript: "" },
+        { label: "D", audioSrc: "", transcript: "" }
+      ],
+      questions: [
+        { q: "Speaker A", options: ["- Chọn câu mô tả -", "Have fun exercising with others", "Hate exercising", "Improve work performance", "Find exercise tiring", "Exercise to lose weight", "Exercise for better sleep"], answer: "Improve work performance" },
+        { q: "Speaker B", options: ["- Chọn câu mô tả -", "Have fun exercising with others", "Hate exercising", "Improve work performance", "Find exercise tiring", "Exercise to lose weight", "Exercise for better sleep"], answer: "Find exercise tiring" },
+        { q: "Speaker C", options: ["- Chọn câu mô tả -", "Have fun exercising with others", "Hate exercising", "Improve work performance", "Find exercise tiring", "Exercise to lose weight", "Exercise for better sleep"], answer: "Have fun exercising with others" },
+        { q: "Speaker D", options: ["- Chọn câu mô tả -", "Have fun exercising with others", "Hate exercising", "Improve work performance", "Find exercise tiring", "Exercise to lose weight", "Exercise for better sleep"], answer: "Hate exercising" }
+      ]
+    },
+    { // Trang 8
+      situation: "Topic 8: Purposes of Using the Internet",
+      speakers: [
+        { label: "A", audioSrc: "", transcript: "" },
+        { label: "B", audioSrc: "", transcript: "" },
+        { label: "C", audioSrc: "", transcript: "" },
+        { label: "D", audioSrc: "", transcript: "" }
+      ],
+      questions: [
+        { q: "Speaker A", options: ["- Chọn câu mô tả -", "Find transport information", "Complete assignments", "Communicate with friends", "Watch films", "Play online games", "Read the news"], answer: "Watch films" },
+        { q: "Speaker B", options: ["- Chọn câu mô tả -", "Find transport information", "Complete assignments", "Communicate with friends", "Watch films", "Play online games", "Read the news"], answer: "Communicate with friends" },
+        { q: "Speaker C", options: ["- Chọn câu mô tả -", "Find transport information", "Complete assignments", "Communicate with friends", "Watch films", "Play online games", "Read the news"], answer: "Complete assignments" },
+        { q: "Speaker D", options: ["- Chọn câu mô tả -", "Find transport information", "Complete assignments", "Communicate with friends", "Watch films", "Play online games", "Read the news"], answer: "Find transport information" }
+      ]
+    },
+    { // Trang 9
+      situation: "Topic 9: Art",
+      speakers: [
+        { label: "A", audioSrc: "", transcript: "" },
+        { label: "B", audioSrc: "", transcript: "" },
+        { label: "C", audioSrc: "", transcript: "" },
+        { label: "D", audioSrc: "", transcript: "" }
+      ],
+      questions: [
+        { q: "Speaker A", options: ["- Chọn câu mô tả -", "Alone", "As part of the job", "With children", "A social activity", "As a hobby", "In a competition"], answer: "A social activity" },
+        { q: "Speaker B", options: ["- Chọn câu mô tả -", "Alone", "As part of the job", "With children", "A social activity", "As a hobby", "In a competition"], answer: "With children" },
+        { q: "Speaker C", options: ["- Chọn câu mô tả -", "Alone", "As part of the job", "With children", "A social activity", "As a hobby", "In a competition"], answer: "As part of the job" },
+        { q: "Speaker D", options: ["- Chọn câu mô tả -", "Alone", "As part of the job", "With children", "A social activity", "As a hobby", "In a competition"], answer: "Alone" }
+      ]
+    },
+    { // Trang 10
+      situation: "Topic 10: Journey to Work",
+      speakers: [
+        { label: "A", audioSrc: "", transcript: "" },
+        { label: "B", audioSrc: "", transcript: "" },
+        { label: "C", audioSrc: "", transcript: "" },
+        { label: "D", audioSrc: "", transcript: "" }
+      ],
+      questions: [
+        { q: "Speaker A", options: ["- Chọn câu mô tả -", "Walk alone", "Walk with friends", "Go by bus", "Drive car", "Ride a bicycle", "Take the train"], answer: "Walk with friends" },
+        { q: "Speaker B", options: ["- Chọn câu mô tả -", "Walk alone", "Walk with friends", "Go by bus", "Drive car", "Ride a bicycle", "Take the train"], answer: "Go by bus" },
+        { q: "Speaker C", options: ["- Chọn câu mô tả -", "Walk alone", "Walk with friends", "Go by bus", "Drive car", "Ride a bicycle", "Take the train"], answer: "Walk alone" },
+        { q: "Speaker D", options: ["- Chọn câu mô tả -", "Walk alone", "Walk with friends", "Go by bus", "Drive car", "Ride a bicycle", "Take the train"], answer: "Drive car" }
+      ]
+    },
+    ,{ // Trang 11
+      situation: "Topic 11: Studying Habits (1)",
+      speakers: [
+        { label: "A", audioSrc: "", transcript: "" },
+        { label: "B", audioSrc: "", transcript: "" },
+        { label: "C", audioSrc: "", transcript: "" },
+        { label: "D", audioSrc: "", transcript: "" }
+      ],
+      questions: [
+        { q: "Speaker A", options: ["- Chọn câu mô tả -", "Late at night", "With music", "At various places", "Quiet place", "Early in the morning", "In the library"], answer: "Late at night" },
+        { q: "Speaker B", options: ["- Chọn câu mô tả -", "Late at night", "With music", "At various places", "Quiet place", "Early in the morning", "In the library"], answer: "At various places" },
+        { q: "Speaker C", options: ["- Chọn câu mô tả -", "Late at night", "With music", "At various places", "Quiet place", "Early in the morning", "In the library"], answer: "With music" },
+        { q: "Speaker D", options: ["- Chọn câu mô tả -", "Late at night", "With music", "At various places", "Quiet place", "Early in the morning", "In the library"], answer: "Quiet place" }
+      ]
+    },
+    { // Trang 12
+      situation: "Topic 12: Studying Habits (2)",
+      speakers: [
+        { label: "A", audioSrc: "", transcript: "" },
+        { label: "B", audioSrc: "", transcript: "" },
+        { label: "C", audioSrc: "", transcript: "" },
+        { label: "D", audioSrc: "", transcript: "" }
+      ],
+      questions: [
+        { q: "Speaker A", options: ["- Chọn câu mô tả -", "On public transport", "At home", "In the coffee shop", "In a park", "At school", "At a friend's house"], answer: "In the coffee shop" },
+        { q: "Speaker B", options: ["- Chọn câu mô tả -", "On public transport", "At home", "In the coffee shop", "In a park", "At school", "At a friend's house"], answer: "In a park" },
+        { q: "Speaker C", options: ["- Chọn câu mô tả -", "On public transport", "At home", "In the coffee shop", "In a park", "At school", "At a friend's house"], answer: "On public transport" },
+        { q: "Speaker D", options: ["- Chọn câu mô tả -", "On public transport", "At home", "In the coffee shop", "In a park", "At school", "At a friend's house"], answer: "At home" }
       ]
     }
   ],
 
   // ── LISTENING PART 3 ──────────────────────────────────────────
+// ── LISTENING PART 3 ──────────────────────────────────────────
   listening_p3: [
     { // Trang 1
-      situation: "Who expresses which opinion?",
+      topic: "Changes in the workplace bản 2 (học mẹo)",
+      situation: "Who expresses which opinion? (Changes in the workplace) bản 2",
       audioSrc: "",
-      transcript: "A: I think continuity is really important. B: True. And technology is definitely improving.",
-      speakers_in_audio: ["A", "B"],
+      speakers_in_audio: ["Man", "Woman", "Both"],
+      pageTranscript: "<b>W:</b> I'm thinking about switching to another job.<br><i>(Tôi đang nghĩ đến việc chuyển sang một công việc khác.)</i><br><br><b>M:</b> Why? Your current job is very stable.<br><i>(Tại sao vậy? Công việc hiện tại của bạn rất ổn định.)</i><br><br><b>W:</b> I think I should try my hand at different fields. The jobs I take should only last around 1-2 years. I don't like staying too long in one job or with one company; that would be really boring. Nowadays, many companies offer temporary jobs, which allows me to try out different fields.<br><i>(Tôi nghĩ mình nên thử sức ở nhiều lĩnh vực khác nhau. Những công việc tôi làm chỉ nên kéo dài khoảng 1-2 năm. Tôi không thích ở lại quá lâu ở một công việc hoặc một công ty; điều đó sẽ thực sự nhàm chán. Ngày nay, nhiều công ty cung cấp các công việc tạm thời, cho phép tôi thử sức ở nhiều lĩnh vực khác nhau.)</i><br><br><b>M:</b> Oh, but if you stay longer at one company, they might offer you more opportunities for career advancement. I always want to stay long-term with a company that suits me.<br><i>(Ồ, nhưng nếu bạn ở lại lâu hơn ở một công ty, họ có thể cung cấp cho bạn nhiều cơ hội thăng tiến trong sự nghiệp hơn. Tôi luôn muốn gắn bó lâu dài với một công ty phù hợp với mình.)</i><br><br><b>W:</b> Nowadays, young people who have just graduated from university are very talented and have many qualifications. I'm afraid that if I stick with one job and don't change to accumulate knowledge in various fields, it will be hard to compete with these young, talented people.<br><i>(Ngày nay, những người trẻ vừa tốt nghiệp đại học rất tài năng và có nhiều bằng cấp. Tôi sợ rằng nếu tôi gắn bó với một công việc và không thay đổi để tích lũy kiến thức ở nhiều lĩnh vực khác nhau, sẽ khó có thể cạnh tranh với những người trẻ tài năng này.)</i><br><br><b>M:</b> We also need to consider job satisfaction. If we do well, we need to be encouraged and motivated. That helps employees feel that their efforts and contributions to the company are worthwhile.<br><i>(Chúng ta cũng cần cân nhắc đến sự hài lòng trong công việc. Nếu chúng ta làm tốt, chúng ta cần được khuyến khích và động viên. Điều đó giúp nhân viên cảm thấy rằng những nỗ lực và đóng góp của họ cho công ty là xứng đáng.)</i><br><br><b>W:</b> You're absolutely right, I couldn't agree more. In this age of technological advancement, many jobs have been replaced by machines. More and more people are losing their jobs due to the development of technology and engineering. I think this is a concerning issue.<br><i>(Bạn hoàn toàn đúng, tôi hoàn toàn đồng ý. Trong thời đại công nghệ tiên tiến này, nhiều công việc đã bị thay thế bằng máy móc. Ngày càng có nhiều người mất việc do sự phát triển của công nghệ và kỹ thuật. Tôi nghĩ đây là một vấn đề đáng lo ngại.)</i><br><br><b>M:</b> I don't think so. Technology is helping us do our work more quickly, easily, and conveniently than ever. If we know how to leverage technology in our jobs, productivity will increase significantly, which in turn helps develop the economy and society.<br><i>(Tôi không nghĩ vậy. Công nghệ đang giúp chúng ta làm việc nhanh hơn, dễ dàng hơn và thuận tiện hơn bao giờ hết. Nếu chúng ta biết cách tận dụng công nghệ trong công việc của mình, năng suất sẽ tăng lên đáng kể, từ đó giúp phát triển nền kinh tế và xã hội.)</i>",
       questions: [
-        { stmt: "Continuity is important in the workplace", answer: "A" },
-        { stmt: "Technology is good for the economy", answer: "B" }
+        { stmt: "Continuity is important in the workplace", answer: "Man" },
+        { stmt: "Job security can't always be guaranteed", answer: "Woman" },
+        { stmt: "Job satisfaction is an important motivator", answer: "Both" },
+        { stmt: "Technology is good for the economy", answer: "Man" }
+      ]
+    },
+    ,{ // Trang 2
+      topic: "The subject of beauty bản 2 (học mẹo)",
+      situation: "Who expresses which opinion? (The subject of beauty) bản 2",
+      audioSrc: "",
+      speakers_in_audio: ["Man", "Woman", "Both"],
+      pageTranscript: "<b>W:</b> Hi, what are you reading?<br><i>(Xin chào, bạn đang đọc gì vậy?)</i><br><br><b>M:</b> I'm reading an article about the concept of beauty.<br><i>(Tôi đang đọc một bài viết về khái niệm cái đẹp.)</i><br><br><b>W:</b> Oh really, that sounds interesting. Beauty is something that can't be defined because everyone has a different perspective on it, right?<br><i>(Ồ thực sự, nghe có vẻ thú vị. Cái đẹp là thứ không thể định nghĩa được vì mỗi người có một góc nhìn khác nhau về nó, đúng không?)</i><br><br><b>M:</b> Actually, people have quite similar perspectives on beauty. We always prefer beautiful things and are drawn to them.<br><i>(Thực ra, mọi người có quan điểm khá giống nhau về cái đẹp. Chúng ta luôn thích những thứ đẹp đẽ và bị thu hút bởi chúng.)</i><br><br><b>W:</b> Beauty in the past and now is very different. The older generation might see traditional things as beautiful, while the younger generation considers unique and unconventional things as beautiful. So, not everyone has the same view on beauty.<br><i>(Cái đẹp trong quá khứ và hiện tại rất khác nhau. Thế hệ cũ có thể coi những thứ truyền thống là đẹp, trong khi thế hệ trẻ coi những thứ độc đáo và không theo khuôn mẫu là đẹp. Vì vậy, không phải ai cũng có cùng quan điểm về cái đẹp.)</i><br><br><b>M:</b> Beauty can be found in many places we wouldn't expect, or even within something considered ugly, there's always some beauty present. So, nothing in the world is entirely ugly.<br><i>(Cái đẹp có thể tìm thấy ở nhiều nơi mà chúng ta không ngờ tới, hoặc ngay cả trong thứ gì đó được coi là xấu xí, luôn có một số cái đẹp hiện diện. Vì vậy, không có gì trên thế giới này hoàn toàn xấu xí.)</i><br><br><b>W:</b> Exactly. That's why the definition of beauty is constantly changing. In a few decades, people might find things beautiful that we once considered ugly.<br><i>(Chính xác. Đó là lý do tại sao định nghĩa về cái đẹp liên tục thay đổi. Trong một vài thập kỷ nữa, mọi người có thể thấy những thứ mà chúng ta từng coi là xấu xí là đẹp.)</i><br><br><b>M:</b> That's one perspective. Let's wait and see how it changes.<br><i>(Đó là một góc nhìn. Hãy cùng chờ xem nó thay đổi như thế nào.)</i>",
+      questions: [
+        { stmt: "People share very similar ideas about beauty", answer: "Man" },
+        { stmt: "Views of beauty change over time", answer: "Woman" },
+        { stmt: "Beauty can be found in unlikely places", answer: "Both" },
+        { stmt: "Traditional ideas of beauty are going to change", answer: "Woman" }
       ]
     }
   ],
 
-  // ── LISTENING PART 4 ──────────────────────────────────────────
+
+    // ── LISTENING PART 4 ──────────────────────────────────────────
   listening_p4: [
     { // Trang 1
       situation: "A critic talks about a New series",
-      audioSrc: "",
-      transcript: "The new series has some interesting ideas...",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1: Lời chỉ trích nào được đề cập về cách kể chuyện của series?</b><br>-> Bối cảnh của các nhân vật không được khai thác đầy đủ.<br><br><b>Câu 2: Vấn đề nào được nhấn mạnh về kịch bản của series?</b><br>-> Nhiều kịch bản thiếu đi những ý tưởng gốc.",
       questions: [
-        { q: "What is one criticism mentioned regarding the series' storytelling?", options: ["The dialogues", "The pilot is overly complicated"], answer: "The pilot is overly complicated" }
+        { q: "What is one criticism mentioned regarding the series' storytelling?", options: ["The dialogues is difficult to follow", "The characters backgrounds are not adequately explored", "The pilot is overly complicated"], answer: "The characters backgrounds are not adequately explored" },
+        { q: "What issue is highlighted about the series' writing?", options: ["The overall pacing is a bit too slow.", "The humor is poorly executed.", "Many scripts are lacking original ideas."], answer: "Many scripts are lacking original ideas." }
+      ]
+    },
+    { // Trang 2
+      situation: "Sports competitions",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1: Ý kiến của chuyên gia về các cuộc thi thể thao là gì?</b><br>-> Chúng có tác động có hại.<br><br><b>Câu 2: Lời khuyên của chuyên gia dành cho các trường học là gì?</b><br>-> Cung cấp cho học sinh sự cân bằng trong cuộc sống.",
+      questions: [
+        { q: "What is the expert's opinion about sports competitions?", options: ["They have a harmful effect", "Nature potential sportsmen for the country.", "Provide school with external investments"], answer: "They have a harmful effect" },
+        { q: "What is the expert's advice for schools?", options: ["Provides them with a balance in their lives.", "Should consider sports as a mandatory subject.", "Keep students focus on academic subjects"], answer: "Provides them with a balance in their lives." }
+      ]
+    },
+    { // Trang 3
+      situation: "A newly released novel",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1: Người phát thanh viên nói gì về cuốn tiểu thuyết mới?</b><br>-> Nó khá khác biệt so với các tác phẩm trước đây của ông ấy.<br><br><b>Câu 2: Người phát thanh viên nói nhà văn nên làm gì trong tương lai?</b><br>-> Ông ấy nên lắng nghe các nhà phê bình trước khi viết tác phẩm tiếp theo.",
+      questions: [
+        { q: "What does the announcer say about the new novel?", options: ["It is quite different compared to his previous works", "It is less famous than his earlier work", "It is romantic and soft"], answer: "It is quite different compared to his previous works" },
+        { q: "What does the announcer say the writer should do in the future?", options: ["The writer should go back to his original genre", "The writer should continue to write this genre", "He should listen to critics before writing his next work"], answer: "He should listen to critics before writing his next work" }
+      ]
+    },
+    { // Trang 4
+      situation: "Two big writers of history, which are Shakespares William and Louis Michael.",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1: Ý kiến của giảng viên về các tác phẩm trong quá khứ của cả hai tác giả là gì?</b><br>-> Cả hai đều bị giới học thuật bỏ qua.<br><br><b>Câu 2: Giảng viên đã nói gì về cả hai tác giả?</b><br>-> Ý nghĩa tác phẩm của họ không phải lúc nào cũng dễ dàng nhận ra.",
+      questions: [
+        { q: "What was the lecturer's opinion about both authors' past work?", options: ["One was less successful than the other.", "They have both been overlooked by academics", "They both makes references to each other in their work"], answer: "They have both been overlooked by academics" },
+        { q: "What did the lecturer say about both authors?", options: ["The meaning of their work is not always easily identified", "Their reputation goes beyond their target audience.", "They should have been more popular."], answer: "The meaning of their work is not always easily identified" }
+      ]
+    },
+    { // Trang 5
+      situation: "A musician's career and latest albums.",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1: Nhạc sĩ đã quyết định điều gì về sự nghiệp ca hát của mình?</b><br>-> Anh ấy sẽ giải nghệ ca hát chuyên nghiệp.<br><br><b>Câu 2: Nhạc sĩ có thể đạt được điều gì với những album gần đây của mình?</b><br>-> Anh ấy có thể đã thành công hơn.",
+      questions: [
+        { q: "What has the musician decided regarding his singing career?", options: ["He will inform fans about new albums", "He will retire from singing professionally", "He will make a comeback after a long break"], answer: "He will retire from singing professionally" },
+        { q: "What could the musician have achieved with his recent albums?", options: ["He could have gotten a bigger fan base", "He could have inspired future generations in general.", "He could have been more successful"], answer: "He could have been more successful" }
+      ]
+    },
+    { // Trang 6
+      situation: "Topic: Criticism of the new novel",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1: 17.1 Điều gì thu hút độc giả đến với cuốn tiểu thuyết này?</b><br>-> Các nhân vật rất thú vị.<br><br><b>Câu 2: 17.2 Ý kiến của người nói về cuốn tiểu thuyết này là gì?</b><br>-> Nó sẽ tạo dựng nên sự nổi tiếng cho tác giả.",
+      questions: [
+        { q: "17.1 What attracts readers to this novel?", options: ["The book includes detailed historical facts", "The chapters are very short and easy to read", "The characters were interesting"], answer: "The characters were interesting" },
+        { q: "17.2 What is the speaker's opinion about this novel?", options: ["It needs major editing before publication", "It will establish the author's popularity", "It's unlikely to appeal to international readers"], answer: "It will establish the author's popularity" }
+      ]
+    },
+    { // Trang 7
+      situation: "A break from studying/gap year",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1:</b><br>-> Cách để trở nên tự lập hơn.<br><br><b>Câu 2:</b><br>-> Anh ấy chưa sẵn sàng để bắt đầu giáo dục đại học.",
+      questions: [
+        { q: "ý 1", options: ["How to be more independent", "competition for job is intense", "Finding a stable job after graduation is often very difficult."], answer: "How to be more independent" },
+        { q: "ý 2", options: ["He doesn't want to study MBA", "He was not prepared to find a job.", "He was not ready to start higher education"], answer: "He was not ready to start higher education" }
+      ]
+    },
+    { // Trang 8
+      situation: "Television series",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1:</b><br>-> Nó có chất lượng nhất quán từ đầu đến cuối.<br><br><b>Câu 2:</b><br>-> Thói quen của người xem ảnh hưởng đến cách mà các series được tạo ra.",
+      questions: [
+        { q: "ý 1", options: ["It has a consistent quality throughout", "watching TV a lot damages your eyes", "This TV program teaches useful lessons."], answer: "It has a consistent quality throughout" },
+        { q: "ý 2", options: ["TV programs are diverse from regions", "Viewers habits influence the way that series are made", "This TV program is very interesting"], answer: "Viewers habits influence the way that series are made" }
+      ]
+    },
+    { // Trang 9
+      situation: "The important of sleep",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1: Điều quan trọng nhất để giúp ngủ ngon là:</b><br>-> Ngăn chặn tiếng ồn và ánh sáng là chìa khóa.<br><br><b>Câu 2: Theo chuyên gia, thái độ của công chúng đối với giấc ngủ là gì?</b><br>-> Mọi người không phải lúc nào cũng nhận ra các triệu chứng của sự mệt mỏi.",
+      questions: [
+        { q: "The most important thing to help sleep well is:", options: ["Resting sufficiently is necessary", "Beds are best for sleeping", "Blocking noise and light is the key"], answer: "Blocking noise and light is the key" },
+        { q: "According to the expert, what is the public attitude towards sleeping?", options: ["Sleeping quality has deteriorated over time.", "People can't always recognize the symptoms of tiredness", "The young generation tends to have unhealthy sleeping habits."], answer: "People can't always recognize the symptoms of tiredness" }
+      ]
+    },
+    { // Trang 10
+      situation: "Goals setting",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1: Người nói nói gì về các mục tiêu ngắn hạn?</b><br>-> Nó cho phép bạn linh hoạt hơn.<br><br><b>Câu 2: Ý kiến của người nói về việc đặt mục tiêu là gì?</b><br>-> Nó có thể ngăn bạn mắc sai lầm.",
+      questions: [
+        { q: "What does the speaker say about short-term goals?", options: ["It allows you to be more flexible", "It only apply to specific situations or certain types of people", "It creates pressure and limits creativity"], answer: "It allows you to be more flexible" },
+        { q: "What is the speaker's opinion about goal setting?", options: ["It can lead to confusion and distraction", "It can prevent you from making mistakes", "It can bring about opportunities for individuals"], answer: "It can prevent you from making mistakes" }
       ]
     }
-  ]
+    ,{ // Trang 11
+      situation: "A book about the life of a scientist",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1: Người nói nói gì về cách viết?</b><br>-> Đọc rất thú vị.<br><br><b>Câu 2: Người nói nói gì về nội dung tổng thể của cuốn sách?</b><br>-> Nó được viết cho đối tượng độc giả đại chúng.",
+      questions: [
+        { q: "What does the speaker say about the way of writing?", options: ["It is focused on technical details", "It is more of a textbook than a biography", "It is very exciting to read"], answer: "It is very exciting to read" },
+        { q: "What does the speaker say about the overall content of the book?", options: ["It has been written for a general audience", "It lacks engaging storytelling", "It is only suitable for experts in the field"], answer: "It has been written for a general audience" }
+      ]
+    },
+    { // Trang 12
+      situation: "Working from home",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1: Cô ấy nói gì về việc làm ở nhà?</b><br>-> Nó không tốt như cô ấy mong đợi.<br><br><b>Câu 2: Theo tác giả, làm việc từ xa:</b><br>-> Phụ thuộc vào hoàn cảnh và tính cách của bạn.",
+      questions: [
+        { q: "What does she say about working at home?", options: ["There are no distractions", "It wasn't as good as she expected", "Video calls are superior to face-to-face conversation"], answer: "It wasn't as good as she expected" },
+        { q: "According to the author, working from home:", options: ["It depends on your situation and personality", "Needs a big home office", "Do not require self-motivation."], answer: "It depends on your situation and personality" }
+      ]
+    },
+    { // Trang 13
+      situation: "A new novel (hopeless love)",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1:</b><br>-> Thật khó để có thể đồng cảm/liên hệ.<br><br><b>Câu 2:</b><br>-> Đó là một thất bại đầy tham vọng.",
+      questions: [
+        { q: "ý 1", options: ["It's easy to relate to", "It's difficult to relate to", "It has too many characters"], answer: "It's difficult to relate to" },
+        { q: "ý 2", options: ["It's an ambitious failure", "It lacks a clear plot", "It's a successful piece"], answer: "It's an ambitious failure" }
+      ]
+    },
+    { // Trang 14
+      situation: "Life after university",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1: Cuộc sống thay đổi thế nào với sinh viên sau khi tốt nghiệp?</b><br>-> Họ có khả năng linh hoạt và cởi mở hơn.<br><br><b>Câu 2: Đặc điểm chung của thị trường việc làm sau đại học là gì?</b><br>-> Chúng ngày càng trở nên cạnh tranh hơn.",
+      questions: [
+        { q: "How does life change for graduates after university?", options: ["They feel more stressed about job seeking", "Many jobs offer great benefits", "They are likely to be more flexible and open-minded"], answer: "They are likely to be more flexible and open-minded" },
+        { q: "What is a common characteristic of the job market after university?", options: ["They are becoming more competitive", "More opportunities for networking", "Many jobs offer great benefits"], answer: "They are becoming more competitive" }
+      ]
+    },
+    { // Trang 15
+      situation: "Regional Development Planning",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1: Một trong những lời chỉ trích chính đối với Kế hoạch là gì?</b><br>-> Nó không cung cấp đủ các phương án thay thế cho việc lái xe ô tô.<br><br><b>Câu 2: Kế hoạch Phát triển Khu vực có khả năng gặp phải thách thức gì?</b><br>-> Kế hoạch không sử dụng hiệu quả quỹ đất đai hiện có.",
+      questions: [
+        { q: "What is one of the main criticisms of the Regional Development Plan?", options: ["It doesn't provide enough alternatives to driving.", "It places too much emphasis on public transportation.", "It is too expensive to implement the plan."], answer: "It doesn't provide enough alternatives to driving." },
+        { q: "What challenge is the Regional Development Plan likely to face?", options: ["It may be delayed due to funding issues.", "The plan is not making efficient use of existing land", "It could face difficulties in gaining government approval."], answer: "The plan is not making efficient use of existing land" }
+      ]
+    },
+    { // Trang 16
+      situation: "A promotion campaign for a product",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1: Vấn đề chính trong chiến dịch quảng bá của sản phẩm là gì?</b><br>-> Họ sử dụng các tuyên bố phóng đại (nói quá).<br><br><b>Câu 2: Một vấn đề khác với sản phẩm là gì?</b><br>-> Chi phí sản xuất quá đắt để có thể sinh lời.",
+      questions: [
+        { q: "What is the main issue with the product's promotion campaign?", options: ["It is using outdated advertising methods", "It is not targeting the correct market", "They use exaggerated claims"], answer: "They use exaggerated claims" },
+        { q: "What is another problem with the product?", options: ["It is priced too high compared to its competitors", "It cost too much to make to be profitable", "It is too similar to many existing products"], answer: "It cost too much to make to be profitable" }
+      ]
+    },
+    { // Trang 17
+      situation: "A research in happiness",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1: MC đài phát thanh nói gì về cách truyền thông đưa tin về nghiên cứu hạnh phúc?</b><br>-> Nó chưa được truyền thông đưa tin một cách chính xác.<br><br><b>Câu 2: Theo MC đài phát thanh, điều gì là không chắc sẽ xảy ra?</b><br>-> Nghiên cứu khó có thể tìm ra một câu trả lời dứt khoát.",
+      questions: [
+        { q: "What does the radio MC say about how the research on happiness has been covered by the media?", options: ["It has been accurately reported by the media", "It has not been accurately reported by the media", "It has been ignored completely by the media"], answer: "It has not been accurately reported by the media" },
+        { q: "According to the radio MC, what is unlikely regarding the research on happiness?", options: ["Research is unlikely to find a conclusive answer", "To find personal happiness", "To discuss happiness in the media"], answer: "Research is unlikely to find a conclusive answer" }
+      ]
+    },
+    { // Trang 18
+      situation: "Experience in writing",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1: Nhà văn tin rằng điều gì giúp cô ấy nhiều nhất trong quá trình viết?</b><br>-> Tạo ra các khoảng thời gian dành riêng cho việc viết lách.<br><br><b>Câu 2: Nhà văn hối hận điều gì trong thời gian bị bí ý tưởng (writer's block)?</b><br>-> Đã từ chối tìm kiếm lời khuyên từ người khác.",
+      questions: [
+        { q: "What does the writer believe helps her the most in her writing process?", options: ["Writing every day for 15-20 minutes", "Create dedicated periods for writing", "Finding a quiet space to work"], answer: "Create dedicated periods for writing" },
+        { q: "What does the writer regret doing during her experience with writer's block?", options: ["Refuse to seek advice from others", "Writing without a plan", "Ignoring feedback from editors"], answer: "Refuse to seek advice from others" }
+      ]
+    },
+    { // Trang 19
+      situation: "Professionalism at work",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1: Chuyên gia nói gì về cốt lõi của sự chuyên nghiệp?</b><br>-> Duy trì một thái độ tích cực.<br><br><b>Câu 2: Chuyên gia nói gì về định nghĩa của sự chuyên nghiệp?</b><br>-> Định nghĩa của chúng ta về nó đang dần thay đổi.",
+      questions: [
+        { q: "What does the expert say about what being professional is all about?", options: ["To make good impressions", "To create a good working environment", "Maintain a positive attitude"], answer: "Maintain a positive attitude" },
+        { q: "What does the expert say about the definition of professionalism?", options: ["It is the same as 40 years ago", "It will not change anymore", "Our definition of it is changing"], answer: "Our definition of it is changing" }
+      ]
+    },
+    { // Trang 20
+      situation: "A critic reviews a book about a scientist's life",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1:</b><br>-> Nó sử dụng ngôn ngữ đơn giản để mô tả các ý tưởng phức tạp.<br><br><b>Câu 2:</b><br>-> Nó tương tự như cuốn sách xuất bản trước đó về một nhà khoa học.",
+      questions: [
+        { q: "ý 1", options: ["It complicate simple terms", "It lacks historical accuracy", "It uses simple language to describe complex ideas"], answer: "It uses simple language to describe complex ideas" },
+        { q: "ý 2", options: ["It is similar to the previous book about a scientist", "It mainly focuses on his personal life", "they are different from the old ones about travel"], answer: "It is similar to the previous book about a scientist" }
+      ]
+    },
+    { // Trang 21
+      situation: "Security camera",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1: Ý kiến của người nói về camera an ninh tại nơi làm việc là gì?</b><br>-> Mọi người đang lo lắng không cần thiết về chúng.<br><br><b>Câu 2: Người nói khuyên mọi người nên cảm thấy thế nào về camera?</b><br>-> Mọi người nên cảm thấy yên tâm khi có sự hiện diện của chúng.",
+      questions: [
+        { q: "What is the speaker's opinion about security cameras at work?", options: ["People are unnecessarily worried about them", "Cameras should be placed to ensure complete coverage.", "Most people don't even realize cameras are present."], answer: "People are unnecessarily worried about them" },
+        { q: "How does the speaker suggest people should feel about security cameras at work?", options: ["People often find them intimidating and invasive.", "People should feel reassured about their presence", "Many believe they are only useful after incidents have occurred."], answer: "People should feel reassured about their presence" }
+      ]
+    },
+    { // Trang 22
+      situation: "Advertising and sponsoring (A newly broadcasted TV series)",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1: Tại sao chúng ta không nên tài trợ cho các giải đấu thể thao?</b><br>-> Chúng có thể tạo ra dư luận (hình ảnh) tiêu cực cho môn thể thao.<br><br><b>Câu 2: Tầm quan trọng của quảng cáo là gì?</b><br>-> Nó giúp tiếp cận những khách hàng mới.",
+      questions: [
+        { q: "Why shouldn't we sponsor sports tournaments?", options: ["They can create unfair competition", "They are too expensive", "They can generate negative publicity for the sport"], answer: "They can generate negative publicity for the sport" },
+        { q: "What is the importance of advertising?", options: ["It can build brand recognition", "It helps to reach new customers.", "It increases the product price"], answer: "It helps to reach new customers." }
+      ]
+    },
+    { // Trang 23
+      situation: "A new guidebook",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1: Sách hướng dẫn này mang lại điều gì cho khán giả?</b><br>-> Nó tạo ra một cuộc phiêu lưu.<br><br><b>Câu 2: Ý kiến của người nói về cuốn sách hướng dẫn này là gì?</b><br>-> Nó phù hợp cho những thế hệ nhất định (đặc thù).",
+      questions: [
+        { q: "What does this guidebook offer to its audience?", options: ["It focuses solely on historical landmarks.", "It is difficult to navigate.", "It creates an adventure."], answer: "It creates an adventure." },
+        { q: "What is the speaker's opinion about this guidebook?", options: ["It is suitable for particular generations.", "It caters only to seasoned travelers.", "It is outdated and irrelevant."], answer: "It is suitable for particular generations." }
+      ]
+    },
+    { // Trang 24
+      situation: "Personal finances",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1: Bạn nên làm gì để kiểm soát tốt hơn chi tiêu ngắn hạn của mình?</b><br>-> Theo dõi chi tiêu của bạn theo một kế hoạch hàng tuần.<br><br><b>Câu 2: Người nói gợi ý điều gì để cải thiện quản lý tài chính?</b><br>-> Tìm kiếm lời khuyên từ những người có kinh nghiệm.",
+      questions: [
+        { q: "What should you do to better control your short-term spending?", options: ["Avoid all unnecessary purchases entirely", "Monitor your spending for a weekly plan", "Use only cash instead of cards"], answer: "Monitor your spending for a weekly plan" },
+        { q: "What does the speaker suggest for improving financial management?", options: ["Seek advice from someone who is experienced", "Invest in more financial apps", "Avoid talking about money with friends"], answer: "Seek advice from someone who is experienced" }
+      ]
+    },
+    { // Trang 25
+      situation: "Script production",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1: Ý kiến của người nói về kịch bản này là gì?</b><br>-> Bối cảnh của các nhân vật không được khai thác đầy đủ.<br><br><b>Câu 2: Các ngành công nghiệp ảnh hưởng đến việc sản xuất kịch bản như thế nào?</b><br>-> Nhu cầu mới của ngành đang ảnh hưởng tiêu cực đến việc sản xuất kịch bản.",
+      questions: [
+        { q: "What is the speaker's opinion on this script?", options: ["The dialogue is too complex for viewers", "The characters' background are not adequately explored", "The setting feels too unrealistic"], answer: "The characters' background are not adequately explored" },
+        { q: "How do industries impact script production?", options: ["They increase audience engagement significantly", "They provide more creative freedom to writers", "The new industry demands are negatively influencing script production"], answer: "The new industry demands are negatively influencing script production" }
+      ]
+    },
+    { // Trang 26
+      situation: "A restaurant Baloo / La Bella Bistro",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1: Ý kiến của nhà phê bình về nhà hàng La Bella Bistro là gì?</b><br>-> Tiêu chuẩn phục vụ không tốt.<br><br><b>Câu 2: Điều gì có thể cạnh tranh với dịch vụ giao đồ ăn trực tuyến?</b><br>-> Họ cần làm cho khách hàng cảm thấy được trân trọng và chào đón.",
+      questions: [
+        { q: "What are the critic's opinions about the restaurant La Bella Bistro?", options: ["The standard of service wasn't good", "The food is not fresh.", "The chef lacks experience"], answer: "The standard of service wasn't good" },
+        { q: "What can compete with online food delivery?", options: ["Organic ingredients", "Providing ready-made packs for customers", "They need to make the customers feel valued and welcome"], answer: "They need to make the customers feel valued and welcome" }
+      ]
+    },
+    { // Trang 27
+      situation: "A new book/novel",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1:</b><br>-> Cốt truyện rất mạnh mẽ (rất hay).<br><br><b>Câu 2:</b><br>-> Nó rất giống với các cuốn sách khác của cùng tác giả.",
+      questions: [
+        { q: "ý 1", options: ["The dialogue is poor", "The plot was very strong", "The content is easy to guess"], answer: "The plot was very strong" },
+        { q: "ý 2", options: ["They should be announced earlier", "It is poorly edited", "It is very similar to the author's other books"], answer: "It is very similar to the author's other books" }
+      ]
+    },
+    { // Trang 28
+      situation: "Building",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1:</b><br>-> Chúng thường thể hiện sự thiếu tham vọng.<br><br><b>Câu 2:</b><br>-> Không tiêu biểu cho các tòa nhà hiện đại.",
+      questions: [
+        { q: "ý 1", options: ["They lack practical functions", "They often display a lack of ambition", "They show full of ambition"], answer: "They often display a lack of ambition" },
+        { q: "ý 2", options: ["Not typical of modern buildings", "They are contemporary buildings", "They are extremely tall"], answer: "Not typical of modern buildings" }
+      ]
+    },
+    { // Trang 29
+      situation: "The advertising industry",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1: Chuyên gia nói gì về mặt tiêu cực của quảng cáo?</b><br>-> Các series phim bị tổn hại do quảng cáo quá mức (tiếp xúc quá nhiều).<br><br><b>Câu 2: Quảng cáo có thể ảnh hưởng đến thể thao theo cách nào?</b><br>-> Chúng có thể tạo ra dư luận (hình ảnh) tiêu cực cho môn thể thao.",
+      questions: [
+        { q: "What does the expert say about the negative side of advertising?", options: ["Advertisements might sometimes be repetitive, which is annoying.", "Series are damaged by overexposure.", "Advertising costs the same amount of money to produce a movie."], answer: "Series are damaged by overexposure." },
+        { q: "In what way can advertising affect sports?", options: ["They can boost ticket sales and sales of sports-related items", "They help to attract more fans", "They can generate negative publicity for the sport"], answer: "They can generate negative publicity for the sport" }
+      ]
+    },
+    { // Trang 30
+      situation: "Making plans",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1: Việc tạo ra từng kế hoạch nhỏ giúp bạn như thế nào?</b><br>-> Chúng giúp bạn đưa ra quyết định.<br><br><b>Câu 2: Nhìn chung, việc tạo một kế hoạch giúp ích cho bạn như thế nào?</b><br>-> Nó yêu cầu bạn phải tự đặt ra cho mình những giới hạn nhất định.",
+      questions: [
+        { q: "How does creating each small plan help you?", options: ["They increased workload", "They help you make decisions", "They delay overall progress"], answer: "They help you make decisions" },
+        { q: "How does creating a plan help you in general?", options: ["It requires you to set yourself certain limits", "It removes all risks from the process", "It guarantees immediate success"], answer: "It requires you to set yourself certain limits" }
+      ]
+    },
+    { // Trang 31
+      situation: "The latest scripts for a new show",
+      audioSrc: "", transcript: "",
+      pageTranslation: "<b>Câu 1: Nhà sản xuất nghĩ gì về các đoạn hội thoại trong chương trình mới?</b><br>-> Chúng có vẻ không thực tế.<br><br><b>Câu 2: Nhu cầu hiện tại của ngành đang ảnh hưởng đến chất lượng kịch bản ra sao?</b><br>-> Nó đang ảnh hưởng tiêu cực đến việc sản xuất kịch bản.",
+      questions: [
+        { q: "What does the producer think about the dialogues in the new show?", options: ["They are perfectly written and engaging.", "They reflect real-life conversations well.", "They seem unrealistic."], answer: "They seem unrealistic." },
+        { q: "How is the current industry demand affecting the quality of script production?", options: ["It is allowing for more thorough script development.", "It is negatively influencing script production.", "It is leading to more innovative ideas."], answer: "It is negatively influencing script production." }
+      ]
+    }
+  ],
 };
 
 // ═══════════════════════════════════════════════════════════════
@@ -1204,15 +2221,12 @@ function renderL3(wrapper) {
   const page = quizState.dataIndex;
   const item = DATA.listening_p3[page];
   if(!item) return;
+
   const div = document.createElement('div');
   div.className = 'l3-block';
   div.innerHTML = `
-    <div class="l3-situation">${item.situation}</div>
-    <div class="l3-audio">
-      ${item.audioSrc ? `<audio controls><source src="${item.audioSrc}" type="audio/mpeg"></audio>` : `<div style="background:#f0f0f0;padding:12px 16px;border-radius:8px;font-size:0.82rem;color:#888;">🔈 [Chưa có file audio]</div>`}
-      <button class="l3-transcript-btn" onclick="toggleTranscript('l3-tr-${page}')">Xem mô tả</button>
-      <div class="l3-transcript" id="l3-tr-${page}">${item.transcript}</div>
-    </div>
+    <div class="l3-situation">📝 ${item.situation}</div>
+    ${item.audioSrc ? `<div class="l3-audio"><audio controls><source src="${item.audioSrc}" type="audio/mpeg"></audio></div>` : ''}
     <div class="l3-q-label">CÂU HỎI</div>
     ${item.questions.map((q, qi) => {
       const key = `l3-${page}-${qi}`;
@@ -1226,6 +2240,11 @@ function renderL3(wrapper) {
         </select>
       </div>`;
     }).join('')}
+
+    <div id="l3-trans-${page}" style="display:none; margin-top:20px; padding:16px; background:#f8f9fa; border-left:4px solid #6c63ff; border-radius:0 8px 8px 0; font-size:0.9rem; line-height:1.6; color:#333; max-height: 400px; overflow-y: auto;">
+      <div style="font-weight:bold; color:#6c63ff; margin-bottom:10px; font-size:1rem;">BẢN DỊCH HỘI THOẠI</div>
+      ${item.pageTranscript || ''}
+    </div>
   `;
   wrapper.appendChild(div);
 }
@@ -1234,16 +2253,23 @@ function renderL4(wrapper) {
   const page = quizState.dataIndex;
   const item = DATA.listening_p4[page];
   if(!item) return;
+
+  // CHỈ XÁO TRỘN ĐÁP ÁN (Giữ nguyên thứ tự câu hỏi)
+  if (!quizState.shuffledFlags) quizState.shuffledFlags = {};
+  if (!quizState.shuffledFlags[`l4-${page}`]) {
+    item.questions.forEach(q => {
+      for (let i = q.options.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [q.options[i], q.options[j]] = [q.options[j], q.options[i]];
+      }
+    });
+    quizState.shuffledFlags[`l4-${page}`] = true;
+  }
+
   const div = document.createElement('div');
   div.className = 'l4-block';
   div.innerHTML = `
-    <div class="l4-situation">${item.situation}</div>
-    <div class="l4-audio">
-      ${item.audioSrc ? `<audio controls><source src="${item.audioSrc}" type="audio/mpeg"></audio>` : `<div style="background:#f0f0f0;padding:12px 16px;border-radius:8px;font-size:0.82rem;color:#888;">🔈 [Chưa có file audio]</div>`}
-      <button class="l4-transcript-btn" onclick="toggleTranscript('l4-tr-${page}')">Xem mô tả</button>
-      <div class="l4-transcript" id="l4-tr-${page}">${item.transcript}</div>
-    </div>
-    <div class="l4-q-label" style="font-size:0.8rem;color:#888;font-weight:700;text-transform:uppercase;margin-bottom:10px;">CÂU HỎI</div>
+    <div class="l4-situation" style="background:#eef0ff; padding:14px; border-radius:8px; font-weight:700; margin-bottom:20px;">📝 ${item.situation}</div>
     ${item.questions.map((q, qi) => {
       const key = `l4-${page}-${qi}`;
       const savedVal = quizState.answers[key] || '';
@@ -1258,6 +2284,10 @@ function renderL4(wrapper) {
         </div>
       </div>`;
     }).join('')}
+    
+    <div id="l4-trans-${page}" style="display:none; margin-top:20px; padding:16px; background:#f8f9fa; border-left:4px solid #28a745; border-radius:0 8px 8px 0; font-size:0.9rem; line-height:1.6; color:#333;">
+      ${item.pageTranslation || ''}
+    </div>
   `;
   wrapper.appendChild(div);
 }
@@ -1269,7 +2299,35 @@ function renderL4(wrapper) {
 function storeAnswer(key, value) {
   quizState.answers[key] = value;
   updateProgress();
-  checkAnswerUI(key); // Gọi hàm tô màu xanh đỏ
+  checkAnswerUI(key); 
+  
+  // LOGIC HIỂN THỊ BẢN DỊCH CHO PART 3 VÀ PART 4
+  const parts = key.split('-');
+  const type = parts[0];
+  const page = parseInt(parts[1]);
+
+  if (type === 'l4') {
+    const numQs = DATA.listening_p4[page].questions.length;
+    let answeredCount = 0;
+    for (let i = 0; i < numQs; i++) {
+      if (quizState.answers[`l4-${page}-${i}`]) answeredCount++;
+    }
+    if (answeredCount === numQs) {
+      const transDiv = document.getElementById(`l4-trans-${page}`);
+      if (transDiv) transDiv.style.display = 'block';
+    }
+  } 
+  else if (type === 'l3') {
+    const numQs = DATA.listening_p3[page].questions.length;
+    let answeredCount = 0;
+    for (let i = 0; i < numQs; i++) {
+      if (quizState.answers[`l3-${page}-${i}`]) answeredCount++;
+    }
+    if (answeredCount === numQs) {
+      const transDiv = document.getElementById(`l3-trans-${page}`);
+      if (transDiv) transDiv.style.display = 'block';
+    }
+  }
 }
 
 function getCorrectAnswerFor(key) {
